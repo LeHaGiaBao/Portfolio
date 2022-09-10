@@ -1,9 +1,5 @@
 function NavBar() {
-    return (
-        <div>
-            Đây là NavBar
-        </div>
-    );
+	return <div>Đây là NavBar</div>
 }
 
-export default NavBar;
+export default NavBar
