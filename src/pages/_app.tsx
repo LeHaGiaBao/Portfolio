@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <Head>
-        <link rel="icon" href="/code.gif" />
+        <link rel="icon" href="/code.png" />
       </Head>
       <Component {...pageProps} />
     </Provider>
