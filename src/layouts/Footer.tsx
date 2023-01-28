@@ -129,7 +129,7 @@ function Footer() {
 
 const SocialItem = ({ color, link, icon, span }: any) => {
     return (
-        <a href={link} target=" _blank " className={`text-gray-500 hover:text-[${color}] dark:hover:text-white`}>
+        <a href={link} target=" _blank " className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
             {icon}
             <span className="sr-only">{span}</span>
         </a>
