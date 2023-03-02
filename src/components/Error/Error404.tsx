@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Image404 from '../../assets/image/Image404.png'
-import BackToHome from "../button/BackToHome"
+import BackToHome from "../Button/BackToHome"
 
 export default function Error404() {
     return (

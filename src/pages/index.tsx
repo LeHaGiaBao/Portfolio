@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Navbar from '../layouts/Navbar'
 import Footer from '../layouts/Footer'
 import Banner from '../containers/Banner'
+import About from '../containers/About'
+import Divider from '../assets/image/Divider.gif'
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Banner />
+      <Image src={Divider} alt='image' />
+      <About />
       <Footer />
     </>
   )

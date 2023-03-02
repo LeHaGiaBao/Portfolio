@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Image500 from '../../assets/image/Image500.png'
-import BackToHome from "../button/BackToHome"
+import BackToHome from "../Button/BackToHome"
 
 export default function Error500() {
     return (

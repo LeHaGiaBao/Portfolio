@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Develop from '../assets/image/Develop.gif'
 
-function Banner() {
+export default function Banner() {
     return (
         <>
             <section className="bg-gray-100 text-gray-800">
@@ -19,13 +19,9 @@ function Banner() {
                             <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-sky-600 text-gray-50 hover:">About me</a>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                        <Image src={Develop} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
-                    </div>
+                    <Image src={Develop} alt="image" className="object-cover w-full xl:col-span-3" />
                 </div>
             </section>
         </>
     );
 }
-
-export default Banner;
