@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Image from "next/image"
 import Image404 from '../../assets/image/Image404.png'
 import BackToHome from "../Button/BackToHome"
@@ -11,9 +10,7 @@ export default function Error404() {
                     <div className="max-w-md text-center">
                         <Image src={Image404} alt="" className="object-contain sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                         <p className="text-2xl font-semibold md:text-3xl mt-4 mb-8">Sorry, the page you are looking for could not be found.</p>
-                        <Link href="/">
-                            <BackToHome />
-                        </Link>
+                        <BackToHome />
                     </div>
                 </div>
             </section>
