@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Le Ha Gia Bao | Porfolio</title>
+        <title>Le Ha Gia Bao | Home</title>
       </Head>
       <Navbar />
       <Banner />
