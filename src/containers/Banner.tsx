@@ -17,7 +17,9 @@ export default function Banner() {
                             <br className="hidden md:inline lg:hidden" /> The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime.
                         </p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                            <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-sky-600 text-gray-50 hover:">About me</a>
+                            <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg px-8 py-3 text-center mr-2 mb-2">
+                                Read more
+                            </button>
                         </div>
                     </div>
                     <Image src={Develop} alt="image" className="object-cover w-full xl:col-span-3" />

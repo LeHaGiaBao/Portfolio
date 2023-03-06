@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from '../layouts/Navbar'
-import Footer from '../layouts/Footer'
-import Banner from '../containers/Banner'
-import About from '../containers/About'
+import Navbar from '@/layouts/Navbar'
+import Footer from '@/layouts/Footer'
+import Banner from '@/containers/Banner'
+import Aboutme from '@/containers/Aboutme'
 import Divider from '../assets/image/Divider.gif'
+import Technology from '@/containers/Technology'
+import Work from '@/containers/Work'
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Image src={Divider} alt='image' />
-      <About />
+      <Aboutme />
+      <Technology />
+      <Work />
       <Footer />
     </>
   )
