@@ -1,5 +1,5 @@
 import Image from "next/image"
-import LeHaGiaBao from '../assets/image/LeHaGiaBao.jpg'
+import LeHaGiaBao from '../assets/LeHaGiaBao/LeHaGiaBao.jpg'
 
 export default function Aboutme() {
     return (

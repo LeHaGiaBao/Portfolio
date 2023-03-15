@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Image404 from '../../assets/image/Image404.png'
+import Image404 from '../../assets/Error/Image404.png'
 import Link from "next/link"
 
 export default function Error404() {
