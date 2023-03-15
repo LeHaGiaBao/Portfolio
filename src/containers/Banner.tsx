@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Hello from '../assets/Image/Hello.gif'
-import LeHaGiaBao from '../assets/LeHaGiaBao/LeHaGiaBao.jpg'
+import Hello from '@/assets/Image/Hello.gif'
+import LeHaGiaBao from '@/assets/LeHaGiaBao/LeHaGiaBao.jpg'
 
 export default function Banner() {
     return (
