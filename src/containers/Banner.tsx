@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Hello from '@/assets/Image/Hello.gif'
 import LeHaGiaBao from '@/assets/LeHaGiaBao/LeHaGiaBao.jpg'
 
 export default function Banner() {
@@ -12,8 +11,7 @@ export default function Banner() {
                         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                             <div className="md:7/12 lg:w-8/12">
                                 <h1 className="text-5xl font-bold leading-none sm:text-6xl flex">
-                                    <Image src={Hello} alt="hello" className="w-14 h-14" />
-                                    Hi
+                                    👋 Hi
                                 </h1>
                                 <p className="text-sky-600 text-5xl font-bold leading-none sm:text-6xl mt-3">I&apos;m Le Ha Gia Bao</p>
                                 <br />
