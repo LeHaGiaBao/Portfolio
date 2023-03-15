@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Image500 from '../../assets/image/Image500.png'
+import Image500 from '../../assets/Error/Image500.png'
 import Link from "next/link"
 
 export default function Error500() {
