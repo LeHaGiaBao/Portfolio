@@ -5,7 +5,7 @@ import LeHaGiaBao from '@/assets/LeHaGiaBao/LeHaGiaBao.jpg'
 export default function Banner() {
     return (
         <>
-            <section className="bg-white text-gray-800">
+            <section className="bg-white text-gray-800 banner">
                 <div className="lg:mx-32 py-12 bg-white">
                     <div className="container m-auto lg:my-28 my-20 px-6 text-gray-600 md:px-12 xl:px-6">
                         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
