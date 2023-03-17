@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto+Mono:wght@300;500&family=Poppins:wght@600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -90,8 +91,7 @@ body {
 
 body {
 	color: rgb(var(--foreground-rgb));
-	background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-		rgb(var(--background-start-rgb));
+	background: white;
 }
 
 a {
@@ -109,6 +109,31 @@ a {
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.banner {
+/* .banner {
 	background-image: url('../assets/image/background.png');
+} */
+
+.section-heading {
+	font-size: clamp(2rem, 10vw, 8rem);
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 0.2rem;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+.section-heading::before {
+	content: attr(data-outline);
+	position: absolute;
+	left: 2%;
+	top: -20%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 0.2rem;
+	color: transparent;
+	/* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.103); */
+	-webkit-text-stroke: 1.5px #0096ff;
+	z-index: -1;
 }

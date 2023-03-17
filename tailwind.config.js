@@ -12,6 +12,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sacramento: ['Sacramento', 'sans-serif'],
+				Montserrat: ['Montserrat', 'san-serif'],
 			},
 		},
 	},
