@@ -64,11 +64,11 @@ function Footer() {
 
     return (
         <>
-            <footer className="p-4 bg-white sm:p-6">
+            <footer className="p-4 bg-black sm:p-6">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" className="flex items-center">
-                            <span className="font-sacramento self-center text-4xl font-semibold whitespace-nowrap text-blue-500">Le Ha Gia Bao</span>
+                            <span className="font-sacramento self-center text-4xl font-semibold whitespace-nowrap text-white">Le Ha Gia Bao</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -107,13 +107,9 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+                <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <p className="text-base text-gray-500 text-center">Made with ❤️ in Vietnam
-                    </p>
-                    <p className="text-base text-gray-500 text-center">© {year} Developed by Le Ha Gia Bao
-                    </p>
-                    {/* <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-xl">
+                    <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-xl">
                         {
                             social.map(({ id, color, link, icon, span }) => {
                                 return (
@@ -121,9 +117,17 @@ function Footer() {
                                 )
                             })
                         }
-                    </div> */}
+                    </div>
                 </div>
             </footer>
+            <div className="p-4 bg-grey sm:p-6">
+                <div className="sm:flex sm:items-center sm:justify-between">
+                    <p className="text-base text-white text-center">Made with ❤️ in Vietnam
+                    </p>
+                    <p className="text-base text-gray-500 text-center">© {year} Developed by Le Ha Gia Bao
+                    </p>
+                </div>
+            </div>
         </>
     );
 }

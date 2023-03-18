@@ -1,13 +1,11 @@
-import Head from 'next/head'
+import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
 import Footer from '@/layouts/Footer'
 
 export default function Contact() {
     return (
         <>
-            <Head>
-                <title>Le Ha Gia Bao | Contact</title>
-            </Head>
+            <Header title='Contact' />
             <Navbar />
             <Footer />
         </>

@@ -1,20 +1,14 @@
-import Head from 'next/head'
+import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
-import Title from '@/components/Title'
 import Footer from '@/layouts/Footer'
-import Aboutme from '@/containers/Aboutme'
-import Timeline from '@/components/Timeline'
+import Title from '@/components/Title/Title'
 
 export default function About() {
 	return (
 		<>
-			<Head>
-				<title>Le Ha Gia Bao | About</title>
-			</Head>
+			<Header title='About' />
 			<Navbar />
 			<Title title="About me" />
-			<Aboutme />
-			<Timeline />
 			<Footer />
 		</>
 	)

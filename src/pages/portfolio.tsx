@@ -1,13 +1,11 @@
-import Head from 'next/head'
+import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
 import Footer from '@/layouts/Footer'
 
 export default function Portfolio() {
     return (
         <>
-            <Head>
-                <title>Le Ha Gia Bao | Portfolio</title>
-            </Head>
+            <Header title='Portfolio' />
             <Navbar />
             <Footer />
         </>

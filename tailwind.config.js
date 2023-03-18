@@ -10,6 +10,13 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				primary: '#FAFAFA',
+				black: '#000000',
+				white: '#FFFFFF',
+				grey: '#212121',
+			},
+
 			fontFamily: {
 				sacramento: ['Sacramento', 'sans-serif'],
 				Montserrat: ['Montserrat', 'san-serif'],

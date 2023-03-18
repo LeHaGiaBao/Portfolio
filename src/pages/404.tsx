@@ -1,14 +1,13 @@
-import Head from "next/head"
+import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
-import Error404 from "@/components/Error/Error404"
 import Footer from '@/layouts/Footer'
+import Error404 from "@/components/Error/Error404"
+
 
 export default function Custom404() {
     return (
         <>
-            <Head>
-                <title>404 - Page Not Found</title>
-            </Head>
+            <Header title='404 - Page Not Found' />
             <Navbar />
             <Error404 />
             <Footer />

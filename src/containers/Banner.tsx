@@ -1,12 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import LeHaGiaBao from '@/assets/LeHaGiaBao/LeHaGiaBao.jpg'
+import Link from 'next/link';
+
+import image from '@/assets/LeHaGiaBao/image.png'
 
 export default function Banner() {
     return (
         <>
-            <section className="bg-white text-gray-800 banner">
-                <div className="lg:mx-32 py-12 bg-white">
+            <section className="text-gray-800 banner">
+                <div className="lg:mx-36 pt-12 pb-9">
                     <div className="container m-auto lg:my-28 my-20 px-6 text-gray-600 md:px-12 xl:px-6">
                         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                             <div className="md:7/12 lg:w-8/12">
@@ -19,12 +21,14 @@ export default function Banner() {
                                     <br className="hidden md:inline lg:hidden" /> The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime.
                                 </p>
                                 <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                    <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg px-8 py-3 text-center mr-2 mb-2">
-                                        Read more
-                                    </button>
+                                    <Link href="/about">
+                                        <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-lg px-8 py-3 text-center mr-2 mb-2">
+                                            Read more
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
-                            <Image src={LeHaGiaBao} alt="image" className="rounded-full md:5/12 lg:w-4/12" />
+                            <Image src={image} alt="image" className="rounded-full md:5/12 lg:w-4/12" />
                         </div>
                     </div>
                 </div>
