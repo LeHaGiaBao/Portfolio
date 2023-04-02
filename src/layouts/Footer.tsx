@@ -2,9 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Social from '@/components/Footer/Social';
 import SubFooter from '@/components/Footer/SubFooter';
-
-import icon from '@/assets/Image/icon.png';
-
+import ICON from '@/assets/Image/ICON.png';
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
@@ -18,7 +16,7 @@ function Footer() {
                         <div className="">
                             <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
                                 <div className="flex items-center justify-center w-36 h-36">
-                                    <Image src={icon} alt='image' className='rounded-full' />
+                                    <Image src={ICON} alt='image' className='rounded-full' />
                                 </div>
                                 <span className="self-center text-3xl font-semibold">Le Ha Gia Bao</span>
                             </a>
