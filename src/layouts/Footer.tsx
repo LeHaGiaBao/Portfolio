@@ -15,9 +15,9 @@ function Footer() {
                     <div className="grid-1 grid gap-8 md:grid-cols-3 lg:grid-cols-3 justify-items-center">
                         <div className="">
                             <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
-                                <div className="flex items-center justify-center w-36 h-36">
+                                {/* <div className="flex items-center justify-center w-36 h-36">
                                     <Image src={ICON} alt='image' className='rounded-full' />
-                                </div>
+                                </div> */}
                                 <span className="self-center text-3xl font-semibold">Le Ha Gia Bao</span>
                             </a>
                         </div>
