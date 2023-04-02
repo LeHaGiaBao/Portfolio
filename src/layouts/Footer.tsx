@@ -1,144 +1,74 @@
-import { FaFacebook, FaLinkedin, FaGithub, FaGitlab, FaInstagram, FaTwitter, FaBehanceSquare, FaDribbble } from 'react-icons/fa'
+import Image from 'next/image';
+import Social from '@/components/Footer/Social';
+import SubFooter from '@/components/Footer/SubFooter';
+
+import icon from '@/assets/Image/icon.png';
+
+import { IoMailOutline } from 'react-icons/io5'
+import { BsTelephone } from 'react-icons/bs'
+import { MdOutlinePlace } from 'react-icons/md'
 
 function Footer() {
-    let year: number = new Date().getFullYear()
-
-    const social = [
-        {
-            id: 1,
-            color: "#1877f2",
-            link: "https://www.facebook.com/lehagiabao0205",
-            icon: <FaFacebook />,
-            span: "Facebook page",
-        },
-        {
-            id: 2,
-            color: "#0a66c2",
-            link: 'https://www.linkedin.com/in/lehagiabao/',
-            icon: <FaLinkedin />,
-            span: "LinkedIn page",
-        },
-        {
-            id: 3,
-            color: "#171515",
-            link: 'https://github.com/LeHaGiaBao',
-            icon: <FaGithub />,
-            span: "GitHub page",
-        },
-        {
-            id: 4,
-            color: "#e24329",
-            link: 'https://gitlab.com/LeHaGiaBao',
-            icon: <FaGitlab />,
-            span: "GitLab page",
-        },
-        {
-            id: 5,
-            color: "#c32aa3",
-            link: 'https://www.instagram.com/le.ha.gia.bao/',
-            icon: <FaInstagram />,
-            span: "Instagram page",
-        },
-        {
-            id: 6,
-            color: "#1da1f2",
-            link: 'https://twitter.com/LeHaGiaBao',
-            icon: <FaTwitter />,
-            span: "Twitter page",
-        },
-        {
-            id: 7,
-            color: "#053eff",
-            link: 'https://www.behance.net/lehagiabao',
-            icon: <FaBehanceSquare />,
-            span: "Behance page",
-        },
-        {
-            id: 8,
-            color: "#ea4c89",
-            link: 'https://dribbble.com/lehagiabao',
-            icon: <FaDribbble />,
-            span: "Dribbble page",
-        },
-    ]
-
     return (
         <>
-            <footer className="p-4 bg-black sm:p-6">
-                <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" className="flex items-center">
-                            <span className="font-sacramento self-center text-4xl font-semibold whitespace-nowrap text-white">Le Ha Gia Bao</span>
-                        </a>
-                    </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
-                            <ul className="text-gray-600">
-                                <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                                </li>
-                            </ul>
+            <footer className="bg-gray-900">
+                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                    <div className="grid-1 grid gap-8 md:grid-cols-3 lg:grid-cols-3 justify-items-center">
+                        <div className="">
+                            <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
+                                <div className="flex items-center justify-center w-36 h-36">
+                                    <Image src={icon} alt='image' className='rounded-full' />
+                                </div>
+                                <span className="self-center text-3xl font-semibold">Le Ha Gia Bao</span>
+                            </a>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
-                            <ul className="text-gray-600">
-                                <li className="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
-                                </li>
-                                <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
-                                </li>
-                            </ul>
+                            <h6
+                                className="mb-4 flex justify-center font-semibold text-xl uppercase md:justify-start">
+                                Menu
+                            </h6>
+                            <a href='/' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                Home
+                            </a>
+                            <a href='/about' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                About
+                            </a>
+                            <a href='/services' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                Services
+                            </a>
+                            <a href='/portfolio' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                Portfolio
+                            </a>
+                            <a href='/contact' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                Contact
+                            </a>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
-                            <ul className="text-gray-600">
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                                </li>
-                            </ul>
+                            <h6
+                                className="mb-4 flex justify-center font-semibold text-xl uppercase md:justify-start">
+                                Contact
+                            </h6>
+                            <a href="mailto:lehagiabao0205@gmail.com" className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                <IoMailOutline className="mr-3 h-5 w-5" />
+                                lehagiabao0205@gmail.com
+                            </a>
+                            <a href="tel:0907311574" className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                <BsTelephone className='mr-3 h-5 w-5' />
+                                0907311574
+                            </a>
+                            <a href="https://www.google.com/maps/place/H%E1%BB%93+Ch%C3%AD+Minh,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.754792,106.6952276,10z/data=!3m1!4b1!4m6!3m5!1s0x317529292e8d3dd1:0xf15f5aad773c112b!8m2!3d10.8230989!4d106.6296638!16zL20vMGhuNGg" className="flex items-center justify-center md:justify-start hover:underline">
+                                <MdOutlinePlace className='mr-3 h-5 w-5' />
+                                Ho Chi Minh City
+                            </a>
                         </div>
                     </div>
-                </div>
-                <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
-                <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-xl">
-                        {
-                            social.map(({ id, color, link, icon, span }) => {
-                                return (
-                                    <SocialItem key={id} color={color} link={link} icon={icon} span={span} />
-                                )
-                            })
-                        }
-                    </div>
+                    <hr className="my-6sm:mx-autoborder-gray-700 lg:my-8 my-5" />
+                    <Social />
                 </div>
             </footer>
-            <div className="p-4 bg-grey sm:p-6">
-                <div className="sm:flex sm:items-center sm:justify-between">
-                    <p className="text-base text-white text-center">Made with ❤️ in Vietnam
-                    </p>
-                    <p className="text-base text-gray-500 text-center">© {year} Developed by Le Ha Gia Bao
-                    </p>
-                </div>
-            </div>
+            <SubFooter />
         </>
     );
-}
-
-const SocialItem = ({ color, link, icon, span }: any) => {
-    return (
-        <a href={link} target=" _blank " className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-            {icon}
-            <span className="sr-only">{span}</span>
-        </a>
-    )
 }
 
 export default Footer
