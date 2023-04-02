@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Image500 from '../../assets/Error/Image500.png'
-import BackToHome from "../Button/BackToHome"
+import Image500 from "@/assets/Error/Image500.png"
+import BackToHome from "@/components/Button/BackToHome"
 
 export default function Error500() {
     return (

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Image404 from '../../assets/Error/Image404.png'
-import BackToHome from "../Button/BackToHome"
+import Image404 from "@/assets/Error/Image404.png"
+import BackToHome from "@/components/Button/BackToHome"
 
 export default function Error404() {
     return (
