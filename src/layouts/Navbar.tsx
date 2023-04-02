@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import icon from '../assets/Image/icon.png';
+import icon from '@/assets/Image/icon.png';
 
 export default function Navbar() {
     const item = [
@@ -52,7 +52,7 @@ export default function Navbar() {
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <Link href="/">
                         <div className="flex items-center">
-                            <Image src={icon} className="h-14 w-14 mr-3 rounded-full" alt="Logo" />
+                            <Image src={icon} className="h-14 w-14 mr-3 rounded-full" alt="logo" />
                             <h1 className="font-sacramento self-center lg:text-4xl text-2xl font-bold whitespace-nowrap text-blue-500">Le Ha Gia Bao</h1>
                         </div>
                     </Link>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Social from '@/components/Footer/Social';
 import SubFooter from '@/components/Footer/SubFooter';
 
-import icon from '../assets/Image/icon.png';
+import icon from '@/assets/Image/icon.png';
 
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
