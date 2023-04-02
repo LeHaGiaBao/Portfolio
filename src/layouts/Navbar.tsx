@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import icon from '@/assets/Image/icon.png';
+import icon from '../assets/Image/icon.png';
 
 export default function Navbar() {
     const item = [
