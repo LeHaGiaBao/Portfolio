@@ -7,6 +7,7 @@ import icon from '@/assets/Image/icon.png';
 import { IoMailOutline } from 'react-icons/io5'
 import { BsTelephone } from 'react-icons/bs'
 import { MdOutlinePlace } from 'react-icons/md'
+import Link from 'next/link';
 
 function Footer() {
     return (
@@ -27,21 +28,31 @@ function Footer() {
                                 className="mb-4 flex justify-center font-semibold text-xl uppercase md:justify-start">
                                 Menu
                             </h6>
-                            <a href='/' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                Home
-                            </a>
-                            <a href='/about' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                About
-                            </a>
-                            <a href='/services' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                Services
-                            </a>
-                            <a href='/portfolio' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                Portfolio
-                            </a>
-                            <a href='/contact' className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                Contact
-                            </a>
+                            <Link href='/'>
+                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                    Home
+                                </p>
+                            </Link>
+                            <Link href='/about'>
+                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                    About
+                                </p>
+                            </Link>
+                            <Link href='/services'>
+                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                    Services
+                                </p>
+                            </Link>
+                            <Link href='/portfolio'>
+                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                    Portfolio
+                                </p>
+                            </Link>
+                            <Link href='/contact'>
+                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                                    Contact
+                                </p>
+                            </Link>
                         </div>
                         <div>
                             <h6
