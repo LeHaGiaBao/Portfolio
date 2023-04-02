@@ -6,6 +6,8 @@ import Banner from '@/containers/Banner'
 import HomeTitle from '@/components/Title/HomeTitle'
 import Aboutme from '@/containers/Aboutme'
 import Services from '@/containers/Services'
+import Stats from '@/containers/Stats'
+import Portfolio from '@/containers/Portfolio'
 
 export default function Home() {
   return (
@@ -17,8 +19,10 @@ export default function Home() {
       <Aboutme />
       <HomeTitle title="Services" />
       <Services />
+      <HomeTitle title="Stats" />
+      <Stats />
       <HomeTitle title="Portfolio" />
-      <HomeTitle title="Contact" />
+      <Portfolio />
       <Footer />
     </>
   )

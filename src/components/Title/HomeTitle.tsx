@@ -1,8 +1,9 @@
-export default function HomeTitle({ title }: any) {
+export default function HomeTitle({ title, subTitle }: any) {
     return (
         <>
-            <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-                <h2 className="text-4xl font-bold leading-none text-center sm:text-5xl section-heading font-Montserrat text-blue-500" data-outline={`${title}`}>{title}</h2>
+            <div>
+                <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">{title}</h2>
+                <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600">{subTitle}</p>
             </div>
         </>
     )

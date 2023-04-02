@@ -1,17 +1,17 @@
-import ServicesBlock from "@/components/Services/ServicesBlock";
-import { services } from '@/data/services'
+import StatsBlock from "@/components/Stats/StatsBlock"
+import { stats } from '@/data/stats'
 
-export default function Services() {
+export default function Stats() {
     return (
         <>
             <div className="container mx-auto px-6">
-                <section className="services">
+                <section className="stats">
                     <div className="container text-black">
                         <div className="all-items">
                             {
-                                services.map(({ id, image, title, content }) => {
+                                stats.map(({ id, number, title, content }) => {
                                     return (
-                                        <ServicesBlock key={id} image={image} title={title} content={content} />
+                                        <StatsBlock key={id} number={number} title={title} content={content} />
                                     )
                                 })
                             }
@@ -20,5 +20,5 @@ export default function Services() {
                 </section>
             </div>
         </>
-    );
+    )
 }

@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <>
             <section className="text-gray-800 banner">
-                <div className="lg:mx-36 pt-12 pb-9">
+                <div className="lg:mx-36 pt-20 pb-20">
                     <div className="container m-auto lg:my-28 my-20 px-6 text-gray-600 md:px-12 xl:px-6">
                         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                             <div className="md:7/12 lg:w-8/12">

@@ -133,3 +133,129 @@ a {
 	-webkit-text-stroke: 1.5px #0096ff;
 	z-index: -1;
 }
+
+.services {
+	padding: 5rem 0;
+}
+
+.services .all-items {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.services .item {
+	padding: 2rem;
+	transition: 0.3s ease-in-out background-color;
+	border-radius: 12px;
+	flex: 1;
+}
+
+.services .item:nth-child(1):hover {
+	background-color: rgb(8 69 241 / 35%);
+}
+
+.services .item:nth-child(2):hover {
+	background-color: rgba(0, 255, 115, 0.151);
+}
+
+.services .item:nth-child(3):hover {
+	background-color: #cbbef093;
+}
+
+.services .item .icon {
+	width: 70px;
+	height: 70px;
+	padding: 1rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+.services .item-heading {
+	text-align: center;
+	font-weight: 500;
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 1.5rem;
+	font-family: 'Poppins';
+}
+
+.services .item-desc {
+	text-align: justify;
+	color: var(--secondary-gray);
+}
+
+.services .item:nth-child(1) .icon {
+	background-color: rgb(7 106 255 / 37%);
+}
+
+.services .item:nth-child(2) .icon {
+	background-color: rgba(0, 255, 115, 0.493);
+}
+
+.services .item:nth-child(3) .icon {
+	background-color: #4705fc80;
+}
+
+@media only screen and (max-width: 768px) {
+	.services .all-items {
+		flex-direction: column;
+		text-align: center;
+	}
+	.services .item .icon {
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+	.services .item {
+		margin: 2rem 0;
+	}
+	.services .item:nth-child(1) {
+		background-color: rgb(8 69 241 / 35%);
+	}
+	.services .item:nth-child(2) {
+		background-color: rgba(0, 255, 115, 0.151);
+	}
+	.services .item:nth-child(3) {
+		background-color: #cbbef093;
+	}
+}
+
+.stats {
+	padding: 5rem 0 5rem 0;
+}
+
+.stats .all-items {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+.stats .all-items .item {
+	padding: 2rem;
+}
+.stats .number {
+	font-family: 'Poppins';
+	font-size: 8rem;
+}
+.stats .stats-sub-heading {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.stats .all-items .item:nth-child(1) {
+	background-color: rgba(255, 238, 0, 0.322);
+}
+
+.stats .all-items .item:nth-child(2) {
+	background-color: rgba(0, 255, 115, 0.329);
+}
+
+.stats .all-items .item:nth-child(3) {
+	background-color: #4705fc50;
+}
+
+@media only screen and (max-width: 768px) {
+	.stats .all-items {
+		flex-direction: column;
+	}
+}
