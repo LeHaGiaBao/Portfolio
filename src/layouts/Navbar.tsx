@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import ICON from '@/assets/Image/ICON.png';
+import logo from '@/assets/Logo/logo.png';
 
 export default function Navbar() {
     const item = [
@@ -51,8 +51,8 @@ export default function Navbar() {
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <Link href="/">
                         <div className="flex items-center">
-                            {/* <Image src={ICON} className="h-14 w-14 mr-3 rounded-full" alt="logo" /> */}
-                            <h1 className="font-sacramento self-center lg:text-4xl text-2xl font-bold whitespace-nowrap text-blue-500">Le Ha Gia Bao</h1>
+                            <Image src={logo} className="h-14 w-14 mr-3 rounded-full" alt="logo" />
+                            <h1 className="mt-2 font-sacramento self-center lg:text-4xl text-2xl font-bold whitespace-nowrap text-blue-500">Le Ha Gia Bao</h1>
                         </div>
                     </Link>
                     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary" aria-controls="navbar-default" aria-expanded="false">

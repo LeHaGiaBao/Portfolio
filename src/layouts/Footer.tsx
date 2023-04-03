@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Social from '@/components/Footer/Social';
 import SubFooter from '@/components/Footer/SubFooter';
-import ICON from '@/assets/Image/ICON.png';
+import logo from '@/assets/Logo/logo.png';
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
@@ -10,14 +10,14 @@ import { MdOutlinePlace } from 'react-icons/md';
 function Footer() {
     return (
         <>
-            <footer className="bg-gray-900">
+            <footer className="bg-gray-900 text-white">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="grid-1 grid gap-8 md:grid-cols-3 lg:grid-cols-3 justify-items-center">
                         <div className="">
                             <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
-                                {/* <div className="flex items-center justify-center w-36 h-36">
-                                    <Image src={ICON} alt='image' className='rounded-full' />
-                                </div> */}
+                                <div className="flex items-center justify-center w-36 h-36">
+                                    <Image src={logo} alt='image' className='rounded-full' />
+                                </div>
                                 <span className="self-center text-3xl font-semibold">Le Ha Gia Bao</span>
                             </a>
                         </div>

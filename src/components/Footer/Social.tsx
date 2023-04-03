@@ -4,7 +4,6 @@ import {
     FaGithub,
     FaGitlab,
     FaInstagram,
-    FaTwitter,
     FaBehanceSquare,
     FaDribbble
 } from 'react-icons/fa'
