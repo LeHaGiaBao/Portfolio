@@ -3,36 +3,9 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import logo from '@/assets/Logo/logo.png';
+import { MenuItem } from "@/data/menu";
 
 export default function Navbar() {
-    const item = [
-        {
-            id: 1,
-            link: "/",
-            content: 'home',
-        },
-        {
-            id: 2,
-            link: "/about",
-            content: 'about',
-        },
-        {
-            id: 3,
-            link: "/services",
-            content: 'services',
-        },
-        {
-            id: 4,
-            link: "/portfolio",
-            content: 'portfolio',
-        },
-        {
-            id: 5,
-            link: "/contact",
-            content: 'contact',
-        },
-    ]
-
     const [isShadow, setShadow] = useState(false)
 
     const onScroll = () => {
@@ -62,7 +35,7 @@ export default function Navbar() {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="flex flex-col p-4 mt-4 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
                             {
-                                item.map(({ id, link, content }) => {
+                                MenuItem.map(({ id, link, content }) => {
                                     return (
                                         <NavBarItem key={id} link={link} content={content} />
                                     )
@@ -80,7 +53,7 @@ const NavBarItem = ({ link, content }: any) => {
     const router = useRouter()
 
     return (
-        <li className="text-base capitalize px-4 font-semibold">
+        <li className="text-lg capitalize px-4 font-semibold">
             <Link href={`${link}`}>
                 <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
                     {content}

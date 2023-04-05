@@ -1,8 +1,7 @@
 import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
-import Footer from '@/layouts/Footer'
 import Title from '@/components/Title/Title'
-import TechStack from '@/containers/TechStack'
+import Footer from '@/layouts/Footer'
 
 export default function About() {
 	return (

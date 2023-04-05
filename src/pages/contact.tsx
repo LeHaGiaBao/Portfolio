@@ -1,5 +1,6 @@
 import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
+import Title from '@/components/Title/Title'
 import Footer from '@/layouts/Footer'
 
 export default function Contact() {
@@ -7,6 +8,7 @@ export default function Contact() {
         <>
             <Header title='Contact' />
             <Navbar />
+            <Title title="Contact Me" />
             <Footer />
         </>
     )

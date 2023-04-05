@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function ServicesBlock({ image, title, content }: any) {
+export default function WorksBlock({ image, title, content }: any) {
     return (
         <>
             <div className="item">

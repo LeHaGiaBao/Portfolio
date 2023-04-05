@@ -6,8 +6,9 @@ import logo from '@/assets/Logo/logo.png';
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
+import { MenuItem } from '@/data/menu';
 
-function Footer() {
+export default function Footer() {
     return (
         <>
             <footer className="bg-gray-900 text-white">
@@ -26,31 +27,13 @@ function Footer() {
                                 className="mb-4 flex justify-center font-semibold text-xl uppercase md:justify-start">
                                 Menu
                             </h6>
-                            <Link href='/'>
-                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                    Home
-                                </p>
-                            </Link>
-                            <Link href='/about'>
-                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                    About
-                                </p>
-                            </Link>
-                            <Link href='/services'>
-                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                    Services
-                                </p>
-                            </Link>
-                            <Link href='/portfolio'>
-                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                    Portfolio
-                                </p>
-                            </Link>
-                            <Link href='/contact'>
-                                <p className="mb-4 flex items-center justify-center md:justify-start hover:underline">
-                                    Contact
-                                </p>
-                            </Link>
+                            {
+                                MenuItem.map(({ id, link, content }) => {
+                                    return (
+                                        <RenderMenu key={id} link={link} content={content} />
+                                    )
+                                })
+                            }
                         </div>
                         <div>
                             <h6
@@ -80,4 +63,12 @@ function Footer() {
     );
 }
 
-export default Footer
+const RenderMenu = ({ link, content }: any) => {
+    return (
+        <Link href={`${link}`}>
+            <p className="mb-4 flex items-center justify-center md:justify-start hover:underline capitalize">
+                {content}
+            </p>
+        </Link>
+    )
+}

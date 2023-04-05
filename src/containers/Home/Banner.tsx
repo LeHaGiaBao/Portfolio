@@ -7,14 +7,14 @@ import image from '@/assets/LeHaGiaBao/image.png'
 export default function Banner() {
     return (
         <>
-            <section className="py-12 lg:py-32 text-gray-800">
+            <section className="pt-12 lg:pt-32 text-gray-800">
                 <div className="container grid gap-6 mx-auto text-left lg:grid-cols-2 xl:grid-cols-5">
                     <div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-3">
-                        <h1 className="lg:text-5xl text-4xl font-bold leading-none sm:text-6xl flex">
+                        <h1 className="lg:text-7xl text-4xl font-bold leading-none sm:text-6xl flex">
                             👋 Hi
                         </h1>
-                        <p className="lg:text-5xl text-4xl font-bold leading-none sm:text-6xl mt-3">I&apos;m {" "}
-                            <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300 -z-50">Le Ha Gia Bao</span>
+                        <p className="text-4xl font-bold leading-none sm:text-6xl lg:text-7xl mt-3">I&apos;m {" "}
+                            <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400 -z-50">Le Ha Gia Bao</span>
                         </p>
                         <br />
                         <p className="lg:text-2xl text-xl my-5">Welcome to my personal website!
@@ -29,7 +29,7 @@ export default function Banner() {
                             </Link>
                         </div>
                     </div>
-                    <Image src={image} alt="image" className="my-12 object-cover lg:w-96 w-80 mx-auto rounded-full xl:col-span-2" />
+                    <Image src={image} alt="image" className="object-cover lg:w-auto w-80 mx-auto rounded-full xl:col-span-2" />
                 </div>
             </section>
         </>

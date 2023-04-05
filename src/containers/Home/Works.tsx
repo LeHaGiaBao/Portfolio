@@ -1,7 +1,7 @@
-import ServicesBlock from "@/components/Services/ServicesBlock";
+import WorksBlock from "@/components/Works/WorksBlock";
 import { services } from '@/data/services'
 
-export default function Services() {
+export default function Works() {
     return (
         <>
             <div className="container mx-auto px-6">
@@ -11,7 +11,7 @@ export default function Services() {
                             {
                                 services.map(({ id, image, title, content }) => {
                                     return (
-                                        <ServicesBlock key={id} image={image} title={title} content={content} />
+                                        <WorksBlock key={id} image={image} title={title} content={content} />
                                     )
                                 })
                             }
