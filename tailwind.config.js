@@ -25,5 +25,10 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [
+		// require("daisyui"),
+		// require('flowbite/plugin'),
+		// require('tw-elements/dist/plugin'),
+		// require('kutty'),
+	],
 }

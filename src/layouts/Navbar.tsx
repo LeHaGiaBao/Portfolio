@@ -47,7 +47,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className={`bg-primary border-primary px-2 sm:px-4 py-3 rounded fixed w-full ${isShadow ? 'on-scroll' : ''}`}>
+            <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 rounded fixed w-full ${isShadow ? 'on-scroll' : ''}`}>
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <Link href="/">
                         <div className="flex items-center">
