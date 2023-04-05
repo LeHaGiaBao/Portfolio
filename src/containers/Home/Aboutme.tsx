@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
 
-export default function Aboutme() {
+export default function AboutMe() {
     return (
         <>
             <section className="text-gray-800">

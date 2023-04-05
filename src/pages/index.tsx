@@ -4,7 +4,7 @@ import Footer from '@/layouts/Footer'
 
 import Banner from '@/containers/Home/Banner'
 import HomeTitle from '@/components/Title/HomeTitle'
-import Aboutme from '@/containers/Home/Aboutme'
+import AboutMe from '@/containers/Home/Aboutme'
 import Works from '@/containers/Home/Works'
 import Stats from '@/containers/Home/Stats'
 import Portfolio from '@/containers/Home/Portfolio'
@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <HomeTitle title="Who I Am" />
-      <Aboutme />
+      <AboutMe />
       <HomeTitle title="Works" />
       <Works />
       <HomeTitle title="Stats" />
