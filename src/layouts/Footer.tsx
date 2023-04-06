@@ -19,7 +19,7 @@ export default function Footer() {
                                 <div className="flex items-center justify-center w-36 h-36">
                                     <Image src={logo} alt='image' className='rounded-full' />
                                 </div>
-                                <span className="self-center text-3xl font-semibold">Le Ha Gia Bao</span>
+                                <h1 className="mt-2 self-center lg:text-4xl text-2xl font-semibold whitespace-nowra relative text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Le Ha Gia Bao</h1>
                             </a>
                         </div>
                         <div>

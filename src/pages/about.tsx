@@ -4,6 +4,7 @@ import Title from '@/components/Title/Title'
 import AboutMe from '@/containers/About/AboutMe'
 import Footer from '@/layouts/Footer'
 import HeadingTitle from '@/components/Title/HeadingTitle'
+import Education from '@/containers/About/Education'
 
 export default function About() {
 	return (
@@ -14,6 +15,7 @@ export default function About() {
 			<AboutMe />
 			<HeadingTitle title="A little bit about me" />
 			<HeadingTitle title="Education" />
+			<Education />
 			<HeadingTitle title="Experience" />
 			<Footer />
 		</>

@@ -25,7 +25,7 @@ export default function Navbar() {
                     <Link href="/">
                         <div className="flex items-center">
                             <Image src={logo} className="h-14 w-14 mr-3 rounded-full" alt="logo" />
-                            <h1 className="mt-2 font-sacramento self-center lg:text-4xl text-2xl font-bold whitespace-nowrap text-blue-500">Le Ha Gia Bao</h1>
+                            <h1 className="mt-2 self-center lg:text-4xl text-2xl font-semibold whitespace-nowra relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Le Ha Gia Bao</h1>
                         </div>
                     </Link>
                     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary" aria-controls="navbar-default" aria-expanded="false">
