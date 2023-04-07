@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto+Mono:wght@300;500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 @tailwind base;
 @tailwind components;
@@ -78,6 +79,7 @@
 }
 
 * {
+	font-family: 'SF Pro Display', sans-serif;
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;

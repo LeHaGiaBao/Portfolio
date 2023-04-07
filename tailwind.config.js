@@ -22,6 +22,7 @@ module.exports = {
 			fontFamily: {
 				sacramento: ['Sacramento', 'sans-serif'],
 				Montserrat: ['Montserrat', 'san-serif'],
+				SF: ['SF Pro Display', 'sans-serif'],
 			},
 		},
 	},
