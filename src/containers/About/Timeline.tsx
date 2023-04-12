@@ -4,17 +4,19 @@ import TimelineBlock from "@/components/Timeline/TimelineBlock"
 export default function Timeline() {
     return (
         <>
-            <section className="text-gray-600 body-font">
-                <div className="container px-5 py-5 mx-auto flex flex-wrap">
-                    {
-                        experience.map(({ id, image, title, organization, time }) => {
-                            return (
-                                <TimelineBlock key={id} image={image} title={title} organization={organization} time={time} />
-                            )
-                        })
-                    }
+            <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+                <div className="container">
+                    <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+                        {
+                            experience.map(({ id, ExID, image, title, organization, time }) => {
+                                return (
+                                    <TimelineBlock key={id} ExID={ExID} image={image} title={title} organization={organization} time={time} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 }
