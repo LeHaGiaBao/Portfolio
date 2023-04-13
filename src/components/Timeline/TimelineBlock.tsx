@@ -9,8 +9,8 @@ export default function TimelineBlock({ ExID, image, title, organization, time }
                     <div className="flex flex-row-reverse md:contents">
                         <div className="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full">
                             <div className="flex-grow flex sm:items-center flex-col sm:flex-row">
-                                <div className="flex-shrink-0 w-32 h-32 bg-white text-indigo-500 rounded-xl inline-flex items-center justify-center">
-                                    <Image src={image} alt='image' className='w-20 h-20' />
+                                <div className="flex-shrink-0 w-32 h-32 px-5 py-5 bg-white text-indigo-500 rounded-xl inline-flex items-center justify-center">
+                                    <Image src={image} alt='image' />
                                 </div>
                                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                     <h2 className="font-medium title-font text-white mb-1 text-xl">
@@ -43,8 +43,8 @@ export default function TimelineBlock({ ExID, image, title, organization, time }
                         <div className="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
                         >
                             <div className="flex-grow flex sm:items-center flex-col sm:flex-row">
-                                <div className="flex-shrink-0 w-32 h-32 bg-white text-indigo-500 rounded-xl inline-flex items-center justify-center">
-                                    <Image src={image} alt='image' className='w-20 h-20' />
+                                <div className="flex-shrink-0 w-32 h-32 px-5 py-5 bg-white text-indigo-500 rounded-xl inline-flex items-center justify-center">
+                                    <Image src={image} alt='image' />
                                 </div>
                                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                     <h2 className="font-medium title-font text-white mb-1 text-xl">
