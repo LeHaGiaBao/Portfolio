@@ -1,10 +1,10 @@
 // Languages
-import js from '@/assets/Tech/Language/js.png'
-import ts from '@/assets/Tech/Language/ts.png'
-import php from '@/assets/Tech/Language/php.png'
-import python from '@/assets/Tech/Language/python.png'
-import c from '@/assets/Tech/Language/c.png'
-import cpp from '@/assets/Tech/Language/cpp.png'
+import JS from '@/assets/Tech/Language/JS.png'
+import TS from '@/assets/Tech/Language/TS.png'
+import PHP from '@/assets/Tech/Language/PHP.png'
+import Python from '@/assets/Tech/Language/Python.png'
+import C from '@/assets/Tech/Language/C.png'
+import CPP from '@/assets/Tech/Language/CPP.png'
 
 // Frontend
 import html from '@/assets/Tech/Fontend/html.png'
@@ -61,32 +61,32 @@ import wix from '@/assets/Tech/Nocode/wix.png'
 export const language = [
 	{
 		id: 1,
-		image: js,
+		image: JS,
 		name: 'JavaScript',
 	},
 	{
 		id: 2,
-		image: ts,
+		image: TS,
 		name: 'TypeScript',
 	},
 	{
 		id: 3,
-		image: php,
+		image: PHP,
 		name: 'PHP',
 	},
 	{
 		id: 4,
-		image: python,
+		image: Python,
 		name: 'Python',
 	},
 	{
 		id: 5,
-		image: c,
+		image: C,
 		name: 'C',
 	},
 	{
 		id: 6,
-		image: cpp,
+		image: CPP,
 		name: 'C++',
 	},
 ]
