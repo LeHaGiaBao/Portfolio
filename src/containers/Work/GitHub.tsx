@@ -5,7 +5,6 @@ export default function GitHub() {
         <>
             <section className="p-6">
                 <div className="container w-full p-8 mx-auto space-y-6 rounded-xl shadow-lg bg-gray-100 ng-untouched ng-pristine ng-valid">
-                    <h2 className="w-full text-3xl font-bold leading-tight text-center text-black capitalize">My GitHub Contributions</h2>
                     <div className="container justify-center py-8 mx-auto md:p-8">
                         <GitHubCalendar
                             username="lehagiabao"

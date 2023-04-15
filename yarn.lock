@@ -4990,6 +4990,11 @@
   dependencies:
     "react-activity-calendar" "^1.7.0"
 
+"react-github-user-stats@^1.0.9":
+  "integrity" "sha512-ReQEqYnzqZRDQ6FLlLFBqsglfA6UvgyCG1ZTMcOlw0irBwYtupxzKNBCTavE8cBZq8wkgcgW6hoNX8Geyquihw=="
+  "resolved" "https://registry.npmjs.org/react-github-user-stats/-/react-github-user-stats-1.0.9.tgz"
+  "version" "1.0.9"
+
 "react-icons@^4.7.1":
   "integrity" "sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.7.1.tgz"
