@@ -1,92 +1,92 @@
-// // Languages
-// import JS from '@/assets/Tech/Languages/JS.png'
-// import TS from '@/assets/Tech/Languages/TS.png'
-// import PHP from '@/assets/Tech/Languages/PHP.png'
-// import Python from '@/assets/Tech/Languages/Python.png'
-// import C from '@/assets/Tech/Languages/C.png'
-// import CPP from '@/assets/Tech/Languages/CPP.png'
+// Languages
+import JS from '@/assets/Tech/JS.png'
+import TS from '@/assets/Tech/Languages/TS.png'
+import PHP from '@/assets/Tech/Languages/PHP.png'
+import Python from '@/assets/Tech/Languages/Python.png'
+import C from '@/assets/Tech/Languages/C.png'
+import CPP from '@/assets/Tech/Languages/CPP.png'
 
-// // Frontend
-// import html from '@/assets/Tech/Fontend/html.png'
-// import css from '@/assets/Tech/Fontend/css.png'
-// import sass from '@/assets/Tech/Fontend/sass.png'
-// import jquery from '@/assets/Tech/Fontend/jquery.png'
-// import react from '@/assets/Tech/Fontend/react.png'
-// import next from '@/assets/Tech/Fontend/next.png'
-// import redux from '@/assets/Tech/Fontend/redux.png'
-// import reactrouter from '@/assets/Tech/Fontend/ReactRouter.png'
-// import tailwind from '@/assets/Tech/Fontend/tailwind.png'
-// import bootstrap from '@/assets/Tech/Fontend/bootstrap.png'
-// import antd from '@/assets/Tech/Fontend/antd.png'
-// import mui from '@/assets/Tech/Fontend/mui.png'
+// Frontend
+import html from '@/assets/Tech/Fontend/html.png'
+import css from '@/assets/Tech/Fontend/css.png'
+import sass from '@/assets/Tech/Fontend/sass.png'
+import jquery from '@/assets/Tech/Fontend/jquery.png'
+import react from '@/assets/Tech/Fontend/react.png'
+import next from '@/assets/Tech/Fontend/next.png'
+import redux from '@/assets/Tech/Fontend/redux.png'
+import reactrouter from '@/assets/Tech/Fontend/ReactRouter.png'
+import tailwind from '@/assets/Tech/Fontend/tailwind.png'
+import bootstrap from '@/assets/Tech/Fontend/bootstrap.png'
+import antd from '@/assets/Tech/Fontend/antd.png'
+import mui from '@/assets/Tech/Fontend/mui.png'
 
-// // Backend
-// import node from '@/assets/Tech/Backend/node.png'
-// import express from '@/assets/Tech/Backend/express.png'
-// import laravel from '@/assets/Tech/Backend/laravel.png'
+// Backend
+import node from '@/assets/Tech/Backend/node.png'
+import express from '@/assets/Tech/Backend/express.png'
+import laravel from '@/assets/Tech/Backend/laravel.png'
 
-// // Database
-// import sqlserver from '@/assets/Tech/Database/sqlserver.png'
-// import mysql from '@/assets/Tech/Database/mysql.png'
-// import mongodb from '@/assets/Tech/Database/mongo.jpeg'
-// import firebase from '@/assets/Tech/Database/firebase.png'
+// Database
+import sqlserver from '@/assets/Tech/Database/sqlserver.png'
+import mysql from '@/assets/Tech/Database/mysql.png'
+import mongodb from '@/assets/Tech/Database/mongo.jpeg'
+import firebase from '@/assets/Tech/Database/firebase.png'
 
-// // Version control
-// import git from '@/assets/Tech/Versioncontroll/git.png'
-// import github from '@/assets/Tech/Versioncontroll/github.png'
-// import gitlab from '@/assets/Tech/Versioncontroll/gitlab.png'
-// import bitbucket from '@/assets/Tech/Versioncontroll/Bitbucket.png'
+// Version control
+import git from '@/assets/Tech/Versioncontroll/git.png'
+import github from '@/assets/Tech/Versioncontroll/github.png'
+import gitlab from '@/assets/Tech/Versioncontroll/gitlab.png'
+import bitbucket from '@/assets/Tech/Versioncontroll/Bitbucket.png'
 
-// // Deploy
-// import githubpage from '@/assets/Tech/Deploy/GitHub.png'
-// import vercel from '@/assets/Tech/Deploy/vercel.png'
-// import netlify from '@/assets/Tech/Deploy/netlify.jpeg'
-// import heroku from '@/assets/Tech/Deploy/Heruku.png'
+// Deploy
+import githubpage from '@/assets/Tech/Deploy/GitHub.png'
+import vercel from '@/assets/Tech/Deploy/vercel.png'
+import netlify from '@/assets/Tech/Deploy/netlify.jpeg'
+import heroku from '@/assets/Tech/Deploy/Heruku.png'
 
-// // Tools
-// import vscode from '@/assets/Tech/IDE/vscode.png'
-// import visualstudio from '@/assets/Tech/IDE/visual studio.png'
-// import npm from '@/assets/Tech/Package/npm.png'
-// import yarn from '@/assets/Tech/Package/yarn.png'
-// import postman from '@/assets/Tech/Tool/postman.png'
-// import swagger from '@/assets/Tech/Tool/swagger.png'
-// import gitkraken from '@/assets/Tech/Tool/gitkraken.png'
+// Tools
+import vscode from '@/assets/Tech/IDE/vscode.png'
+import visualstudio from '@/assets/Tech/IDE/visual studio.png'
+import npm from '@/assets/Tech/Package/npm.png'
+import yarn from '@/assets/Tech/Package/yarn.png'
+import postman from '@/assets/Tech/Tool/postman.png'
+import swagger from '@/assets/Tech/Tool/swagger.png'
+import gitkraken from '@/assets/Tech/Tool/gitkraken.png'
 
-// // Design
-// import photoshop from '@/assets/Tech/Design/photoshop.png'
-// import figma from '@/assets/Tech/Design/figma.png'
-// import wordpress from '@/assets/Tech/Nocode/wordpress.png'
-// import wix from '@/assets/Tech/Nocode/wix.png'
+// Design
+import photoshop from '@/assets/Tech/Design/photoshop.png'
+import figma from '@/assets/Tech/Design/figma.png'
+import wordpress from '@/assets/Tech/Nocode/wordpress.png'
+import wix from '@/assets/Tech/Nocode/wix.png'
 
 export const languages = [
 	{
 		id: 1,
-		// image: JS,
+		image: JS,
 		name: 'JavaScript',
 	},
 	{
 		id: 2,
-		// image: TS,
+		image: TS,
 		name: 'TypeScript',
 	},
 	{
 		id: 3,
-		// image: PHP,
+		image: PHP,
 		name: 'PHP',
 	},
 	{
 		id: 4,
-		// image: Python,
+		image: Python,
 		name: 'Python',
 	},
 	{
 		id: 5,
-		// image: C,
+		image: C,
 		name: 'C',
 	},
 	{
 		id: 6,
-		// image: CPP,
+		image: CPP,
 		name: 'C++',
 	},
 ]
@@ -94,62 +94,62 @@ export const languages = [
 export const frontend = [
 	{
 		id: 1,
-		// image: html,
+		image: html,
 		name: 'HTML',
 	},
 	{
 		id: 2,
-		// image: css,
+		image: css,
 		name: 'CSS',
 	},
 	{
 		id: 3,
-		// image: sass,
+		image: sass,
 		name: 'Sass',
 	},
 	{
 		id: 4,
-		// image: jquery,
+		image: jquery,
 		name: 'jQuery',
 	},
 	{
 		id: 5,
-		// image: react,
+		image: react,
 		name: 'ReactJS',
 	},
 	{
 		id: 6,
-		// image: next,
+		image: next,
 		name: 'NextJS',
 	},
 	{
 		id: 7,
-		// image: redux,
+		image: redux,
 		name: 'Redux',
 	},
 	{
 		id: 8,
-		// image: reactrouter,
+		image: reactrouter,
 		name: 'React Router',
 	},
 	{
 		id: 9,
-		// image: tailwind,
+		image: tailwind,
 		name: 'TailwindCSS',
 	},
 	{
 		id: 10,
-		// image: bootstrap,
+		image: bootstrap,
 		name: 'Bootstrap',
 	},
 	{
 		id: 11,
-		// image: antd,
+		image: antd,
 		name: 'Ant Design',
 	},
 	{
 		id: 12,
-		// image: mui,
+		image: mui,
 		name: 'Material UI',
 	},
 ]
@@ -157,17 +157,17 @@ export const frontend = [
 export const backend = [
 	{
 		id: 1,
-		// image: node,
+		image: node,
 		name: 'NodeJS',
 	},
 	{
 		id: 2,
-		// image: express,
+		image: express,
 		name: 'ExpressJS',
 	},
 	{
 		id: 3,
-		// image: laravel,
+		image: laravel,
 		name: 'Laravel',
 	},
 ]
@@ -175,22 +175,22 @@ export const backend = [
 export const database = [
 	{
 		id: 1,
-		// image: sqlserver,
+		image: sqlserver,
 		name: 'Microsoft SQL Server',
 	},
 	{
 		id: 2,
-		// image: mysql,
+		image: mysql,
 		name: 'MySQL',
 	},
 	{
 		id: 3,
-		// image: mongodb,
+		image: mongodb,
 		name: 'MongoDB',
 	},
 	{
 		id: 4,
-		// image: firebase,
+		image: firebase,
 		name: 'Firebase',
 	},
 ]
@@ -198,22 +198,22 @@ export const database = [
 export const versioncontroll = [
 	{
 		id: 1,
-		// image: git,
+		image: git,
 		name: 'Git',
 	},
 	{
 		id: 2,
-		// image: github,
+		image: github,
 		name: 'GitHub',
 	},
 	{
 		id: 3,
-		// image: gitlab,
+		image: gitlab,
 		name: 'GitLab',
 	},
 	{
 		id: 4,
-		// image: bitbucket,
+		image: bitbucket,
 		name: 'Bitbucket',
 	},
 ]
@@ -221,22 +221,22 @@ export const versioncontroll = [
 export const deploy = [
 	{
 		id: 1,
-		// image: githubpage,
+		image: githubpage,
 		name: 'GitHub Pages',
 	},
 	{
 		id: 2,
-		// image: vercel,
+		image: vercel,
 		name: 'Vercel',
 	},
 	{
 		id: 3,
-		// image: netlify,
+		image: netlify,
 		name: 'Netlify',
 	},
 	{
 		id: 4,
-		// image: heroku,
+		image: heroku,
 		name: 'Heroku',
 	},
 ]
@@ -244,37 +244,37 @@ export const deploy = [
 export const tools = [
 	{
 		id: 1,
-		// image: vscode,
+		image: vscode,
 		name: 'Visual Studio Code',
 	},
 	{
 		id: 2,
-		// image: visualstudio,
+		image: visualstudio,
 		name: 'Visual Studio',
 	},
 	{
 		id: 3,
-		// image: npm,
+		image: npm,
 		name: 'NPM',
 	},
 	{
 		id: 4,
-		// image: yarn,
+		image: yarn,
 		name: 'Yarn',
 	},
 	{
 		id: 5,
-		// image: postman,
+		image: postman,
 		name: 'Postman',
 	},
 	{
 		id: 6,
-		// image: swagger,
+		image: swagger,
 		name: 'Swagger',
 	},
 	{
 		id: 7,
-		// image: gitkraken,
+		image: gitkraken,
 		name: 'Gitkraken',
 	},
 ]
@@ -282,22 +282,22 @@ export const tools = [
 export const design = [
 	{
 		id: 1,
-		// image: photoshop,
+		image: photoshop,
 		name: 'Adobe Photoshop',
 	},
 	{
 		id: 2,
-		// image: figma,
+		image: figma,
 		name: 'Figma',
 	},
 	{
 		id: 3,
-		// image: wordpress,
+		image: wordpress,
 		name: 'Wordpress',
 	},
 	{
 		id: 4,
-		// image: wix,
+		image: wix,
 		name: 'Wix',
 	},
 ]
