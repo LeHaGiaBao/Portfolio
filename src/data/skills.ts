@@ -1,10 +1,10 @@
 // Languages
-import JS from '../assets/Tech/Language/JS.png'
-import TS from '../assets/Tech/Language/TS.png'
-import PHP from '../assets/Tech/Language/PHP.png'
-import Python from '../assets/Tech/Language/Python.png'
-import C from '../assets/Tech/Language/C.png'
-import CPP from '../assets/Tech/Language/CPP.png'
+import JS from '../assets/Tech/Languages/JS.png'
+import TS from '../assets/Tech/Languages/TS.png'
+import PHP from '../assets/Tech/Languages/PHP.png'
+import Python from '../assets/Tech/Languages/Python.png'
+import C from '../assets/Tech/Languages/C.png'
+import CPP from '../assets/Tech/Languages/CPP.png'
 
 // Frontend
 import html from '../assets/Tech/Fontend/html.png'
@@ -58,7 +58,7 @@ import figma from '../assets/Tech/Design/figma.png'
 import wordpress from '../assets/Tech/Nocode/wordpress.png'
 import wix from '../assets/Tech/Nocode/wix.png'
 
-export const language = [
+export const languages = [
 	{
 		id: 1,
 		image: JS,
