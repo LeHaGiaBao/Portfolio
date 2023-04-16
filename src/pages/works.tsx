@@ -19,8 +19,8 @@ export default function Works() {
             <Stats />
             <HeadingTitle title="My GitHub Contribution" />
             <GitHub />
-            {/* <HeadingTitle title="What I do" />
-            <Skills /> */}
+            <HeadingTitle title="What I do" />
+            <Skills />
             <Footer />
         </>
     )
