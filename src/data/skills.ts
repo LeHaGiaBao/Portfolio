@@ -1,10 +1,10 @@
 // Languages
-import JS from '../assets/Tech/Languages/JS.png'
-import TS from '../assets/Tech/Languages/TS.png'
-import PHP from '../assets/Tech/Languages/PHP.png'
-import Python from '../assets/Tech/Languages/Python.png'
-import C from '../assets/Tech/Languages/C.png'
-import CPP from '../assets/Tech/Languages/CPP.png'
+// import JS from '../assets/Tech/Languages/JS.png'
+// import TS from '../assets/Tech/Languages/TS.png'
+// import PHP from '../assets/Tech/Languages/PHP.png'
+// import Python from '../assets/Tech/Languages/Python.png'
+// import C from '../assets/Tech/Languages/C.png'
+// import CPP from '../assets/Tech/Languages/CPP.png'
 
 // Frontend
 import html from '../assets/Tech/Fontend/html.png'
@@ -58,38 +58,38 @@ import figma from '../assets/Tech/Design/figma.png'
 import wordpress from '../assets/Tech/Nocode/wordpress.png'
 import wix from '../assets/Tech/Nocode/wix.png'
 
-export const languages = [
-	{
-		id: 1,
-		image: JS,
-		name: 'JavaScript',
-	},
-	{
-		id: 2,
-		image: TS,
-		name: 'TypeScript',
-	},
-	{
-		id: 3,
-		image: PHP,
-		name: 'PHP',
-	},
-	{
-		id: 4,
-		image: Python,
-		name: 'Python',
-	},
-	{
-		id: 5,
-		image: C,
-		name: 'C',
-	},
-	{
-		id: 6,
-		image: CPP,
-		name: 'C++',
-	},
-]
+// export const languages = [
+// 	{
+// 		id: 1,
+// 		image: JS,
+// 		name: 'JavaScript',
+// 	},
+// 	{
+// 		id: 2,
+// 		image: TS,
+// 		name: 'TypeScript',
+// 	},
+// 	{
+// 		id: 3,
+// 		image: PHP,
+// 		name: 'PHP',
+// 	},
+// 	{
+// 		id: 4,
+// 		image: Python,
+// 		name: 'Python',
+// 	},
+// 	{
+// 		id: 5,
+// 		image: C,
+// 		name: 'C',
+// 	},
+// 	{
+// 		id: 6,
+// 		image: CPP,
+// 		name: 'C++',
+// 	},
+// ]
 
 export const frontend = [
 	{

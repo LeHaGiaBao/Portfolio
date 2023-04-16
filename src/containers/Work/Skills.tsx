@@ -1,13 +1,13 @@
 import Title from "@/components/Skills/Title"
 import SkillBlock from "@/components/Skills/SkillBlock"
-import { languages, frontend, backend, database, versioncontroll, deploy, tools, design } from "@/data/skills"
+import { frontend, backend, database, versioncontroll, deploy, tools, design } from "@/data/skills"
 
 export default function Skills() {
     return (
         <>
             <section className="py-10">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                    <Title title="Languages" />
+                    {/* <Title title="Languages" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
                             languages.map(({ id, image, name }) => {
@@ -16,7 +16,7 @@ export default function Skills() {
                                 )
                             })
                         }
-                    </div>
+                    </div> */}
 
                     <Title title="Frontend" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
