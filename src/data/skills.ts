@@ -1,5 +1,5 @@
 // Languages
-import JS from '@/assets/Tech/JS.png'
+import JS from '@/assets/Tech/Languages/JS.png'
 import TS from '@/assets/Tech/Languages/TS.png'
 import PHP from '@/assets/Tech/Languages/PHP.png'
 import Python from '@/assets/Tech/Languages/Python.png'
