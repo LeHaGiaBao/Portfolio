@@ -10,9 +10,9 @@ export default function Skills() {
                     <Title title="Languages" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            languages.map(({ id, image, name }) => {
+                            languages.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -21,9 +21,9 @@ export default function Skills() {
                     <Title title="Frontend" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            frontend.map(({ id, image, name }) => {
+                            frontend.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -32,9 +32,9 @@ export default function Skills() {
                     <Title title="Backend" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            backend.map(({ id, image, name }) => {
+                            backend.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -43,9 +43,9 @@ export default function Skills() {
                     <Title title="Database" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            database.map(({ id, image, name }) => {
+                            database.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -54,9 +54,9 @@ export default function Skills() {
                     <Title title="Version Control" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            versioncontroll.map(({ id, image, name }) => {
+                            versioncontroll.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -65,9 +65,9 @@ export default function Skills() {
                     <Title title="Deploy" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            deploy.map(({ id, image, name }) => {
+                            deploy.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -76,9 +76,9 @@ export default function Skills() {
                     <Title title="Tools" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            tools.map(({ id, image, name }) => {
+                            tools.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
@@ -87,9 +87,9 @@ export default function Skills() {
                     <Title title="Design" />
                     <div className="grid grid-cols-1 gap-6 px-4 sm:px-0 xl:grid-cols-4 sm:grid-cols-2">
                         {
-                            design.map(({ id, image, name }) => {
+                            design.map(({ id, name }) => {
                                 return (
-                                    <SkillBlock key={id} image={image} name={name} />
+                                    <SkillBlock key={id} name={name} />
                                 )
                             })
                         }
