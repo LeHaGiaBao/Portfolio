@@ -1,7 +1,6 @@
 import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
 import Footer from '@/layouts/Footer'
-
 import Banner from '@/containers/Home/Banner'
 import HomeTitle from '@/components/Title/HomeTitle'
 import AboutMe from '@/containers/Home/Aboutme'

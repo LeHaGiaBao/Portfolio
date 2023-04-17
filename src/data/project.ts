@@ -9,6 +9,6 @@ export const project = [
 		time: 'Dec 28 2022 - Apr 15 2023',
 		name: 'Simen Website',
 		des: 'Ecommerce software by Wordpress™ Designed by SNSTheme.Com',
-		view: '',
+		view: 'simenwebsite',
 	},
 ]

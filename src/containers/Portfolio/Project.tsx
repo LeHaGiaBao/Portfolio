@@ -15,7 +15,7 @@ export default function Project() {
                         </div>
 
                         <div className="hidden lg:flex lg:items-center lg:space-x-3">
-                            <a href="#" title="" className="inline-flex items-center justify-center px-5 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 lg:mt-auto bg-gradient-to-r from-fuchsia-600 to-blue-600" role="button">
+                            <a href="portfolio/allprojects" className="inline-flex items-center justify-center px-5 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 lg:mt-auto bg-gradient-to-r from-fuchsia-600 to-blue-600" role="button">
                                 More projects
                                 <AiOutlineArrowRight className="w-5 h-5 ml-5 -mr-1" />
                             </a>
