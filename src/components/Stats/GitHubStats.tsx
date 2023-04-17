@@ -1,14 +1,14 @@
 export default function GitHubStats({ icon, stats, name }: any) {
     return (
         <>
-            <div className="overflow-hidden bg-white rounded-lg">
-                <div className="px-7 py-9">
-                    <div className="flex items-center">
+            <div className="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                <div className="px-4 py-6">
+                    <div className="flex items-start">
                         {icon}
-                        <h3 className="ml-5 text-6xl text-center font-bold text-gray-900">
-                            {stats}
-                        </h3>
-                        <p className="ml-5 text-2xl text-gray-600 md:max-w-xs">{name}</p>
+                        <div className="ml-4">
+                            <h4 className="text-4xl font-bold text-gray-900">{stats}</h4>
+                            <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">{name}</p>
+                        </div>
                     </div>
                 </div>
             </div>
