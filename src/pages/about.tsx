@@ -12,7 +12,6 @@ import Contest from '@/containers/About/Contest'
 import Achievement from '@/containers/About/Achievement'
 import Certification from '@/containers/About/Certification'
 
-
 export default function About() {
 	return (
 		<>
@@ -30,7 +29,7 @@ export default function About() {
 			<Volunteering />
 			<HeadingTitle title="Contest" />
 			<Contest />
-			<HeadingTitle title="Achievements" />
+			<HeadingTitle title="Achievement" />
 			<Achievement />
 			<HeadingTitle title="Certification" />
 			<Certification />

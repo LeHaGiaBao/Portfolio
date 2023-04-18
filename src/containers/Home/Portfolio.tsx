@@ -12,9 +12,11 @@ export default function Portfolio() {
                         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto lg:grid-cols-3 lg:max-w-full">
                             {
                                 project.map(({ id, githublink, demo, image, time, name, des, view }) => {
-                                    return (
-                                        <PortfolioBlock key={id} githublink={githublink} demo={demo} image={image} time={time} name={name} des={des} view={view} />
-                                    )
+                                    if (id <= 3) {
+                                        return (
+                                            <PortfolioBlock key={id} githublink={githublink} demo={demo} image={image} time={time} name={name} des={des} view={view} />
+                                        )
+                                    }
                                 })
                             }
                         </div>

@@ -7,7 +7,7 @@ export default function DoingBlock({ image, title, content }: any) {
                 <div className="relative w-24 h-24 mx-auto">
                     <Image src={image} alt="" className="relative object-cover w-24 h-24 mx-auto" />
                 </div>
-                <p className="text-3xl font-semibold mt-9 capitalize">{title}</p>
+                <p className="text-3xl font-semibold mt-9 capitalize text-black">{title}</p>
                 <blockquote className="mt-7">
                     <p className="text-base text-black">{content}</p>
                 </blockquote>
