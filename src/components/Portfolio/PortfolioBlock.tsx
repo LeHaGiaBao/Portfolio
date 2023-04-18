@@ -22,7 +22,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
 
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase">{time}</span>
-                    <div className="flex items-center my-5">
+                    <div className="flex items-center my-5 h-16">
                         <div className="mr-auto">
                             <p className="text-3xl font-semibold text-black">
                                 {name}
