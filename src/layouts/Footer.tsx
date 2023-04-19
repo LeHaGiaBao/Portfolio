@@ -7,6 +7,7 @@ import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
 import { MenuItem } from '@/data/menu';
+import { email, phone, address } from '@/data/contact';
 
 export default function Footer() {
     return (
@@ -40,17 +41,17 @@ export default function Footer() {
                                 className="mb-4 flex justify-center font-semibold text-xl uppercase md:justify-start">
                                 Contact
                             </h6>
-                            <a href="mailto:lehagiabao0205@gmail.com" className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                            <a href={`mailto:${email}`} className="mb-4 flex items-center justify-center md:justify-start hover:underline">
                                 <IoMailOutline className="mr-3 h-5 w-5" />
-                                lehagiabao0205@gmail.com
+                                {email}
                             </a>
-                            <a href="tel:0907311574" className="mb-4 flex items-center justify-center md:justify-start hover:underline">
+                            <a href={`tel:${phone}`} className="mb-4 flex items-center justify-center md:justify-start hover:underline">
                                 <BsTelephone className='mr-3 h-5 w-5' />
-                                0907311574
+                                {phone}
                             </a>
                             <a href="https://www.google.com/maps/place/H%E1%BB%93+Ch%C3%AD+Minh,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.754792,106.6952276,10z/data=!3m1!4b1!4m6!3m5!1s0x317529292e8d3dd1:0xf15f5aad773c112b!8m2!3d10.8230989!4d106.6296638!16zL20vMGhuNGg" className="flex items-center justify-center md:justify-start hover:underline">
                                 <MdOutlinePlace className='mr-3 h-5 w-5' />
-                                Ho Chi Minh City
+                                {address}
                             </a>
                         </div>
                     </div>

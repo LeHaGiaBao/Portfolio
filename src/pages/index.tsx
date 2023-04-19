@@ -7,6 +7,7 @@ import AboutMe from '@/containers/Home/Aboutme'
 import Works from '@/containers/Home/Works'
 import Stats from '@/containers/Home/Stats'
 import Portfolio from '@/containers/Home/Portfolio'
+import EndContainer from '@/components/EndContainer/EndContainer'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Stats />
       <HomeTitle title="Portfolio" />
       <Portfolio />
+      <EndContainer />
       <Footer />
     </>
   )

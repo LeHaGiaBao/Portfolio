@@ -70,7 +70,7 @@ export default function Social() {
 const SocialItem = ({ link, icon }: any) => {
     return (
         <>
-            <a href={link} target=" _blank " className="flex items-center justify-center w-10 h-10 rounded-full hover:rounded-xl sm:w-10 sm:h-10 text-black bg-white">
+            <a href={link} target=" _blank " className="flex items-center justify-center w-10 h-10 rounded-full hover:rounded-xl sm:w-10 sm:h-10 text-white bg-gray-500">
                 {icon}
             </a>
         </>

@@ -8,6 +8,7 @@ import Doing from '@/containers/Work/Doing'
 import Stats from '@/containers/Work/Stats'
 import GitHub from '@/containers/Work/GitHub'
 import Skills from '@/containers/Work/Skills'
+import EndContainer from '@/components/EndContainer/EndContainer'
 
 export default function Works() {
     return (
@@ -24,6 +25,7 @@ export default function Works() {
             <GitHub />
             <HeadingTitle title="My Skills" />
             <Skills />
+            <EndContainer />
             <Footer />
         </>
     )

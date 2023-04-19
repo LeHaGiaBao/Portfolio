@@ -11,6 +11,7 @@ import Volunteering from '@/containers/About/Volunteering'
 import Contest from '@/containers/About/Contest'
 import Achievement from '@/containers/About/Achievement'
 import Certification from '@/containers/About/Certification'
+import EndContainer from '@/components/EndContainer/EndContainer'
 
 export default function About() {
 	return (
@@ -33,6 +34,7 @@ export default function About() {
 			<Achievement />
 			<HeadingTitle title="Certification" />
 			<Certification />
+			<EndContainer />
 			<Footer />
 		</>
 	)
