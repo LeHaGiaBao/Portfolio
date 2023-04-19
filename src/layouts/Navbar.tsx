@@ -4,9 +4,14 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import logo from '@/assets/Logo/logo.png';
 import { MenuItem } from "@/data/menu";
+import { HiBars3BottomRight } from 'react-icons/hi2'
 
 export default function Navbar() {
     const [isShadow, setShadow] = useState(false)
+    const [isOpened, setOpen] = useState(false)
+
+    const openMenu = () => setOpen(true)
+    const closeMenu = () => setOpen(false)
 
     const onScroll = () => {
         const y = window.scrollY;
@@ -28,21 +33,38 @@ export default function Navbar() {
                             <h1 className="mt-2 self-center lg:text-3xl text-2xl font-semibold whitespace-nowra relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Le Ha Gia Bao</h1>
                         </div>
                     </Link>
-                    <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary" aria-controls="navbar-default" aria-expanded="false">
+                    <button onClick={() => isOpened === false ? openMenu() : closeMenu()} type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary" aria-controls="navbar-default" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
-                        <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <HiBars3BottomRight className="w-10 h-10" />
                     </button>
-                    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul className="flex flex-col p-4 mt-4 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
-                            {
-                                MenuItem.map(({ id, link, content }) => {
-                                    return (
-                                        <NavBarItem key={id} link={link} content={content} />
-                                    )
-                                })
-                            }
-                        </ul >
-                    </div >
+                    {
+                        isOpened === true
+                            ?
+                            <div className="w-full md:block md:w-auto">
+                                <ul className="h-screen flex flex-col py-5 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
+                                    {
+                                        MenuItem.map(({ id, link, content }) => {
+                                            return (
+                                                <NavBarItem key={id} link={link} content={content} />
+                                            )
+                                        })
+                                    }
+                                </ul >
+                            </div >
+                            :
+                            <div className="hidden w-full md:block md:w-auto">
+                                <ul className="flex flex-col p-4 mt-4 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
+                                    {
+                                        MenuItem.map(({ id, link, content }) => {
+                                            return (
+                                                <NavBarItem key={id} link={link} content={content} />
+                                            )
+                                        })
+                                    }
+                                </ul >
+                            </div >
+                    }
+
                 </div >
             </nav >
         </>
