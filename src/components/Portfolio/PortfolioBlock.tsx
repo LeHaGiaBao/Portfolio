@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { MdOutlineLaunch } from 'react-icons/md'
 
-export default function PortfolioBlock({ githublink, demo, image, time, name, des, view }: any) {
+export default function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }: any) {
     return (
         <>
             <div className="overflow-hidden bg-white rounded-lg shadow">
@@ -28,19 +28,20 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                                 {name}
                             </p>
                         </div>
-                        <a href={`portfolio/${view}`} title="">
+                        {/* <a href={`portfolio/${view}`} title="">
                             <AiOutlineArrowRight className="block w-6 h-6 text-blue-600" />
-                        </a>
+                        </a> */}
                     </div>
-                    <p className="my-4 text-base text-gray-600">{des}</p>
+                    <p className="my-4 text-base text-black font-bold">Description: <span className="text-gray-600 font-light">{des}</span> </p>
+                    <p className="my-4 text-base text-black font-bold">Technology: <span className="text-gray-600 font-light">{tech}</span></p>
                 </div>
                 {
                     githublink === "" && demo !== ""
                         ?
                         <div className="border-t border-gray-200">
                             <div className="flex">
-                                <div className="flex items-center py-5 mx-auto">
-                                    <a href={demo} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-28 h-10">
+                                <div className="flex items-center py-6 mx-auto">
+                                    <a href={demo} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-36 h-10">
                                         <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> Demo </span>
                                         <MdOutlineLaunch className="object-cover w-6 h-6 rounded-full" />
                                     </a>
@@ -51,8 +52,8 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                             ?
                             <div className="border-t border-gray-200">
                                 <div className="flex">
-                                    <div className="flex items-center py-5 mx-auto">
-                                        <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-28 h-10">
+                                    <div className="flex items-center py-6 mx-auto">
+                                        <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-36 h-10">
                                             <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
                                             <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
                                         </a>
@@ -62,12 +63,12 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                             :
                             <div className="border-t border-gray-200">
                                 <div className="flex">
-                                    <div className="flex items-center py-5 mx-auto">
-                                        <a href={githublink} target=" _blank " className="mr-14 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-28 h-10">
+                                    <div className="flex items-center py-6 mx-auto">
+                                        <a href={githublink} target=" _blank " className="mr-2 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-40 h-10">
                                             <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
                                             <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
                                         </a>
-                                        <a href={demo} target=" _blank " className="ml-14 flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-28 h-10">
+                                        <a href={demo} target=" _blank " className="ml-2 flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-40 h-10">
                                             <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> Demo </span>
                                             <MdOutlineLaunch className="object-cover w-6 h-6 rounded-full" />
                                         </a>

@@ -12,7 +12,9 @@ export default function Certification() {
                         <div className="grid grid-cols-1 gap-6 xl:gap-10 sm:grid-cols-2 lg:grid-cols-3">
                             {
                                 certification.map(({ id, image, certification, organization, time, link }) => {
-                                    return <CertificationBlock key={id} image={image} certification={certification} organization={organization} time={time} link={link} />
+                                    if (id === 4 || id === 7 || id === 9 || id === 11 || id === 12 || id === 16) {
+                                        return <CertificationBlock key={id} image={image} certification={certification} organization={organization} time={time} link={link} />
+                                    }
                                 })
                             }
                         </div>
