@@ -1,8 +1,8 @@
 export const stats = [
 	{
 		id: 1,
-		number: '50+',
-		title: 'Projects done',
+		number: '500+',
+		title: 'LinkedIn Connections',
 		content: 'I worked on more than 50+ projects. I know how to make things fascinating and eye-catching. Making high performance website is always a sign of mine.',
 	},
 	{

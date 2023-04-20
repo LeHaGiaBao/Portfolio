@@ -17,9 +17,9 @@ export default function Home() {
       <Banner />
       <HomeTitle title="Who I Am" />
       <AboutMe />
-      <HomeTitle title="Works" />
+      <HomeTitle title="What I Do" />
       <Works />
-      <HomeTitle title="Stats" />
+      <HomeTitle title="My Stats" />
       <Stats />
       <HomeTitle title="Portfolio" />
       <Portfolio />
