@@ -16,8 +16,10 @@ module.exports = {
 				black: '#000000',
 				white: '#FFFFFF',
 				grey: '#212121',
-				footer: '#1A1A1A',
 				graytext: '#BFBFBF',
+				dark: '#171C28',
+				footerwhite: '#F8FAFC',
+				footerdark: '#1A1A1A',
 			},
 
 			fontFamily: {

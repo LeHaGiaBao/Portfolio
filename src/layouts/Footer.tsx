@@ -12,7 +12,7 @@ import { email, phone, address } from '@/data/contact';
 export default function Footer() {
     return (
         <>
-            <footer className="bg-gray-900 text-white">
+            <footer className="text-gray-900 bg-white dark:text-white dark:bg-gray-800">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="grid-1 grid gap-8 md:grid-cols-3 lg:grid-cols-3 justify-items-center">
                         <div className="">

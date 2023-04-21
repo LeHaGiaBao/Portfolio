@@ -48,8 +48,8 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 rounded fixed w-full ${isShadow ? 'on-scroll' : ''}`}>
-                <div className="container flex flex-wrap items-center justify-between mx-auto">
+            <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 fixed w-full dark:bg-dark ${isShadow ? 'on-scroll' : ''}`}>
+                <div className="container flex flex-wrap items-center justify-between mx-auto dark:bg-dark">
                     <Link href="/">
                         <div className="flex items-center">
                             <Image src={logo} className="h-14 w-14 mr-3 rounded-full" alt="logo" />
@@ -64,7 +64,7 @@ export default function Navbar() {
                         isOpened === true
                             ?
                             <div className="w-full md:block md:w-auto">
-                                <ul className="h-screen flex flex-col py-5 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
+                                <ul className="h-screen flex flex-col py-5 border rounded-lg bg-primary dark:bg-dark md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
                                     {
                                         MenuItem.map(({ id, link, content }) => {
                                             return (
@@ -82,7 +82,7 @@ export default function Navbar() {
                                                 </button>
                                                 :
                                                 <button className='flex block py-2 w-full text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' onClick={() => setTheme('dark')}>
-                                                    <BsMoonStarsFill className="w-7 h-7 text-gray-900 mr-3 ml-5" role="button" />
+                                                    <BsMoonStarsFill className="w-7 h-7 text-white mr-3 ml-5" role="button" />
                                                     Switch to dark mode
                                                 </button>
 
@@ -92,7 +92,7 @@ export default function Navbar() {
                             </div >
                             :
                             <div className="hidden w-full md:block md:w-auto">
-                                <ul className="flex flex-col p-4 mt-4 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
+                                <ul className="flex flex-col p-4 mt-4 border border-primary rounded-lg bg-primary dark:bg-dark md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-primary">
                                     {
                                         MenuItem.map(({ id, link, content }) => {
                                             return (
@@ -117,7 +117,7 @@ const NavBarItem = ({ link, content }: any) => {
         <>
             <li className="text-lg capitalize px-4 font-semibold">
                 <Link href={`${link}`}>
-                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-600 rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
+                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-600 dark:text-white rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
                         {content}
                     </div>
                 </Link>

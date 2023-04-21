@@ -6,7 +6,7 @@ export default function Works() {
         <>
             <div className="container mx-auto px-6">
                 <section className="services">
-                    <div className="container text-black">
+                    <div className="container text-black dark:text-white">
                         <div className="all-items">
                             {
                                 services.map(({ id, image, title, content }) => {

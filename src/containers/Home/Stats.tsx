@@ -6,7 +6,7 @@ export default function Stats() {
         <>
             <div className="container mx-auto px-6">
                 <section className="stats">
-                    <div className="container text-black">
+                    <div className="container text-black dark:text-white">
                         <div className="all-items">
                             {
                                 stats.map(({ id, number, title, content }) => {

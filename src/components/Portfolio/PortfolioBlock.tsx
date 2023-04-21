@@ -19,7 +19,6 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                                     <Image src={image} alt="" className="object-cover w-full h-52" />
                                 </a>
                         }
-
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase">{time}</span>
                     <div className="flex items-center my-5 h-16">

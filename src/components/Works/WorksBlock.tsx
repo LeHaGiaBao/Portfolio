@@ -13,6 +13,5 @@ export default function WorksBlock({ image, title, content }: any) {
                 </p>
             </div>
         </>
-
     )
 }
