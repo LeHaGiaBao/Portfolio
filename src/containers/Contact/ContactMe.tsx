@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Background from '@/assets/image/Background.gif'
 import Social from '@/components/Contact/Social'
-import SeeMyResume from '@/components/Button/SeeMyResume'
+import SeeMyResume from '@/components/Contact/SeeMyResume'
 
 export default function ContactMe() {
     return (
