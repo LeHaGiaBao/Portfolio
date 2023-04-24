@@ -6,7 +6,7 @@ import { MdOutlineLaunch } from 'react-icons/md'
 export default function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }: any) {
     return (
         <>
-            <div className="overflow-hidden bg-white rounded-lg shadow">
+            <div className="overflow-hidden bg-white dark:bg-gray-800 rounded-lg shadow">
                 <div className="p-5 h-full h-5/6">
                     <div className="relative">
                         {
