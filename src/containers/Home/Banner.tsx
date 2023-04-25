@@ -19,7 +19,7 @@ export default function Banner() {
                         <br />
                         <p className="lg:text-2xl text-xl my-5">Welcome to my personal website!
                         </p>
-                        <p className="lg:text-2xl text-xl my-5">The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime.
+                        <p className="lg:text-2xl text-xl my-5">An individual passionate Software Developer 🚀 having experience in building Web with JavaScript / TypeScript / ReactJS / NextJS and some other cool libraries and frameworks.
                         </p>
                         <div className="mt-10 flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <Link href="/about">
