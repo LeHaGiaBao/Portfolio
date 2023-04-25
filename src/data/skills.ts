@@ -5,6 +5,7 @@ import PHP from 'public/Skills/Languages/PHP.png'
 import Python from 'public/Skills/Languages/Python.png'
 import C from 'public/Skills/Languages/C.png'
 import CPP from 'public/Skills/Languages/CPP.png'
+import Dart from 'public/Skills/Languages/Dart.png'
 
 // Frontend
 import html from 'public/Skills/Fontend/html.png'
@@ -31,6 +32,9 @@ import mysql from 'public/Skills/Database/mysql.png'
 import mongodb from 'public/Skills/Database/mongo.jpeg'
 import firebase from 'public/Skills/Database/firebase.png'
 
+// Mobile
+import Flutter from 'public/Skills/Mobile/flutter.png'
+
 // Version control
 import git from 'public/Skills/Versioncontroll/git.png'
 import github from 'public/Skills/Versioncontroll/github.png'
@@ -54,6 +58,8 @@ import gitkraken from 'public/Skills/Tool/gitkraken.png'
 
 // Design
 import photoshop from 'public/Skills/Design/photoshop.png'
+import lightroom from 'public/Skills/Design/photoshop-lightroom.png'
+import premire from 'public/Skills/Design/premiere-pro.png'
 import figma from 'public/Skills/Design/figma.png'
 import wordpress from 'public/Skills/Nocode/wordpress.png'
 import wix from 'public/Skills/Nocode/wix.png'
@@ -88,6 +94,11 @@ export const languages = [
 		id: 6,
 		image: CPP,
 		name: 'C++',
+	},
+	{
+		id: 7,
+		image: Dart,
+		name: 'Dart',
 	},
 ]
 
@@ -169,6 +180,14 @@ export const backend = [
 		id: 3,
 		image: laravel,
 		name: 'Laravel',
+	},
+]
+
+export const mobile = [
+	{
+		id: 1,
+		image: Flutter,
+		name: 'Flutter',
 	},
 ]
 
@@ -287,16 +306,26 @@ export const design = [
 	},
 	{
 		id: 2,
+		image: lightroom,
+		name: 'Adobe Lightroom',
+	},
+	{
+		id: 3,
+		image: premire,
+		name: 'Adobe Premiere Pro',
+	},
+	{
+		id: 4,
 		image: figma,
 		name: 'Figma',
 	},
 	{
-		id: 3,
+		id: 5,
 		image: wordpress,
 		name: 'Wordpress',
 	},
 	{
-		id: 4,
+		id: 6,
 		image: wix,
 		name: 'Wix',
 	},
