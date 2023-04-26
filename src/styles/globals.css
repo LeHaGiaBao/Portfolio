@@ -276,3 +276,10 @@ a {
 		flex-direction: column;
 	}
 }
+
+@media only screen and (min-width: 768px) {
+	.stats .all-items .item {
+		width: 100rem;
+		padding: 2rem;
+	}
+}
