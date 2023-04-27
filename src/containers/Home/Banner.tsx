@@ -17,7 +17,8 @@ export default function Banner() {
                             <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400 -z-50">Le Ha Gia Bao</span>
                         </p>
                         <br />
-                        <p className="lg:text-2xl text-xl my-5">Welcome to my personal website!
+                        <p className="lg:text-2xl text-xl my-5">
+                            Welcome to my personal website!
                         </p>
                         <p className="lg:text-2xl text-xl my-5">An individual passionate Software Developer 🚀 having experience in building Web with JavaScript / TypeScript / ReactJS / NextJS and some other cool libraries and frameworks.
                         </p>

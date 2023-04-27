@@ -7,7 +7,7 @@ export const stats = [
 	},
 	{
 		id: 2,
-		number: 2,
+		number: 3,
 		title: 'Years experience',
 		content: "I'm thrilled to have spent the past 3 years pursuing, researching, learning, and working in web development. It's been an incredible journey filled with challenges, but I'm grateful for the growth and knowledge I've gained. From learning new programming languages to developing complex websites, I'm excited to see where this journey takes me next. Stay curious, stay passionate, and you'll go far.",
 	},
