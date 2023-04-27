@@ -7,14 +7,14 @@ export const stats = [
 	},
 	{
 		id: 2,
-		number: 3,
-		title: 'Years experience',
-		content: "I'm thrilled to have spent the past 3 years pursuing, researching, learning, and working in web development. It's been an incredible journey filled with challenges, but I'm grateful for the growth and knowledge I've gained. From learning new programming languages to developing complex websites, I'm excited to see where this journey takes me next. Stay curious, stay passionate, and you'll go far.",
-	},
-	{
-		id: 3,
 		number: 20,
 		title: 'GitHub repositories',
 		content: "With over 20 GitHub repositories, I've had the opportunity to work with a variety of programming languages and tools. From JavaScript and React to Node.js and MongoDB, I'm comfortable working in a range of environments and can adapt to new challenges quickly. I'm always looking for opportunities to collaborate with other developers and learn from their experiences.",
+	},
+	{
+		id: 3,
+		number: 1000,
+		title: 'GitHub contributions',
+		content: "I'm excited to share that I've made 1000+ contributions on GitHub! It's taken time, effort, and dedication to reach this milestone, but I'm proud of what I've accomplished. It's been an incredible journey so far, and I'm grateful for the opportunities I've had to learn and grow as a developer. I look forward to continuing to contribute to other projects and learning from other developers along the way.  Let's work together to create something great!",
 	},
 ]

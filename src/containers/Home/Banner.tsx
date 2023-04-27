@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-
 import image from '@/assets/LeHaGiaBao/image.png'
+import { welcome, homeintro } from '@/data/aboutme';
 
 export default function Banner() {
     return (
@@ -18,9 +18,10 @@ export default function Banner() {
                         </p>
                         <br />
                         <p className="lg:text-2xl text-xl my-5">
-                            Welcome to my personal website!
+                            {welcome}
                         </p>
-                        <p className="lg:text-2xl text-xl my-5">An individual passionate Software Developer 🚀 having experience in building Web with JavaScript / TypeScript / ReactJS / NextJS and some other cool libraries and frameworks.
+                        <p className="lg:text-2xl text-xl my-5">
+                            {homeintro}
                         </p>
                         <div className="mt-10 flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <Link href="/about">
