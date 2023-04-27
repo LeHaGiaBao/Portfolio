@@ -1,7 +1,8 @@
 import Image from "next/image"
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
 import { summary } from "@/data/aboutme"
-import Bounce from 'react-reveal/Bounce';
+
+const Bounce = require('react-reveal/Bounce')
 
 export default function AboutMe() {
     return (
