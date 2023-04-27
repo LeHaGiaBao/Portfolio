@@ -26,12 +26,12 @@ export default function SkillBlock({ image, name }: any) {
     return (
         <>
             <Tilt options={options}>
-                <div className="overflow-hidden bg-white rounded-md border-2 hover:border-yellow-400">
+                <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md border-2 hover:border-yellow-400">
                     <div className="p-8">
                         <div className="flex items-center">
                             <Image src={image} alt="" className="flex-shrink-0 w-12 h-auto" />
                             <div className="ml-5 mr-auto">
-                                <p className="text-xl font-semibold text-black">{name}</p>
+                                <p className="text-xl font-semibold">{name}</p>
                             </div>
                         </div>
                     </div>

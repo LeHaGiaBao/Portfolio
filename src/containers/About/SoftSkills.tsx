@@ -109,7 +109,7 @@ const SoftSkillsItem = ({ icon, title }: any) => {
             <Rotate>
                 <div>
                     {icon}
-                    <h3 className="mt-8 text-xl font-semibold text-black dark:text-white">{title}</h3>
+                    <h3 className="mt-8 text-xl font-semibold text-gray-900 dark:text-gray-300">{title}</h3>
                 </div>
             </Rotate>
         </>

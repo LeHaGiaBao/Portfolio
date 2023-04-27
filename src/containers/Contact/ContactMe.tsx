@@ -18,7 +18,7 @@ export default function ContactMe() {
                                 </div>
                             </div>
                             <div className="2xl:pl-16">
-                                <p className="text-xl leading-relaxed text-gray-900 dark:text-white mb-10">
+                                <p className="text-xl leading-relaxed text-gray-900 dark:text-gray-300 mb-10">
                                     I am available on almost every social media. You can message me, and I will reply within 24 hours. I&apos;d love to hear from you!
                                 </p>
                                 <Social />

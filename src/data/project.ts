@@ -160,7 +160,7 @@ export const project = [
 	{
 		id: 14,
 		githublink: 'https://github.com/LeHaGiaBao/Portfolio',
-		demo: 'https://lehagiabao.vercel.app/',
+		demo: 'https://www.lehagiabao.com/',
 		image: portfolio,
 		time: 'September 2022 - May 2023',
 		name: 'Personal Portfolio',

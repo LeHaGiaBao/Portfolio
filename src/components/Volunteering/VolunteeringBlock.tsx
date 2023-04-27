@@ -6,16 +6,16 @@ export default function VolunteeringBlock({ image, title, time, organization }: 
     return (
         <>
             <Fade bottom>
-                <div className="overflow-hidden my-5 bg-white rounded-lg shadow">
+                <div className="overflow-hidden my-5 text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg shadow">
                     <div className="p-8">
                         <div className="flex items-center">
                             <Image src={image} alt='' className="flex-shrink-0 w-20 h-auto" />
                             <div className="ml-5 mr-auto">
-                                <p className="text-xl font-semibold text-black">{title}</p>
-                                <p className="mt-3 text-lg text-black">{time}</p>
+                                <p className="text-xl font-semibold">{title}</p>
+                                <p className="mt-3 text-lg">{time}</p>
                             </div>
                         </div>
-                        <p className="text-xl leading-relaxed text-black mt-7">{organization}</p>
+                        <p className="text-xl leading-relaxed mt-7">{organization}</p>
                     </div>
                 </div>
             </Fade>

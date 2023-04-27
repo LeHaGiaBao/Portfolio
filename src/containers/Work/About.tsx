@@ -19,7 +19,7 @@ export default function About() {
                         </Fade>
                         <Fade right>
                             <div className="2xl:pl-16">
-                                <p className="text-xl leading-relaxed text-gray-900">{introwork}</p>
+                                <p className="text-xl leading-relaxed text-gray-900 dark:text-gray-300">{introwork}</p>
                             </div>
                         </Fade>
                     </div>

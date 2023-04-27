@@ -9,7 +9,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
     return (
         <>
             <Fade bottom>
-                <div className="overflow-hidden bg-white dark:bg-gray-800 rounded-lg shadow">
+                <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg shadow">
                     <div className="p-5 h-full h-5/6">
                         <div className="relative">
                             {
@@ -26,7 +26,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                         <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase">{time}</span>
                         <div className="flex items-center my-5 h-16">
                             <div className="mr-auto">
-                                <p className="text-3xl font-semibold text-black">
+                                <p className="text-3xl font-semibold">
                                     {name}
                                 </p>
                             </div>
@@ -34,8 +34,8 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                             <AiOutlineArrowRight className="block w-6 h-6 text-blue-600" />
                         </a> */}
                         </div>
-                        <p className="my-4 text-base text-black font-bold">Description: <span className="text-gray-600 font-light">{des}</span> </p>
-                        <p className="my-4 text-base text-black font-bold">Technology: <span className="text-gray-600 font-light">{tech}</span></p>
+                        <p className="my-4 text-base font-bold">Description: <span className="text-gray-600 dark:text-gray-500 font-light">{des}</span> </p>
+                        <p className="my-4 text-base font-bold">Technology: <span className="text-gray-600 dark:text-gray-500 font-light">{tech}</span></p>
                     </div>
                     {
                         githublink === "" && demo !== ""
@@ -55,7 +55,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                                 <div className="border-t border-gray-200">
                                     <div className="flex">
                                         <div className="flex items-center py-6 mx-auto">
-                                            <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-36 h-10">
+                                            <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-36 h-10">
                                                 <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
                                                 <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
                                             </a>
@@ -66,7 +66,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                                 <div className="border-t border-gray-200">
                                     <div className="flex">
                                         <div className="flex items-center py-6 mx-auto">
-                                            <a href={githublink} target=" _blank " className="mr-2 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black hover:bg-black hover:text-white rounded w-40 h-10">
+                                            <a href={githublink} target=" _blank " className="mr-2 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-40 h-10">
                                                 <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
                                                 <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
                                             </a>

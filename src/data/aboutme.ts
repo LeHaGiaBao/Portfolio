@@ -9,7 +9,7 @@ export const summary = [
 ]
 
 export const introduce = [
-	"👋 Hello everyone! My name is Bao, Le Ha Gia Bao, and I'm currently a third-year E-Commerce student at the University of Information Technology - Vietnam National University Ho Chi Minh City. Over the past 3 years, I've been pursuing, researching, and learning about Frontend Web Development, and I've also gained a basic knowledge of Backend Web Development.",
+	"I'm currently a third-year E-Commerce student at the University of Information Technology - Vietnam National University Ho Chi Minh City. Over the past 3 years, I've been pursuing, researching, and learning about Frontend Web Development, and I've also gained a basic knowledge of Backend Web Development.",
 ]
 
 export const goal = [

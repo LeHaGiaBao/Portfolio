@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Frame1 from '@/assets/LeHaGiaBao/Frame1.png'
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
 import { introduce, goal, roadmap } from '@/data/aboutme'
 
@@ -14,21 +15,35 @@ export default function AboutMe() {
                             <div className="relative lg:mb-12">
                                 <img className="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4" src="https://cdn.rareblocks.xyz/collection/celebration/images/content/3/dots-pattern.svg" alt="" />
                                 <div className="pl-12 pr-12 lg:pr-6">
-                                    <Image className="relative rounded-lg shadow-lg" src={Avatar} alt="" />
+                                    <Image className="relative rounded-lg shadow-lg" src={Frame1} alt="" />
                                 </div>
                             </div>
                         </Fade>
                         <Fade right>
-                            <div className="2xl:pl-16">
-                                <p className="text-xl leading-relaxed text-gray-900">
+                            <div className="2xl:pl-16 text-gray-900 dark:text-gray-300">
+                                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Hey 👋 I am <br className="block sm:hidden" />Le Ha Gia Bao</h2>
+                                <p className="text-xl leading-relaxed mt-9">
                                     {introduce}
                                 </p>
-                                <p className="mt-5 text-xl leading-relaxed text-gray-900">
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12 mt-10">
+                        <Fade left>
+                            <div className="2xl:pl-16 text-gray-900 dark:text-gray-300">
+                                <p className="mt-5 text-xl leading-relaxed">
                                     {goal}
                                 </p>
-                                <p className="mt-5 text-xl leading-relaxed text-gray-900">
+                                <p className="mt-5 text-xl leading-relaxed">
                                     {roadmap}
                                 </p>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="relative lg:mb-12">
+                                <div className="pl-12 pr-12 lg:pr-6">
+                                    <Image className="relative rounded-lg shadow-lg" src={Avatar} alt="" />
+                                </div>
                             </div>
                         </Fade>
                     </div>
