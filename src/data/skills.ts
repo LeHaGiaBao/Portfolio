@@ -58,6 +58,7 @@ import gitkraken from 'public/Skills/Tool/gitkraken.png'
 
 // Design
 import photoshop from 'public/Skills/Design/photoshop.png'
+import illustrator from 'public/Skills/Design/illustrator.png'
 import lightroom from 'public/Skills/Design/photoshop-lightroom.png'
 import premire from 'public/Skills/Design/premiere-pro.png'
 import figma from 'public/Skills/Design/figma.png'
@@ -306,26 +307,31 @@ export const design = [
 	},
 	{
 		id: 2,
+		image: illustrator,
+		name: 'Adobe Illustrator',
+	},
+	{
+		id: 3,
 		image: lightroom,
 		name: 'Adobe Lightroom',
 	},
 	{
-		id: 3,
+		id: 4,
 		image: premire,
 		name: 'Adobe Premiere Pro',
 	},
 	{
-		id: 4,
+		id: 5,
 		image: figma,
 		name: 'Figma',
 	},
 	{
-		id: 5,
+		id: 6,
 		image: wordpress,
 		name: 'Wordpress',
 	},
 	{
-		id: 6,
+		id: 7,
 		image: wix,
 		name: 'Wix',
 	},

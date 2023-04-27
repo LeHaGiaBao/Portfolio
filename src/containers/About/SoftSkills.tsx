@@ -5,6 +5,8 @@ import { FaComments } from 'react-icons/fa'
 import { RiUserSearchFill } from 'react-icons/ri'
 import { FaAssistiveListeningSystems } from 'react-icons/fa'
 
+const Rotate = require('react-reveal/Rotate')
+
 export default function SoftSkills() {
     const softskills = [
         {
@@ -104,10 +106,12 @@ export default function SoftSkills() {
 const SoftSkillsItem = ({ icon, title }: any) => {
     return (
         <>
-            <div>
-                {icon}
-                <h3 className="mt-8 text-xl font-semibold text-black dark:text-white">{title}</h3>
-            </div>
+            <Rotate>
+                <div>
+                    {icon}
+                    <h3 className="mt-8 text-xl font-semibold text-black dark:text-white">{title}</h3>
+                </div>
+            </Rotate>
         </>
     )
 }

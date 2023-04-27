@@ -2,7 +2,7 @@ import Image from "next/image"
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
 import { summary } from "@/data/aboutme"
 
-const Bounce = require('react-reveal/Bounce')
+const Fade = require('react-reveal/Fade')
 
 export default function AboutMe() {
     return (
@@ -10,7 +10,7 @@ export default function AboutMe() {
             <section className="pt-10 pb-20 overflow-hidden text-gray-900 dark:text-white">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="grid items-center grid-cols-1 md:grid-cols-2">
-                        <Bounce right>
+                        <Fade right>
                             <div>
                                 <p className="max-w-lg mt-3 text-xl leading-relaxed md:mt-8">
                                     My name&apos;s Bao,
@@ -28,12 +28,12 @@ export default function AboutMe() {
                                     <a href="about" title="" className="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"> about me</a>
                                 </p>
                             </div>
-                        </Bounce>
-                        <Bounce left>
+                        </Fade>
+                        <Fade left>
                             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
                                 <Image src={Avatar} alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500 md:5/12 lg:w-9/12" />
                             </div>
-                        </Bounce>
+                        </Fade>
                     </div>
                 </div>
             </section>

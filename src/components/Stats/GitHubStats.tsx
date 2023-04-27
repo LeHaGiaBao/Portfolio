@@ -1,3 +1,5 @@
+import CountUp, { useCountUp } from 'react-countup';
+
 export default function GitHubStats({ icon, stats, name }: any) {
     return (
         <>
@@ -6,7 +8,9 @@ export default function GitHubStats({ icon, stats, name }: any) {
                     <div className="flex items-start">
                         {icon}
                         <div className="ml-4">
-                            <h4 className="text-4xl font-bold text-gray-900">{stats}</h4>
+                            <h4 className="text-4xl font-bold text-gray-900">
+                                <CountUp end={stats} enableScrollSpy scrollSpyOnce className="number" />
+                            </h4>
                             <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">{name}</p>
                         </div>
                     </div>
