@@ -27,10 +27,10 @@ export default function TimelineBlock({ ExID, image, title, organization, time }
                         </Fade>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
                             <div className="h-full w-6 flex items-center justify-center">
-                                <div className="h-full w-1 bg-[#4ADE80] pointer-events-none"></div>
+                                <div className="h-full w-1 bg-cyan-500 pointer-events-none"></div>
                             </div>
                             <div
-                                className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-green-500 shadow"
+                                className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-cyan-400 shadow"
                             ></div>
                         </div>
                     </div>
@@ -38,10 +38,10 @@ export default function TimelineBlock({ ExID, image, title, organization, time }
                     <div className="flex md:contents">
                         <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
                             <div className="h-full w-6 flex items-center justify-center">
-                                <div className="h-full w-1 bg-[#4ADE80] pointer-events-none"></div>
+                                <div className="h-full w-1 bg-cyan-500 pointer-events-none"></div>
                             </div>
                             <div
-                                className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-green-500 shadow"
+                                className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-cyan-400 shadow"
                             ></div>
                         </div>
                         <Fade left>

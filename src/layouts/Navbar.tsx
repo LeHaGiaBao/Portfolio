@@ -64,7 +64,7 @@ export default function Navbar() {
                         isOpened === true
                             ?
                             <div className="w-full md:block md:w-auto">
-                                <ul className="h-screen flex flex-col py-5 border rounded-lg bg-primary dark:bg-dark md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+                                <ul className="h-screen flex flex-col py-5 border rounded-lg bg-primary dark:bg-dark md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0" onClick={() => closeMenu()}>
                                     {
                                         MenuItem.map(({ id, link, content }) => {
                                             return (
@@ -76,16 +76,23 @@ export default function Navbar() {
                                         {
                                             theme === "dark"
                                                 ?
-                                                <button className='flex block py-2 w-full text-black bg-white rounded md:bg-transparent md:text-blue-500 md:p-0' onClick={() => setTheme('light')}>
+                                                <button className='flex block py-2 w-full text-black bg-white rounded md:bg-transparent md:text-blue-500 md:p-0'
+                                                    onClick={() => {
+                                                        setTheme('light')
+                                                        closeMenu()
+                                                    }}>
                                                     <FiSun className="w-7 h-7 text-yellow-500 mr-3 ml-5" role="button" />
                                                     Switch to light mode
                                                 </button>
                                                 :
-                                                <button className='flex block py-2 w-full text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' onClick={() => setTheme('dark')}>
+                                                <button className='flex block py-2 w-full text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0'
+                                                    onClick={() => {
+                                                        setTheme('dark')
+                                                        closeMenu()
+                                                    }}>
                                                     <BsMoonStarsFill className="w-7 h-7 text-white mr-3 ml-5" role="button" />
                                                     Switch to dark mode
                                                 </button>
-
                                         }
                                     </li>
                                 </ul >
@@ -117,7 +124,7 @@ const NavBarItem = ({ link, content }: any) => {
         <>
             <li className="text-lg capitalize px-4 font-semibold">
                 <Link href={`${link}`}>
-                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-600 dark:text-white rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
+                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-900 dark:text-gray-300 rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
                         {content}
                     </div>
                 </Link>

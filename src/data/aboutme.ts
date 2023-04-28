@@ -5,7 +5,7 @@ export const homeintro = [
 ]
 
 export const summary = [
-	"I'm currently in the third year of E-Commerce at the University of Information Technology - Vietnam National University Ho Chi Minh City. As a student, As a student, I have pursued, researched, and learned about Frontend Web Development for 3 years. Besides, I have a basic knowledge of Backend Web Development. I want to improve the necessary skills to become a Fullstack Web Developer. I am willing to learn and work hard to improve myself. Right now I'm also trying a hand at Mobile Development. Moreover, in the next few years, my roadmap is to become a Web and Mobile Developer. I love to learn and explore new arenas.",
+	"I'm currently in the third year of E-Commerce at the University of Information Technology - Vietnam National University Ho Chi Minh City. As a student, I have pursued, researched, and learned about Frontend Web Development for 3 years. Besides, I have a basic knowledge of Backend Web Development. I want to improve the necessary skills to become a Fullstack Web Developer. I am willing to learn and work hard to improve myself. Right now I'm also trying a hand at Mobile Development. Moreover, in the next few years, my roadmap is to become a Web and Mobile Developer. I love to learn and explore new arenas.",
 ]
 
 export const introduce = [
@@ -25,5 +25,5 @@ export const introwork = [
 ]
 
 export const introportfolio = [
-	"As a developer, I'm always exploring the latest technology tools to see how they can help me create innovative solutions. Over the years, I've had the opportunity to work on a variety of projects that have allowed me to gain valuable experience in programming. From developing web using HTML, CSS, and JavaScript to building complex web using TypeScript, ReactJS, and NextJS, ... I've learned a lot about using the latest technology tools to create innovative solutions. Each project has presented new challenges and opportunities for growth, and I'm excited to continue expanding my skills and knowledge as a developer.",
+	"As a developer, I'm always exploring the latest technology tools to see how they can help me create innovative solutions. Over the years, I've had the opportunity to work on various projects that have allowed me to gain valuable experience in programming. From developing web using HTML, CSS, and JavaScript to building complex web using TypeScript, ReactJS, and NextJS, ... I've learned much about using the latest technology tools to create innovative solutions. Each project has presented new challenges and opportunities for growth, and I'm excited to continue expanding my skills and knowledge as a developer.",
 ]

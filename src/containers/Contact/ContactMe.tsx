@@ -9,7 +9,7 @@ export default function ContactMe() {
     return (
         <>
             <Fade bottom>
-                <section className="pb-10 sm:pb-16 lg:pb-24">
+                <section className="py-10 md:py-5">
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
                             <div className="relative lg:mb-12">
@@ -17,8 +17,8 @@ export default function ContactMe() {
                                     <Image className="relative" src={Contact} alt="" />
                                 </div>
                             </div>
-                            <div className="2xl:pl-16">
-                                <p className="text-xl leading-relaxed text-gray-900 dark:text-gray-300 mb-10">
+                            <div>
+                                <p className="text-lg md:text-xl 2xl:pl-16 leading-relaxed text-gray-900 dark:text-gray-300 mb-10">
                                     I am available on almost every social media. You can message me, and I will reply within 24 hours. I&apos;d love to hear from you!
                                 </p>
                                 <Social />

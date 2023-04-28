@@ -21,8 +21,8 @@ export default function AboutMe() {
                         </Fade>
                         <Fade right>
                             <div className="2xl:pl-16 text-gray-900 dark:text-gray-300">
-                                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Hey 👋 I am <br className="block sm:hidden" />Le Ha Gia Bao</h2>
-                                <p className="text-xl leading-relaxed mt-9">
+                                <h2 className="text-3xl font-bold leading-tight text-center md:text-5xl lg:text-5xl">Hey 👋 I am <br className="block sm:hidden" />Le Ha Gia Bao</h2>
+                                <p className="text-lg md:text-xl leading-relaxed mt-9">
                                     {introduce}
                                 </p>
                             </div>
@@ -31,10 +31,10 @@ export default function AboutMe() {
                     <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12 mt-10">
                         <Fade left>
                             <div className="2xl:pl-16 text-gray-900 dark:text-gray-300">
-                                <p className="mt-5 text-xl leading-relaxed">
+                                <p className="mt-5 text-lg md:text-xl leading-relaxed">
                                     {goal}
                                 </p>
-                                <p className="mt-5 text-xl leading-relaxed">
+                                <p className="mt-5 text-lg md:text-xl leading-relaxed">
                                     {roadmap}
                                 </p>
                             </div>

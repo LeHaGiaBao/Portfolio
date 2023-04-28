@@ -1,4 +1,4 @@
-import CountUp, { useCountUp } from 'react-countup';
+import CountUp from 'react-countup';
 
 export default function StatsBlock({ number, title, content }: any) {
     return (

@@ -4,7 +4,7 @@ export default function ALittleBitBlock({ number, title }: any) {
     return (
         <>
             <div>
-                <h3 className="font-bold text-7xl">
+                <h3 className="font-bold text-5xl md:text-6xl lg:text-7xl">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
                         <CountUp end={number} enableScrollSpy scrollSpyOnce className="number" />
                         +

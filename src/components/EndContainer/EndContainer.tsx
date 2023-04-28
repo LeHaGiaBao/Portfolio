@@ -4,8 +4,8 @@ import { email } from '@/data/contact'
 export default function EndContainer() {
     return (
         <>
-            <section className="py-20 bg-gradient-to-r from-cyan-500 to-blue-500 sm:py-32 mx-10 my-10 rounded-xl">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <section className="py-20 sm:py-32 mx-5 md:mx-20 my-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl">
+                <div className="px-10 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="text-center sm:flex sm:items-center sm:justify-center sm:text-left">
                         <h2 className="text-4xl font-bold text-white">Interested working with me?</h2>
 

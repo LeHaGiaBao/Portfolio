@@ -29,7 +29,7 @@ export default function ContactBlock({ icon, info, href }: any) {
                     <div className="p-10">
                         {icon}
                         <a href={href}>
-                            <p className="mt-7 mb-2 text-xl font-medium">{info}</p>
+                            <p className="mt-7 mb-2 text-base md:text-xl text-center font-medium">{info}</p>
                         </a>
                     </div>
                 </div>
