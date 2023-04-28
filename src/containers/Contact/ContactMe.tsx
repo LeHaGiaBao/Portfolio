@@ -22,9 +22,9 @@ export default function ContactMe() {
                                     I am available on almost every social media. You can message me, and I will reply within 24 hours. I&apos;d love to hear from you!
                                 </p>
                                 <Social />
-                                <div className='mt-10 text-center'>
+                                {/* <div className='mt-10 text-center'>
                                     <SeeMyResume />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

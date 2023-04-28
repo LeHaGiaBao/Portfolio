@@ -25,7 +25,7 @@ export default function ContactBlock({ icon, info, href }: any) {
     return (
         <>
             <Tilt options={options}>
-                <div className="overflow-hidden rounded-xl text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 border-2 hover:border-yellow-400">
+                <div className="overflow-hidden rounded-xl text-black border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 border-2 hover:border-cyan-500">
                     <div className="p-10">
                         {icon}
                         <a href={href}>
