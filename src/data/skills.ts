@@ -6,6 +6,7 @@ import Python from 'public/Skills/Languages/Python.png'
 import C from 'public/Skills/Languages/C.png'
 import CPP from 'public/Skills/Languages/CPP.png'
 import Dart from 'public/Skills/Languages/Dart.png'
+import Markdown from 'public/Skills/Languages/Markdown.png'
 
 // Frontend
 import html from 'public/Skills/Fontend/html.png'
@@ -16,10 +17,13 @@ import react from 'public/Skills/Fontend/react.png'
 import next from 'public/Skills/Fontend/next.png'
 import redux from 'public/Skills/Fontend/redux.png'
 import reactrouter from 'public/Skills/Fontend/ReactRouter.png'
+import axios from 'public/Skills/Fontend/Axios.png'
 import tailwind from 'public/Skills/Fontend/tailwind.png'
 import bootstrap from 'public/Skills/Fontend/bootstrap.png'
 import antd from 'public/Skills/Fontend/antd.png'
 import mui from 'public/Skills/Fontend/mui.png'
+import reactstrap from 'public/Skills/Fontend/Reactstrap.png'
+import chakraui from 'public/Skills/Fontend/ChakraUI.png'
 
 // Backend
 import node from 'public/Skills/Backend/node.png'
@@ -31,6 +35,7 @@ import sqlserver from 'public/Skills/Database/sqlserver.png'
 import mysql from 'public/Skills/Database/mysql.png'
 import mongodb from 'public/Skills/Database/mongo.jpeg'
 import firebase from 'public/Skills/Database/firebase.png'
+import supabase from 'public/Skills/Database/supabase.png'
 
 // Mobile
 import Flutter from 'public/Skills/Mobile/flutter.png'
@@ -41,20 +46,30 @@ import github from 'public/Skills/Versioncontroll/github.png'
 import gitlab from 'public/Skills/Versioncontroll/gitlab.png'
 import bitbucket from 'public/Skills/Versioncontroll/Bitbucket.png'
 
+// Package Manager
+import npm from 'public/Skills/Package/npm.png'
+import yarn from 'public/Skills/Package/yarn.png'
+import pnpm from 'public/Skills/Package/pnpm.png'
+
 // Deploy
 import githubpage from 'public/Skills/Deploy/GitHub.png'
 import vercel from 'public/Skills/Deploy/vercel.png'
 import netlify from 'public/Skills/Deploy/netlify.jpeg'
 import heroku from 'public/Skills/Deploy/Heruku.png'
 
-// Tools
+// IDEs/Editors & Tools
 import vscode from 'public/Skills/IDE/vscode.png'
 import visualstudio from 'public/Skills/IDE/visual studio.png'
-import npm from 'public/Skills/Package/npm.png'
-import yarn from 'public/Skills/Package/yarn.png'
+import androidstudio from 'public/Skills/IDE/androidstudio.png'
 import postman from 'public/Skills/Tool/postman.png'
-import swagger from 'public/Skills/Tool/swagger.png'
 import gitkraken from 'public/Skills/Tool/gitkraken.png'
+import xampp from 'public/Skills/Tool/XAMPP.png'
+import drawio from 'public/Skills/Tool/drawio.png'
+import staruml from 'public/Skills/Tool/staruml.png'
+import swagger from 'public/Skills/Tool/swagger.png'
+import prettier from 'public/Skills/Tool/Prettier.png'
+import eslint from 'public/Skills/Tool/ESLint.png'
+import gitignore from 'public/Skills/Tool/Gitignore.png'
 
 // Design
 import photoshop from 'public/Skills/Design/photoshop.png'
@@ -62,6 +77,7 @@ import illustrator from 'public/Skills/Design/illustrator.png'
 import lightroom from 'public/Skills/Design/photoshop-lightroom.png'
 import premire from 'public/Skills/Design/premiere-pro.png'
 import figma from 'public/Skills/Design/figma.png'
+import canva from 'public/Skills/Design/canva.png'
 import wordpress from 'public/Skills/Nocode/wordpress.png'
 import wix from 'public/Skills/Nocode/wix.png'
 
@@ -100,6 +116,11 @@ export const languages = [
 		id: 7,
 		image: Dart,
 		name: 'Dart',
+	},
+	{
+		id: 8,
+		image: Markdown,
+		name: 'Markdown',
 	},
 ]
 
@@ -146,23 +167,38 @@ export const frontend = [
 	},
 	{
 		id: 9,
+		image: axios,
+		name: 'Axios',
+	},
+	{
+		id: 10,
 		image: tailwind,
 		name: 'TailwindCSS',
 	},
 	{
-		id: 10,
+		id: 11,
 		image: bootstrap,
 		name: 'Bootstrap',
 	},
 	{
-		id: 11,
+		id: 12,
 		image: antd,
 		name: 'Ant Design',
 	},
 	{
-		id: 12,
+		id: 13,
 		image: mui,
 		name: 'Material UI',
+	},
+	{
+		id: 14,
+		image: reactstrap,
+		name: 'Reactstrap',
+	},
+	{
+		id: 15,
+		image: chakraui,
+		name: 'Chakra UI',
 	},
 ]
 
@@ -213,6 +249,11 @@ export const database = [
 		image: firebase,
 		name: 'Firebase',
 	},
+	{
+		id: 5,
+		image: supabase,
+		name: 'Supabase',
+	},
 ]
 
 export const versioncontroll = [
@@ -235,6 +276,24 @@ export const versioncontroll = [
 		id: 4,
 		image: bitbucket,
 		name: 'Bitbucket',
+	},
+]
+
+export const packagemanager = [
+	{
+		id: 1,
+		image: npm,
+		name: 'NPM',
+	},
+	{
+		id: 2,
+		image: yarn,
+		name: 'Yarn',
+	},
+	{
+		id: 2,
+		image: pnpm,
+		name: 'PNPM',
 	},
 ]
 
@@ -274,28 +333,53 @@ export const tools = [
 	},
 	{
 		id: 3,
-		image: npm,
-		name: 'NPM',
+		image: androidstudio,
+		name: 'Android Studio',
 	},
 	{
 		id: 4,
-		image: yarn,
-		name: 'Yarn',
-	},
-	{
-		id: 5,
 		image: postman,
 		name: 'Postman',
 	},
 	{
+		id: 5,
+		image: gitkraken,
+		name: 'Gitkraken',
+	},
+	{
 		id: 6,
+		image: xampp,
+		name: 'XAMPP',
+	},
+	{
+		id: 7,
+		image: drawio,
+		name: 'Draw.io',
+	},
+	{
+		id: 8,
+		image: staruml,
+		name: 'StarUML',
+	},
+	{
+		id: 9,
 		image: swagger,
 		name: 'Swagger',
 	},
 	{
-		id: 7,
-		image: gitkraken,
-		name: 'Gitkraken',
+		id: 10,
+		image: prettier,
+		name: 'Prettier',
+	},
+	{
+		id: 11,
+		image: eslint,
+		name: 'Eslint',
+	},
+	{
+		id: 12,
+		image: gitignore,
+		name: 'Gitignore',
 	},
 ]
 
@@ -327,11 +411,16 @@ export const design = [
 	},
 	{
 		id: 6,
+		image: canva,
+		name: 'Canva',
+	},
+	{
+		id: 7,
 		image: wordpress,
 		name: 'Wordpress',
 	},
 	{
-		id: 7,
+		id: 8,
 		image: wix,
 		name: 'Wix',
 	},
