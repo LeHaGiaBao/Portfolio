@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import store from "@/redux/store"
 import Head from 'next/head'
 import { ThemeProvider } from "next-themes";
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </Head>
         <ThemeProvider enableSystem={true} attribute="class">
           <Component {...pageProps} />
+          <Analytics />
         </ThemeProvider>
       </Provider>
     </>
