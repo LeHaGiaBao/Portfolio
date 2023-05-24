@@ -14,11 +14,18 @@ export default function Portfolio() {
                         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                             <div className="grid max-w-md grid-cols-1 gap-6 mx-auto lg:grid-cols-3 lg:max-w-full">
                                 {
+                                    // project.map(({ id, githublink, demo, image, time, name, des, tech, view }) => {
+                                    //     return (
+                                    //         <PortfolioBlock key={id} githublink={githublink} demo={demo} image={image} time={time} name={name} des={des} tech={tech} view={view} />
+                                    //     )
+                                    // }).slice(-3).reverse()
                                     project.map(({ id, githublink, demo, image, time, name, des, tech, view }) => {
-                                        return (
-                                            <PortfolioBlock key={id} githublink={githublink} demo={demo} image={image} time={time} name={name} des={des} tech={tech} view={view} />
-                                        )
-                                    }).slice(-3).reverse()
+                                        if (id === 12 || id === 13 || id === 14) {
+                                            return (
+                                                <PortfolioBlock key={id} githublink={githublink} demo={demo} image={image} time={time} name={name} des={des} tech={tech} view={view} />
+                                            )
+                                        }
+                                    }).reverse()
                                 }
                             </div>
                         </div>

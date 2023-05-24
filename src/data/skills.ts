@@ -29,6 +29,7 @@ import chakraui from 'public/Skills/Fontend/ChakraUI.png'
 import node from 'public/Skills/Backend/node.png'
 import express from 'public/Skills/Backend/express.png'
 import laravel from 'public/Skills/Backend/laravel.png'
+import jwt from 'public/Skills/Backend/JWT.png'
 
 // Database
 import sqlserver from 'public/Skills/Database/sqlserver.png'
@@ -217,6 +218,11 @@ export const backend = [
 		id: 3,
 		image: laravel,
 		name: 'Laravel',
+	},
+	{
+		id: 4,
+		image: jwt,
+		name: 'JWT',
 	},
 ]
 

@@ -13,6 +13,7 @@ import tribute from '@/assets/Projects/tribute.png'
 import document from '@/assets/Projects/document.png'
 import form from '@/assets/Projects/form.png'
 import portfolio from '@/assets/Projects/portfolio.png'
+import ec335 from '@/assets/Projects/EC335.png'
 
 export const project = [
 	{
@@ -167,6 +168,17 @@ export const project = [
 		des: 'This is my personal website',
 		tech: 'TypeScript, NextJS, CSS, TailwindCSS',
 		view: 'Personal Portfolio',
+	},
+	{
+		id: 15,
+		githublink: 'https://github.com/LeHaGiaBao/EC335.git',
+		demo: '',
+		image: ec335,
+		time: 'May 2023',
+		name: 'EC335 Project',
+		des: 'Authentication and Authorization Demo',
+		tech: 'JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS, JWT, MongoDB',
+		view: 'Authentication and Authorization',
 	},
 ]
 
