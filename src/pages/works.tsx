@@ -1,4 +1,3 @@
-import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
 import Title from '@/components/Title/Title'
 import Footer from '@/layouts/Footer'
@@ -13,7 +12,6 @@ import EndContainer from '@/components/EndContainer/EndContainer'
 export default function Works() {
     return (
         <>
-            <Header title='Works' />
             <Navbar />
             <Title title="My Works" />
             <About />

@@ -1,4 +1,3 @@
-import Header from '@/layouts/Header'
 import Navbar from '@/layouts/Navbar'
 import Footer from '@/layouts/Footer'
 import Banner from '@/containers/Home/Banner'
@@ -12,7 +11,6 @@ import EndContainer from '@/components/EndContainer/EndContainer'
 export default function Home() {
   return (
     <>
-      <Header title='Home' />
       <Navbar />
       <Banner />
       <HomeTitle title="Who I Am" />
