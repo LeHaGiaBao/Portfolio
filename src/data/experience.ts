@@ -1,6 +1,7 @@
 import wds from '@/assets/Experience/wds.png'
 import uit from '@/assets/Experience/uit.png'
 import nbk from '@/assets/Experience/nbk.jpg'
+import spiraledge from '@/assets/Experience/spiraledge.png'
 
 export const experience = [
 	{
@@ -51,5 +52,13 @@ export const experience = [
 		title: 'Deputy of Programming',
 		organization: 'WebDev Studios',
 		time: 'November 2022 - Present',
+	},
+	{
+		id: 7,
+		ExID: 7,
+		image: spiraledge,
+		title: 'Frontend Developer Intern',
+		organization: 'Spiraledge Vietnam',
+		time: 'July 2023 - October 2023',
 	},
 ]
