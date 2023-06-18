@@ -1,6 +1,6 @@
 import Title from "@/components/Skills/Title"
 import SkillBlock from "@/components/Skills/SkillBlock"
-import { languages, frontend, backend, mobile, database, versioncontroll, packagemanager, deploy, tools, design } from "@/data/skills"
+import { languages, frontend, backend, mobile, database, versioncontroll, packagemanager, deploy, tools, design, skills } from "@/data/skills"
 
 export default function Skills() {
     return (
@@ -118,6 +118,52 @@ export default function Skills() {
                     </div>
                 </div>
             </section>
+
+            {/* <section className="py-10">
+                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                    {
+                        skills.map(({ id, title, children1 }) => {
+                            return (
+                                <RenderSkillBlock key={id} title={title} />
+                            )
+                        })
+                    }
+                </div>
+            </section> */}
+        </>
+    )
+}
+
+interface Props {
+    id: number,
+    title: string,
+    children1: []
+}
+
+type PropsChildren1 = {
+    children1: []
+}
+
+const RenderSkillBlock: React.FC<Props> = ({ id, title, children1 }) => {
+    return (
+        <>
+            <Title title={title} />
+        </>
+    )
+}
+
+const RenderSubTitle = (props: any) => {
+    const { sub } = props
+
+    return (
+        <>
+            <div className="flex items-end justify-between mt-20">
+                <div className="flex-1 text-center lg:text-left">
+                    <p className="text-xl font-bold leading-tight text-gray-900 dark:text-gray-300 my-5">
+                        {sub}
+                    </p>
+                </div>
+            </div>
         </>
     )
 }

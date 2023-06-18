@@ -1,12 +1,14 @@
 // Languages
 import JS from 'public/Skills/Languages/JS.png'
 import TS from 'public/Skills/Languages/TS.png'
+import Markdown from 'public/Skills/Languages/Markdown.png'
 import PHP from 'public/Skills/Languages/PHP.png'
-import Python from 'public/Skills/Languages/Python.png'
+import Dart from 'public/Skills/Languages/Dart.png'
 import C from 'public/Skills/Languages/C.png'
 import CPP from 'public/Skills/Languages/CPP.png'
-import Dart from 'public/Skills/Languages/Dart.png'
-import Markdown from 'public/Skills/Languages/Markdown.png'
+import Python from 'public/Skills/Languages/Python.png'
+import Java from 'public/Skills/Languages/Java.png'
+import Golang from 'public/Skills/Languages/Golang.png'
 
 // Frontend
 import html from 'public/Skills/Fontend/html.png'
@@ -24,6 +26,7 @@ import antd from 'public/Skills/Fontend/antd.png'
 import mui from 'public/Skills/Fontend/mui.png'
 import reactstrap from 'public/Skills/Fontend/Reactstrap.png'
 import chakraui from 'public/Skills/Fontend/ChakraUI.png'
+import styledcomponents from 'public/Skills/Fontend/styledcomponents.png'
 
 // Backend
 import node from 'public/Skills/Backend/node.png'
@@ -57,6 +60,9 @@ import githubpage from 'public/Skills/Deploy/GitHub.png'
 import vercel from 'public/Skills/Deploy/vercel.png'
 import netlify from 'public/Skills/Deploy/netlify.jpeg'
 import heroku from 'public/Skills/Deploy/Heruku.png'
+import glitch from 'public/Skills/Deploy/glitch.jpg'
+import railway from 'public/Skills/Deploy/railway.jpg'
+import render from 'public/Skills/Deploy/render.jpg'
 
 // IDEs/Editors & Tools
 import vscode from 'public/Skills/IDE/vscode.png'
@@ -71,6 +77,19 @@ import swagger from 'public/Skills/Tool/swagger.png'
 import prettier from 'public/Skills/Tool/Prettier.png'
 import eslint from 'public/Skills/Tool/ESLint.png'
 import gitignore from 'public/Skills/Tool/Gitignore.png'
+import sublimetext from 'public/Skills/IDE/sublimetext-240.png'
+import gitpod from 'public/Skills/IDE/gitpod.png'
+import codesandbox from 'public/Skills/IDE/codesandbox.jpg'
+import codepen from 'public/Skills/IDE/codepen.jpg'
+import replit from 'public/Skills/IDE/replit.jpg'
+import mysqlworkbench from 'public/Skills/Tool/mysql.png'
+import mongodbcompass from 'public/Skills/Tool/mongo.jpeg'
+import notion from 'public/Skills/Tool/notion.png'
+import trello from 'public/Skills/Tool/trello.png'
+import obsidian from 'public/Skills/Tool/Obsidian.jpg'
+import Todoist from 'public/Skills/Tool/todoist.png'
+import camunda from 'public/Skills/Tool/camunda.png'
+import miro from 'public/Skills/Tool/miro.jpg'
 
 // Design
 import photoshop from 'public/Skills/Design/photoshop.png'
@@ -81,6 +100,17 @@ import figma from 'public/Skills/Design/figma.png'
 import canva from 'public/Skills/Design/canva.png'
 import wordpress from 'public/Skills/Nocode/wordpress.png'
 import wix from 'public/Skills/Nocode/wix.png'
+import imovie from 'public/Skills/Design/imovie.png'
+import capcut from 'public/Skills/Design/capcut.png'
+
+//Office
+import docs from 'public/Skills/Office/docs.png'
+import sheets from 'public/Skills/Office/sheets.png'
+import slides from 'public/Skills/Office/slides.png'
+import forms from 'public/Skills/Office/forms.png'
+import word from 'public/Skills/Office/word.png'
+import excel from 'public/Skills/Office/excel.png'
+import powerpoint from 'public/Skills/Office/powerpoint.png'
 
 export const languages = [
 	{
@@ -95,33 +125,33 @@ export const languages = [
 	},
 	{
 		id: 3,
+		image: Markdown,
+		name: 'Markdown',
+	},
+	{
+		id: 4,
 		image: PHP,
 		name: 'PHP',
 	},
 	{
-		id: 4,
+		id: 5,
 		image: Python,
 		name: 'Python',
 	},
 	{
-		id: 5,
+		id: 6,
 		image: C,
 		name: 'C',
 	},
 	{
-		id: 6,
+		id: 7,
 		image: CPP,
 		name: 'C++',
 	},
 	{
-		id: 7,
+		id: 8,
 		image: Dart,
 		name: 'Dart',
-	},
-	{
-		id: 8,
-		image: Markdown,
-		name: 'Markdown',
 	},
 ]
 
@@ -429,5 +459,715 @@ export const design = [
 		id: 8,
 		image: wix,
 		name: 'Wix',
+	},
+]
+
+export const skills = [
+	{
+		id: 1,
+		title: 'Lanaguages',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: JS,
+						name: 'JavaScript',
+					},
+					{
+						id: 2,
+						image: TS,
+						name: 'TypeScript',
+					},
+					{
+						id: 3,
+						image: Markdown,
+						name: 'Markdown',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: PHP,
+						name: 'PHP',
+					},
+					{
+						id: 2,
+						image: Dart,
+						name: 'Dart',
+					},
+				],
+			},
+			{
+				id: 3,
+				sub: 'Novice',
+				children2: [
+					{
+						id: 1,
+						image: C,
+						name: 'C',
+					},
+					{
+						id: 2,
+						image: CPP,
+						name: 'C++',
+					},
+					{
+						id: 3,
+						image: Python,
+						name: 'Python',
+					},
+					{
+						id: 4,
+						image: Java,
+						name: 'Java',
+					},
+					{
+						id: 4,
+						image: Golang,
+						name: 'Golang',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 2,
+		title: 'Frontend',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: html,
+						name: 'HTML',
+					},
+					{
+						id: 2,
+						image: css,
+						name: 'CSS',
+					},
+					{
+						id: 3,
+						image: react,
+						name: 'ReactJS',
+					},
+					{
+						id: 4,
+						image: next,
+						name: 'NextJS',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: jquery,
+						name: 'jQuery',
+					},
+				],
+			},
+			{
+				id: 3,
+				sub: 'CSS Framework',
+				children2: [
+					{
+						id: 1,
+						image: tailwind,
+						name: 'TailwindCSS',
+					},
+					{
+						id: 2,
+						image: bootstrap,
+						name: 'Bootstrap',
+					},
+				],
+			},
+			{
+				id: 4,
+				sub: 'UI',
+				children2: [
+					{
+						id: 1,
+						image: antd,
+						name: 'Ant Design',
+					},
+					{
+						id: 2,
+						image: mui,
+						name: 'Material UI',
+					},
+					{
+						id: 3,
+						image: reactstrap,
+						name: 'Reactstrap',
+					},
+					{
+						id: 4,
+						image: chakraui,
+						name: 'Chakra UI',
+					},
+					{
+						id: 5,
+						image: styledcomponents,
+						name: 'Styled Components',
+					},
+				],
+			},
+			{
+				id: 5,
+				sub: 'Libary',
+				children2: [
+					{
+						id: 1,
+						image: redux,
+						name: 'Redux',
+					},
+					{
+						id: 2,
+						image: reactrouter,
+						name: 'React Router',
+					},
+					{
+						id: 3,
+						image: axios,
+						name: 'Axios',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 3,
+		title: 'Backend',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: node,
+						name: 'NodeJS',
+					},
+					{
+						id: 2,
+						image: express,
+						name: 'ExpressJS',
+					},
+					{
+						id: 3,
+						image: jwt,
+						name: 'JWT',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: laravel,
+						name: 'Laravel',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 4,
+		title: 'Mobile',
+		children1: [
+			{
+				id: 1,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: Flutter,
+						name: 'Flutter',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 5,
+		title: 'Database',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: mysql,
+						name: 'MySQL',
+					},
+					{
+						id: 2,
+						image: mongodb,
+						name: 'MongoDB',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: sqlserver,
+						name: 'Microsoft SQL Server',
+					},
+					{
+						id: 2,
+						image: firebase,
+						name: 'Firebase',
+					},
+					{
+						id: 3,
+						image: supabase,
+						name: 'Supabase',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 6,
+		title: 'Version Control',
+		children1: [
+			{
+				id: 1,
+				sub: '',
+				children2: [
+					{
+						id: 1,
+						image: git,
+						name: 'Git',
+					},
+					{
+						id: 2,
+						image: github,
+						name: 'GitHub',
+					},
+					{
+						id: 3,
+						image: gitlab,
+						name: 'GitLab',
+					},
+					{
+						id: 4,
+						image: bitbucket,
+						name: 'Bitbucket',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 7,
+		title: 'Package Manager',
+		children1: [
+			{
+				id: 1,
+				sub: '',
+				children2: [
+					{
+						id: 1,
+						image: npm,
+						name: 'NPM',
+					},
+					{
+						id: 2,
+						image: yarn,
+						name: 'Yarn',
+					},
+					{
+						id: 3,
+						image: pnpm,
+						name: 'PNPM',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 8,
+		title: 'Deploy',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: githubpage,
+						name: 'GitHub Pages',
+					},
+					{
+						id: 2,
+						image: vercel,
+						name: 'Vercel',
+					},
+					{
+						id: 3,
+						image: netlify,
+						name: 'Netlify',
+					},
+					{
+						id: 4,
+						image: heroku,
+						name: 'Heroku',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: glitch,
+						name: 'Glitch',
+					},
+					{
+						id: 2,
+						image: railway,
+						name: 'Railway',
+					},
+					{
+						id: 3,
+						image: render,
+						name: 'Render',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 9,
+		title: 'IDEs / Editors',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: vscode,
+						name: 'Visual Studio Code',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Basic',
+				children2: [
+					{
+						id: 1,
+						image: visualstudio,
+						name: 'Visual Studio',
+					},
+					{
+						id: 2,
+						image: androidstudio,
+						name: 'Android Studio',
+					},
+					{
+						id: 3,
+						image: sublimetext,
+						name: 'Sublime Text',
+					},
+				],
+			},
+			{
+				id: 3,
+				sub: 'Online',
+				children2: [
+					{
+						id: 1,
+						image: gitpod,
+						name: 'Gitpod',
+					},
+					{
+						id: 2,
+						image: codesandbox,
+						name: 'CodeSandBox',
+					},
+					{
+						id: 3,
+						image: codepen,
+						name: 'CodePen',
+					},
+					{
+						id: 4,
+						image: replit,
+						name: 'Replit',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 10,
+		title: 'Tools',
+		children1: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: postman,
+						name: 'Postman',
+					},
+					{
+						id: 2,
+						image: gitkraken,
+						name: 'Gitkraken',
+					},
+					{
+						id: 3,
+						image: swagger,
+						name: 'Swagger',
+					},
+					{
+						id: 4,
+						image: xampp,
+						name: 'XAMPP',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Database',
+				children2: [
+					{
+						id: 1,
+						image: mysqlworkbench,
+						name: 'MySQL Workbench',
+					},
+					{
+						id: 2,
+						image: mongodbcompass,
+						name: 'MongoDB Compasss',
+					},
+				],
+			},
+			{
+				id: 3,
+				sub: 'Management',
+				children2: [
+					{
+						id: 1,
+						image: notion,
+						name: 'Notion',
+					},
+					{
+						id: 2,
+						image: trello,
+						name: 'Trello',
+					},
+					{
+						id: 3,
+						image: obsidian,
+						name: 'Obsidian',
+					},
+					{
+						id: 4,
+						image: Todoist,
+						name: 'Todoist',
+					},
+				],
+			},
+			{
+				id: 4,
+				sub: 'Planning',
+				children2: [
+					{
+						id: 1,
+						image: drawio,
+						name: 'Draw.io',
+					},
+					{
+						id: 2,
+						image: staruml,
+						name: 'StarUML',
+					},
+					{
+						id: 3,
+						image: miro,
+						name: 'Miro',
+					},
+					{
+						id: 4,
+						image: camunda,
+						name: 'Camunda',
+					},
+				],
+			},
+			{
+				id: 5,
+				sub: 'Support',
+				children2: [
+					{
+						id: 1,
+						image: prettier,
+						name: 'Prettier',
+					},
+					{
+						id: 2,
+						image: eslint,
+						name: 'Eslint',
+					},
+					{
+						id: 3,
+						image: gitignore,
+						name: 'Gitignore',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 11,
+		title: 'Design',
+		children: [
+			{
+				id: 1,
+				sub: 'Main',
+				children2: [
+					{
+						id: 1,
+						image: figma,
+						name: 'Figma',
+					},
+					{
+						id: 2,
+						image: canva,
+						name: 'Canva',
+					},
+					{
+						id: 3,
+						image: imovie,
+						name: 'iMovie',
+					},
+					{
+						id: 4,
+						image: capcut,
+						name: 'Capcut',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Nocode',
+				children2: [
+					{
+						id: 1,
+						image: wix,
+						name: 'Wix',
+					},
+					{
+						id: 2,
+						image: wordpress,
+						name: 'Wordpress',
+					},
+				],
+			},
+			{
+				id: 3,
+				sub: 'Adobe',
+				children2: [
+					{
+						id: 1,
+						image: photoshop,
+						name: 'Adobe Photoshop',
+					},
+					{
+						id: 2,
+						image: illustrator,
+						name: 'Adobe Illustrator',
+					},
+					{
+						id: 3,
+						image: lightroom,
+						name: 'Adobe Lightroom',
+					},
+					{
+						id: 4,
+						image: premire,
+						name: 'Adobe Premiere Pro',
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 12,
+		title: 'Office',
+		children1: [
+			{
+				id: 1,
+				sub: 'Google',
+				children2: [
+					{
+						id: 1,
+						image: docs,
+						name: 'Google Docs',
+					},
+					{
+						id: 2,
+						image: sheets,
+						name: 'Google Sheets',
+					},
+					{
+						id: 3,
+						image: slides,
+						name: 'Google Slides',
+					},
+					{
+						id: 4,
+						image: forms,
+						name: 'Google Forms',
+					},
+				],
+			},
+			{
+				id: 2,
+				sub: 'Microsoft',
+				children2: [
+					{
+						id: 1,
+						image: word,
+						name: 'Microsoft Word',
+					},
+					{
+						id: 2,
+						image: excel,
+						name: 'Microsoft Excel',
+					},
+					{
+						id: 3,
+						image: powerpoint,
+						name: 'Microsoft Powerpoint',
+					},
+				],
+			},
+		],
 	},
 ]
