@@ -13,7 +13,7 @@ import tribute from '@/assets/Projects/tribute.png'
 import document from '@/assets/Projects/document.png'
 import form from '@/assets/Projects/form.png'
 import portfolio from '@/assets/Projects/portfolio.png'
-import ec335 from '@/assets/Projects/EC335.png'
+import uit from '@/assets/Projects/uit.png'
 
 export const project = [
 	{
@@ -169,16 +169,85 @@ export const project = [
 		tech: 'TypeScript, NextJS, CSS, TailwindCSS',
 		view: 'Personal Portfolio',
 	},
+]
+
+export const school = [
 	{
-		id: 15,
+		id: 1,
+		githublink: 'https://github.com/LeHaGiaBao/OOP-UIT',
+		demo: '',
+		image: uit,
+		time: 'October 2021',
+		name: 'OOP - UIT',
+		des: 'Object Oriented Programming Lab',
+		tech: 'C++',
+		view: 'OOP UIT',
+	},
+	{
+		id: 2,
+		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Ban-Hang',
+		demo: '',
+		image: uit,
+		time: 'November 2021',
+		name: 'Quan Ly Ban Hang',
+		des: 'Database Lab',
+		tech: 'Microsoft SQL Server',
+		view: 'Quan Ly Ban Hang',
+	},
+	{
+		id: 3,
+		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Hang-Hoa',
+		demo: '',
+		image: uit,
+		time: 'November 2021',
+		name: 'Quan Ly Hang Hoa',
+		des: 'Database Lab',
+		tech: 'Microsoft SQL Server',
+		view: 'Quan Ly Hang Hoa',
+	},
+	{
+		id: 4,
+		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Nha-Hang',
+		demo: '',
+		image: uit,
+		time: 'November 2021',
+		name: 'Quan Ly Nha Hang',
+		des: 'Database Lab',
+		tech: 'Microsoft SQL Server',
+		view: 'Quan Ly Nha Hang',
+	},
+	{
+		id: 5,
 		githublink: 'https://github.com/LeHaGiaBao/EC335.git',
 		demo: '',
-		image: ec335,
+		image: uit,
 		time: 'May 2023',
-		name: 'EC335 Project',
+		name: 'EC335',
 		des: 'Authentication and Authorization Demo',
 		tech: 'JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS, JWT, MongoDB',
-		view: 'Authentication and Authorization',
+		view: 'Authentication And Authorization',
+	},
+	{
+		id: 6,
+		githublink: 'https://github.com/LeHaGiaBao/IS207-Lab',
+		demo: '',
+		image: uit,
+		time: 'June 2023',
+		name: 'IS207 Lab',
+		des: 'Web Application Development',
+		tech: 'HTML, CSS, JavaScript, jQuery, PHP',
+		view: 'Web Application Development',
+	},
+	{
+		id: 7,
+		githublink: 'https://github.com/LeHaGiaBao/NT118-Lab',
+		demo: '',
+		image: uit,
+		time: 'June 2023',
+		name: 'NT118 Lab',
+		des: 'Application Development On Mobile Devices',
+		tech: 'Java',
+		view: 'Application Development On Mobile Devices',
 	},
 ]
 

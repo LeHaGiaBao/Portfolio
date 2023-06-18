@@ -7,9 +7,9 @@ export const stats = [
 	},
 	{
 		id: 2,
-		number: 20,
+		number: 30,
 		title: 'GitHub repositories',
-		content: "With over 20 GitHub repositories, I've had the opportunity to work with a variety of programming languages and tools. From JavaScript and React to Node.js and MongoDB, I'm comfortable working in a range of environments and can adapt to new challenges quickly. I'm always looking for opportunities to collaborate with other developers and learn from their experiences.",
+		content: "With over 30 GitHub repositories, I've had the opportunity to work with a variety of programming languages and tools. From JavaScript, TypeScript and React, NextJS to Node.js and MongoDB, I'm comfortable working in a range of environments and can adapt to new challenges quickly. I'm always looking for opportunities to collaborate with other developers and learn from their experiences.",
 	},
 	{
 		id: 3,
