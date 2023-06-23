@@ -112,356 +112,6 @@ import word from 'public/Skills/Office/word.png'
 import excel from 'public/Skills/Office/excel.png'
 import powerpoint from 'public/Skills/Office/powerpoint.png'
 
-export const languages = [
-	{
-		id: 1,
-		image: JS,
-		name: 'JavaScript',
-	},
-	{
-		id: 2,
-		image: TS,
-		name: 'TypeScript',
-	},
-	{
-		id: 3,
-		image: Markdown,
-		name: 'Markdown',
-	},
-	{
-		id: 4,
-		image: PHP,
-		name: 'PHP',
-	},
-	{
-		id: 5,
-		image: Python,
-		name: 'Python',
-	},
-	{
-		id: 6,
-		image: C,
-		name: 'C',
-	},
-	{
-		id: 7,
-		image: CPP,
-		name: 'C++',
-	},
-	{
-		id: 8,
-		image: Dart,
-		name: 'Dart',
-	},
-]
-
-export const frontend = [
-	{
-		id: 1,
-		image: html,
-		name: 'HTML',
-	},
-	{
-		id: 2,
-		image: css,
-		name: 'CSS',
-	},
-	{
-		id: 3,
-		image: sass,
-		name: 'Sass',
-	},
-	{
-		id: 4,
-		image: jquery,
-		name: 'jQuery',
-	},
-	{
-		id: 5,
-		image: react,
-		name: 'ReactJS',
-	},
-	{
-		id: 6,
-		image: next,
-		name: 'NextJS',
-	},
-	{
-		id: 7,
-		image: redux,
-		name: 'Redux',
-	},
-	{
-		id: 8,
-		image: reactrouter,
-		name: 'React Router',
-	},
-	{
-		id: 9,
-		image: axios,
-		name: 'Axios',
-	},
-	{
-		id: 10,
-		image: tailwind,
-		name: 'TailwindCSS',
-	},
-	{
-		id: 11,
-		image: bootstrap,
-		name: 'Bootstrap',
-	},
-	{
-		id: 12,
-		image: antd,
-		name: 'Ant Design',
-	},
-	{
-		id: 13,
-		image: mui,
-		name: 'Material UI',
-	},
-	{
-		id: 14,
-		image: reactstrap,
-		name: 'Reactstrap',
-	},
-	{
-		id: 15,
-		image: chakraui,
-		name: 'Chakra UI',
-	},
-]
-
-export const backend = [
-	{
-		id: 1,
-		image: node,
-		name: 'NodeJS',
-	},
-	{
-		id: 2,
-		image: express,
-		name: 'ExpressJS',
-	},
-	{
-		id: 3,
-		image: laravel,
-		name: 'Laravel',
-	},
-	{
-		id: 4,
-		image: jwt,
-		name: 'JWT',
-	},
-]
-
-export const mobile = [
-	{
-		id: 1,
-		image: Flutter,
-		name: 'Flutter',
-	},
-]
-
-export const database = [
-	{
-		id: 1,
-		image: sqlserver,
-		name: 'Microsoft SQL Server',
-	},
-	{
-		id: 2,
-		image: mysql,
-		name: 'MySQL',
-	},
-	{
-		id: 3,
-		image: mongodb,
-		name: 'MongoDB',
-	},
-	{
-		id: 4,
-		image: firebase,
-		name: 'Firebase',
-	},
-	{
-		id: 5,
-		image: supabase,
-		name: 'Supabase',
-	},
-]
-
-export const versioncontroll = [
-	{
-		id: 1,
-		image: git,
-		name: 'Git',
-	},
-	{
-		id: 2,
-		image: github,
-		name: 'GitHub',
-	},
-	{
-		id: 3,
-		image: gitlab,
-		name: 'GitLab',
-	},
-	{
-		id: 4,
-		image: bitbucket,
-		name: 'Bitbucket',
-	},
-]
-
-export const packagemanager = [
-	{
-		id: 1,
-		image: npm,
-		name: 'NPM',
-	},
-	{
-		id: 2,
-		image: yarn,
-		name: 'Yarn',
-	},
-	{
-		id: 2,
-		image: pnpm,
-		name: 'PNPM',
-	},
-]
-
-export const deploy = [
-	{
-		id: 1,
-		image: githubpage,
-		name: 'GitHub Pages',
-	},
-	{
-		id: 2,
-		image: vercel,
-		name: 'Vercel',
-	},
-	{
-		id: 3,
-		image: netlify,
-		name: 'Netlify',
-	},
-	{
-		id: 4,
-		image: heroku,
-		name: 'Heroku',
-	},
-]
-
-export const tools = [
-	{
-		id: 1,
-		image: vscode,
-		name: 'Visual Studio Code',
-	},
-	{
-		id: 2,
-		image: visualstudio,
-		name: 'Visual Studio',
-	},
-	{
-		id: 3,
-		image: androidstudio,
-		name: 'Android Studio',
-	},
-	{
-		id: 4,
-		image: postman,
-		name: 'Postman',
-	},
-	{
-		id: 5,
-		image: gitkraken,
-		name: 'Gitkraken',
-	},
-	{
-		id: 6,
-		image: xampp,
-		name: 'XAMPP',
-	},
-	{
-		id: 7,
-		image: drawio,
-		name: 'Draw.io',
-	},
-	{
-		id: 8,
-		image: staruml,
-		name: 'StarUML',
-	},
-	{
-		id: 9,
-		image: swagger,
-		name: 'Swagger',
-	},
-	{
-		id: 10,
-		image: prettier,
-		name: 'Prettier',
-	},
-	{
-		id: 11,
-		image: eslint,
-		name: 'Eslint',
-	},
-	{
-		id: 12,
-		image: gitignore,
-		name: 'Gitignore',
-	},
-]
-
-export const design = [
-	{
-		id: 1,
-		image: photoshop,
-		name: 'Adobe Photoshop',
-	},
-	{
-		id: 2,
-		image: illustrator,
-		name: 'Adobe Illustrator',
-	},
-	{
-		id: 3,
-		image: lightroom,
-		name: 'Adobe Lightroom',
-	},
-	{
-		id: 4,
-		image: premire,
-		name: 'Adobe Premiere Pro',
-	},
-	{
-		id: 5,
-		image: figma,
-		name: 'Figma',
-	},
-	{
-		id: 6,
-		image: canva,
-		name: 'Canva',
-	},
-	{
-		id: 7,
-		image: wordpress,
-		name: 'Wordpress',
-	},
-	{
-		id: 8,
-		image: wix,
-		name: 'Wix',
-	},
-]
-
 export const skills = [
 	{
 		id: 1,
@@ -490,7 +140,7 @@ export const skills = [
 			},
 			{
 				id: 2,
-				sub: 'Main',
+				sub: 'Basic',
 				children2: [
 					{
 						id: 1,
@@ -554,6 +204,11 @@ export const skills = [
 						id: 2,
 						image: css,
 						name: 'CSS',
+					},
+					{
+						id: 3,
+						image: sass,
+						name: 'Sass',
 					},
 					{
 						id: 3,
@@ -1046,7 +701,7 @@ export const skills = [
 	{
 		id: 11,
 		title: 'Design',
-		children: [
+		children1: [
 			{
 				id: 1,
 				sub: 'Main',
@@ -1154,17 +809,17 @@ export const skills = [
 					{
 						id: 1,
 						image: word,
-						name: 'Microsoft Word',
+						name: 'Word',
 					},
 					{
 						id: 2,
 						image: excel,
-						name: 'Microsoft Excel',
+						name: 'Excel',
 					},
 					{
 						id: 3,
 						image: powerpoint,
-						name: 'Microsoft Powerpoint',
+						name: 'Powerpoint',
 					},
 				],
 			},
