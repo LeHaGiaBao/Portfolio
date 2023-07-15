@@ -249,6 +249,28 @@ export const school = [
 		tech: 'Java',
 		view: 'Application Development On Mobile Devices',
 	},
+	{
+		id: 8,
+		githublink: 'https://github.com/quangnhat22/cs_chat_app',
+		demo: '',
+		image: uit,
+		time: 'March 2023 - July 2023',
+		name: 'CS Chat App',
+		des: 'An application for chatting with your friends',
+		tech: 'Dart, Flutter',
+		view: 'An application for chatting with your friends',
+	},
+	{
+		id: 9,
+		githublink: 'https://github.com/dinhlockt02/cs_chat_app_server',
+		demo: '',
+		image: uit,
+		time: 'April 2023 - July 2023',
+		name: 'CS Chat App Server',
+		des: 'API server for cs chat app',
+		tech: 'Golang, TypeScript, React',
+		view: 'API server for cs chat app',
+	},
 ]
 
 export const learning = [
