@@ -51,7 +51,7 @@ export const experience = [
 		image: wds,
 		title: 'Deputy of Programming',
 		organization: 'WebDev Studios',
-		time: 'November 2022 - Present',
+		time: 'November 2022 - September 2023',
 	},
 	{
 		id: 7,
