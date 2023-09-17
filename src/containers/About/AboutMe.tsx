@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Frame1 from '@/assets/LeHaGiaBao/Frame1.png'
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
+import BaoLe from '@/assets/LeHaGiaBao/BaoLe.jpg'
 import { introduce, goal, roadmap } from '@/data/aboutme'
 
 const Fade = require('react-reveal/Fade')
@@ -42,7 +43,7 @@ export default function AboutMe() {
                         <Fade right>
                             <div className="relative lg:mb-12">
                                 <div className="pl-12 pr-12 lg:pr-6">
-                                    <Image className="relative rounded-lg shadow-lg" src={Avatar} alt="" />
+                                    <Image className="relative rounded-lg shadow-lg" src={BaoLe} alt="" />
                                 </div>
                             </div>
                         </Fade>
