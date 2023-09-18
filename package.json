@@ -36,6 +36,7 @@
     "next": "13.1.5",
     "next-themes": "^0.2.1",
     "npm": "^9.6.5",
+    "primereact": "^9.6.2",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-countup": "^6.4.2",

@@ -27,6 +27,10 @@ import mui from 'public/Skills/Fontend/mui.png'
 import reactstrap from 'public/Skills/Fontend/Reactstrap.png'
 import chakraui from 'public/Skills/Fontend/ChakraUI.png'
 import styledcomponents from 'public/Skills/Fontend/styledcomponents.png'
+import angular from 'public/Skills/Fontend/angular.png'
+import rsjx from 'public/Skills/Fontend/rsjx.png'
+import primeng from 'public/Skills/Fontend/primeng.jpg'
+import primereact from 'public/Skills/Fontend/primereact.jpg'
 
 // Backend
 import node from 'public/Skills/Backend/node.png'
@@ -278,6 +282,16 @@ export const skills = [
 						image: styledcomponents,
 						name: 'Styled Components',
 					},
+					{
+						id: 6,
+						image: primeng,
+						name: 'PrimeNG',
+					},
+					{
+						id: 7,
+						image: primereact,
+						name: 'PrimeReact',
+					},
 				],
 			},
 			{
@@ -298,6 +312,22 @@ export const skills = [
 						id: 3,
 						image: axios,
 						name: 'Axios',
+					},
+				],
+			},
+			{
+				id: 6,
+				sub: 'Novice',
+				children2: [
+					{
+						id: 1,
+						image: angular,
+						name: 'Angular',
+					},
+					{
+						id: 2,
+						image: rsjx,
+						name: 'RsJS',
 					},
 				],
 			},

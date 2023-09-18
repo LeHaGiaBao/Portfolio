@@ -2,6 +2,8 @@ import React from 'react'
 import Title from '@/components/Skills/Title'
 import SkillBlock from '@/components/Skills/SkillBlock'
 import { skills } from "@/data/skills"
+import portfolio from '@/assets/Projects/portfolio.png'
+import Image from 'next/image'
 
 export default function Skills() {
 	return (

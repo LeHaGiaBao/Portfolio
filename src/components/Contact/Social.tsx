@@ -7,6 +7,7 @@ import {
     FaBehanceSquare,
     FaDribbble
 } from 'react-icons/fa'
+import { SiBuymeacoffee } from 'react-icons/si'
 
 export default function Social() {
     const social = [
@@ -45,6 +46,11 @@ export default function Social() {
             link: 'https://dribbble.com/lehagiabao',
             icon: <FaDribbble className='w-7 h-7 md:w-9 md:h-9' />,
         },
+        // {
+        //     id: 8,
+        //     link: 'https://www.buymeacoffee.com/lehagiabao',
+        //     icon: <SiBuymeacoffee className='w-7 h-7 md:w-9 md:h-9' />,
+        // },
     ]
 
     return (
