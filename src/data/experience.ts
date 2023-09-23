@@ -57,8 +57,8 @@ export const experience = [
 		id: 7,
 		ExID: 7,
 		image: spiraledge,
-		title: 'Frontend Developer Intern',
+		title: 'Frontend Developer',
 		organization: 'Spiraledge Vietnam',
-		time: 'July 2023 - October 2023',
+		time: 'July 2023 - October 2023 (Internship)',
 	},
 ]
