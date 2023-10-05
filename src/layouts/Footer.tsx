@@ -6,7 +6,7 @@ import logo from '@/assets/Logo/logo.png';
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
-import { MenuItem } from '@/data/menu';
+import { MenuItem } from '@/config/menu';
 import { email, phone, address } from '@/data/contact';
 
 export default function Footer() {

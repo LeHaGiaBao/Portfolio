@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import logo from '@/assets/Logo/logo.png';
-import { MenuItem } from "@/data/menu";
+import { MenuItem } from "@/config/menu";
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { useTheme } from "next-themes";
 import { FiSun } from 'react-icons/fi'
