@@ -8,6 +8,7 @@ import { HiBars3BottomRight } from 'react-icons/hi2'
 import { useTheme } from "next-themes";
 import { FiSun } from 'react-icons/fi'
 import { BsMoonStarsFill } from 'react-icons/bs'
+import { PATH_NAME } from "@/routes/pathName";
 
 export default function Navbar() {
     const [isShadow, setShadow] = useState(false)
@@ -50,7 +51,7 @@ export default function Navbar() {
         <>
             <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 fixed w-full dark:bg-dark ${isShadow ? 'on-scroll' : ''}`}>
                 <div className="container flex flex-wrap items-center justify-between mx-auto dark:bg-dark">
-                    <Link href="/">
+                    <Link href={PATH_NAME.ROOT}>
                         <div className="flex items-center">
                             <Image src={logo} className="h-14 w-14 mr-3 rounded-full" alt="logo" />
                             <h1 className="mt-2 self-center lg:text-3xl text-2xl font-semibold whitespace-nowra relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Le Ha Gia Bao</h1>

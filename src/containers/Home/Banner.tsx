@@ -4,6 +4,7 @@ import Link from 'next/link';
 import image from '@/assets/LeHaGiaBao/image.png'
 import { welcome, homeintro } from '@/data/aboutme';
 import { motion } from "framer-motion";
+import { PATH_NAME } from '@/routes/pathName';
 
 export default function Banner() {
     return (
@@ -33,7 +34,7 @@ export default function Banner() {
                                 {homeintro}
                             </p>
                             <div className="mt-10 flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                <Link href="/about">
+                                <Link href={PATH_NAME.ABOUT}>
                                     <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 drop-shadow-xl font-medium rounded-lg text-lg px-8 py-3 text-center mr-2 mb-2">
                                         Read more
                                     </button>

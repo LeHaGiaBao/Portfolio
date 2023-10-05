@@ -2,6 +2,7 @@ import Link from "next/link"
 import { certification } from "@/data/certification"
 import CertificationBlock from "@/components/Certification/CertificationBlock"
 import { MdLaunch } from 'react-icons/md'
+import { PATH_NAME } from "@/routes/pathName"
 
 export default function Certification() {
     return (
@@ -21,7 +22,7 @@ export default function Certification() {
                     </div>
                 </section>
                 <div className="text-center mb-20">
-                    <Link href="/about/allcertifications">
+                    <Link href={PATH_NAME.ALLCERTIFICATION}>
                         <button type="button" className="inline-flex items-center justify-center px-5 py-4 text-base font-semibold transition-all duration-200 rounded-md text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300">
                             More certifications
                             <MdLaunch className="w-5 h-5 ml-3 -mr-1" />

@@ -5,52 +5,71 @@ import {
     FaGitlab,
     FaInstagram,
     FaBehanceSquare,
-    FaDribbble
+    FaDribbble,
+    FaPinterest,
+    FaDeviantart
 } from 'react-icons/fa'
 import { SiBuymeacoffee } from 'react-icons/si'
+import { FaSquareXTwitter } from 'react-icons/fa6'
+import { SOCIAL } from '@/data/contact'
 
 export default function Social() {
     const social = [
         {
             id: 1,
-            link: "https://www.facebook.com/lehagiabao0205",
+            link: SOCIAL.FACEBOOK,
             icon: <FaFacebook className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 2,
-            link: 'https://www.linkedin.com/in/lehagiabao/',
+            link: SOCIAL.LINKEDIN,
             icon: <FaLinkedin className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 3,
-            link: 'https://www.instagram.com/le.ha.gia.bao/',
+            link: SOCIAL.INSTAGRAM,
             icon: <FaInstagram className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 4,
-            link: 'https://github.com/LeHaGiaBao',
+            link: SOCIAL.GITHUB,
             icon: <FaGithub className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 5,
-            link: 'https://gitlab.com/LeHaGiaBao',
+            link: SOCIAL.GITLAB,
             icon: <FaGitlab className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 6,
-            link: 'https://www.behance.net/lehagiabao',
+            link: SOCIAL.BEHANCE,
             icon: <FaBehanceSquare className='w-7 h-7 md:w-9 md:h-9' />,
         },
         {
             id: 7,
-            link: 'https://dribbble.com/lehagiabao',
+            link: SOCIAL.DRIBBBLE,
             icon: <FaDribbble className='w-7 h-7 md:w-9 md:h-9' />,
         },
         // {
         //     id: 8,
-        //     link: 'https://www.buymeacoffee.com/lehagiabao',
+        //     link: SOCIAL.BUYMEACOFFEE,
         //     icon: <SiBuymeacoffee className='w-7 h-7 md:w-9 md:h-9' />,
         // },
+        // {
+        //     id: 9,
+        //     link: SOCIAL.TWITTER,
+        //     icon: <FaSquareXTwitter className='w-7 h-7 md:w-9 md:h-9' />
+        // },
+        // {
+        //     id: 10,
+        //     link: SOCIAL.PINTEREST,
+        //     icon: <FaPinterest className='w-7 h-7 md:w-9 md:h-9' />
+        // },
+        // {
+        //     id: 11,
+        //     link: SOCIAL.DEVIANTART,
+        //     icon: <FaDeviantart className='w-7 h-7 md:w-9 md:h-9' />
+        // }
     ]
 
     return (

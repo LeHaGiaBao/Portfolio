@@ -1,27 +1,29 @@
+import {PATH_NAME} from '@/routes/pathName'
+
 export const MenuItem = [
 	{
 		id: 1,
-		link: '/',
+		link: PATH_NAME.ROOT,
 		content: 'home',
 	},
 	{
 		id: 2,
-		link: '/about',
+		link: PATH_NAME.ABOUT,
 		content: 'about',
 	},
 	{
 		id: 3,
-		link: '/works',
+		link: PATH_NAME.WORKS,
 		content: 'works',
 	},
 	{
 		id: 4,
-		link: '/portfolio',
+		link: PATH_NAME.PORTFOLIO,
 		content: 'portfolio',
 	},
 	{
 		id: 5,
-		link: '/contact',
+		link: PATH_NAME.CONTACT,
 		content: 'contact',
 	},
 ]

@@ -2,6 +2,7 @@ import Image from "next/image"
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { MdOutlineLaunch } from 'react-icons/md'
+import { PATH_NAME } from "@/routes/pathName"
 
 const Fade = require('react-reveal/Fade')
 
@@ -29,7 +30,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
                                 {name}
                             </p>
                         </div>
-                        {/* <a href={`portfolio/${view}`} title="">
+                        {/* <a href={`${PATH_NAME.PORTFOLIO}/${view}`}>
                             <AiOutlineArrowRight className="block w-6 h-6 text-blue-600" />
                         </a> */}
                     </div>
