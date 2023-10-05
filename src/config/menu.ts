@@ -26,4 +26,9 @@ export const MenuItem = [
 		link: PATH_NAME.CONTACT,
 		content: 'contact',
 	},
+	// {
+	// 	id: 6,
+	// 	link: PATH_NAME.BLOG,
+	// 	content: 'blog',
+	// },
 ]

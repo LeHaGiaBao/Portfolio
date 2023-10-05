@@ -5,4 +5,5 @@ export const PATH_NAME = {
 	PORTFOLIO: '/portfolio',
 	CONTACT: '/contact',
 	ALLCERTIFICATION: '/about/allcertifications',
+	BLOG: 'https://technology-sharing.vercel.app/',
 }
