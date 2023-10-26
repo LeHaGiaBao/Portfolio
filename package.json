@@ -49,6 +49,7 @@
     "react-reveal": "^1.2.2",
     "react-visibility-sensor": "^5.1.1",
     "redux": "^4.2.0",
+    "sass": "^1.69.5",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "styled-components": "^5.3.9",
