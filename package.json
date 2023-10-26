@@ -29,6 +29,7 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
     "evergreen-ui": "^7.1.5",
+    "firebase": "^10.5.0",
     "flowbite": "^1.6.4",
     "framer-motion": "^10.12.4",
     "install": "^0.13.0",
