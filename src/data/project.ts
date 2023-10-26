@@ -57,6 +57,7 @@ export const project = [
 		time: 'November 2021',
 		name: 'The band',
 		des: 'The project I did when I finished the course at fullstack.edu.vn and website template: The Band',
+		tech: 'HTML, CSS',
 		view: 'The band',
 	},
 	{
