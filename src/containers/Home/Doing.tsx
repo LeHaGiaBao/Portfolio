@@ -17,7 +17,6 @@ export default function Doing() {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }

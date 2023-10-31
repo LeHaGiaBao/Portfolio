@@ -1,9 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Title from '@/components/Skills/Title'
 import SkillBlock from '@/components/Skills/SkillBlock'
 import { skills } from "@/data/skills"
-import portfolio from '@/assets/Projects/portfolio.png'
-import Image from 'next/image'
 
 export default function Skills() {
 	return (
@@ -16,9 +14,9 @@ export default function Skills() {
 								<div key={id} >
 									<Title title={title} />
 									{
-										children1?.map(({ id, sub, children2 }) => {
+										children1?.map(({ subId, sub, children2 }) => {
 											return (
-												<div key={id} >
+												<div key={subId} >
 													<p className="text-xl font-bold leading-tight text-gray-900 dark:text-gray-300 my-7">
 														{sub}
 													</p>
