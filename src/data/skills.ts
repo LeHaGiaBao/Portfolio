@@ -46,6 +46,7 @@ import firebase from 'public/Skills/Database/firebase.png'
 import supabase from 'public/Skills/Database/supabase.png'
 
 // Mobile
+import reactnative from 'public/Skills/Mobile/reactnative.png'
 import Flutter from 'public/Skills/Mobile/flutter.png'
 
 // Version control
@@ -58,6 +59,7 @@ import bitbucket from 'public/Skills/Versioncontroll/Bitbucket.png'
 import npm from 'public/Skills/Package/npm.png'
 import yarn from 'public/Skills/Package/yarn.png'
 import pnpm from 'public/Skills/Package/pnpm.png'
+import bunjs from 'public/Skills/Package/bunjs.png'
 
 // Deploy
 import githubpage from 'public/Skills/Deploy/GitHub.png'
@@ -122,7 +124,7 @@ export const skills = [
 		title: 'Lanaguages',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -143,7 +145,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -159,7 +161,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 3,
+				subId: 3,
 				sub: 'Novice',
 				children2: [
 					{
@@ -196,7 +198,7 @@ export const skills = [
 		title: 'Frontend',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -227,7 +229,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -238,7 +240,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 3,
+				subId: 3,
 				sub: 'CSS Framework',
 				children2: [
 					{
@@ -254,7 +256,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 4,
+				subId: 4,
 				sub: 'UI',
 				children2: [
 					{
@@ -295,7 +297,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 5,
+				subId: 5,
 				sub: 'Libary',
 				children2: [
 					{
@@ -316,7 +318,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 6,
+				subId: 6,
 				sub: 'Novice',
 				children2: [
 					{
@@ -338,7 +340,7 @@ export const skills = [
 		title: 'Backend',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -359,7 +361,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -376,11 +378,16 @@ export const skills = [
 		title: 'Mobile',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Basic',
 				children2: [
 					{
 						id: 1,
+						image: reactnative,
+						name: 'React Native',
+					},
+					{
+						id: 2,
 						image: Flutter,
 						name: 'Flutter',
 					},
@@ -393,7 +400,7 @@ export const skills = [
 		title: 'Database',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -409,7 +416,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -436,7 +443,7 @@ export const skills = [
 		title: 'Version Control',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: '',
 				children2: [
 					{
@@ -468,7 +475,7 @@ export const skills = [
 		title: 'Package Manager',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: '',
 				children2: [
 					{
@@ -486,6 +493,11 @@ export const skills = [
 						image: pnpm,
 						name: 'PNPM',
 					},
+					{
+						id: 4,
+						image: bunjs,
+						name: 'Bun',
+					},
 				],
 			},
 		],
@@ -495,7 +507,7 @@ export const skills = [
 		title: 'Deploy',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -521,7 +533,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -548,7 +560,7 @@ export const skills = [
 		title: 'IDEs / Editors',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -559,7 +571,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Basic',
 				children2: [
 					{
@@ -580,7 +592,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 3,
+				subId: 3,
 				sub: 'Online',
 				children2: [
 					{
@@ -612,7 +624,7 @@ export const skills = [
 		title: 'Tools',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -638,7 +650,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Database',
 				children2: [
 					{
@@ -654,7 +666,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 3,
+				subId: 3,
 				sub: 'Management',
 				children2: [
 					{
@@ -680,7 +692,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 4,
+				subId: 4,
 				sub: 'Planning',
 				children2: [
 					{
@@ -706,7 +718,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 5,
+				subId: 5,
 				sub: 'Support',
 				children2: [
 					{
@@ -733,7 +745,7 @@ export const skills = [
 		title: 'Design',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Main',
 				children2: [
 					{
@@ -759,7 +771,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Nocode',
 				children2: [
 					{
@@ -775,7 +787,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 3,
+				subId: 3,
 				sub: 'Adobe',
 				children2: [
 					{
@@ -807,7 +819,7 @@ export const skills = [
 		title: 'Office',
 		children1: [
 			{
-				id: 1,
+				subId: 1,
 				sub: 'Google',
 				children2: [
 					{
@@ -833,7 +845,7 @@ export const skills = [
 				],
 			},
 			{
-				id: 2,
+				subId: 2,
 				sub: 'Microsoft',
 				children2: [
 					{
