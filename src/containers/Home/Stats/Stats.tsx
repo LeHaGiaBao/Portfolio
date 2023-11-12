@@ -1,13 +1,15 @@
-import StatsBlock from "@/components/Stats/StatsBlock"
+import React from 'react'
+import styles from './Stats.module.scss'
+import StatsBlock from '@/components/Stats/StatsBlock'
 import { stats } from '@/data/stats'
 
-export default function Stats() {
+function Stats() {
     return (
         <>
             <div className="container mx-auto px-6">
-                <section className="stats">
+                <section className={`${styles.stats}`}>
                     <div className="container text-black dark:text-white">
-                        <div className="all-items">
+                        <div className={`${styles.allItems}`}>
                             {
                                 stats.map(({ id, number, title, content }) => {
                                     return (
@@ -22,3 +24,5 @@ export default function Stats() {
         </>
     )
 }
+
+export default Stats
