@@ -1,3 +1,5 @@
+import React from 'react';
+import styles from './Navbar.module.scss'
 import Link from "next/link";
 import Image from 'next/image';
 import { useRouter } from "next/router";
@@ -10,7 +12,7 @@ import { FiSun } from 'react-icons/fi'
 import { BsMoonStarsFill } from 'react-icons/bs'
 import { PATH_NAME } from "@/routes/pathName";
 
-export default function Navbar() {
+function Navbar() {
     const [isShadow, setShadow] = useState(false)
     const [isOpened, setOpen] = useState(false)
     const [mounted, setMounted] = useState(false);
@@ -49,7 +51,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 fixed w-full dark:bg-dark ${isShadow ? 'on-scroll' : ''}`}>
+            <nav className={`z-50 bg-primary border-primary px-2 sm:px-4 py-3 fixed w-full dark:bg-dark ${isShadow ? `${styles.onScroll}` : ''}`}>
                 <div className="container flex flex-wrap items-center justify-between mx-auto dark:bg-dark">
                     <Link href={PATH_NAME.ROOT}>
                         <div className="flex items-center">
@@ -133,3 +135,5 @@ const NavBarItem = ({ link, content }: any) => {
         </>
     )
 }
+
+export default Navbar;
