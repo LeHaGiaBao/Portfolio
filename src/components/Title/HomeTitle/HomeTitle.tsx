@@ -1,4 +1,11 @@
-export default function HomeTitle({ title }: any) {
+import React from 'react';
+import styles from './HomeTitle.module.scss'
+
+interface HomeTitle {
+    title: string
+}
+
+function HomeTitle({ title }: HomeTitle) {
     return (
         <>
             <div className="text-center pt-20 pb-10 md:py-20">
@@ -8,5 +15,7 @@ export default function HomeTitle({ title }: any) {
                 </div>
             </div>
         </>
-    )
+    );
 }
+
+export default HomeTitle;
