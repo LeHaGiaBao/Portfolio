@@ -1,10 +1,12 @@
+import React from 'react';
+import styles from './AboutMe.module.scss'
 import Image from "next/image"
 import Frame2 from '@/assets/LeHaGiaBao/Frame2.png'
 import { summary } from "@/data/aboutme"
 
 const Fade = require('react-reveal/Fade')
 
-export default function AboutMe() {
+function AboutMe() {
     return (
         <>
             <section className="pt-10 pb-20 overflow-hidden text-gray-900 dark:text-gray-300">
@@ -38,5 +40,7 @@ export default function AboutMe() {
                 </div>
             </section>
         </>
-    )
+    );
 }
+
+export default AboutMe;

@@ -1,0 +1,15 @@
+.stats {
+	padding: 5rem 0 5rem 0;
+}
+
+.allItems {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	.allItems {
+		flex-direction: column;
+	}
+}

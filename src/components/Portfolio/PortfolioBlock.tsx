@@ -10,7 +10,7 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
     return (
         <>
             <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg shadow">
-                <div className="p-5 h-full h-5/6">
+                <div className="p-5 h-full">
                     <div className="relative">
                         {
                             demo === "" ?

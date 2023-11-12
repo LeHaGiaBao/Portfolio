@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Banner.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
 import image from '@/assets/LeHaGiaBao/image.png'
@@ -6,7 +7,7 @@ import { welcome, homeintro } from '@/data/aboutme';
 import { motion } from "framer-motion";
 import { PATH_NAME } from '@/routes/pathName';
 
-export default function Banner() {
+function Banner() {
     return (
         <>
             <section className="pt-14 md:pt-32 lg:pt-32 text-gray-900 dark:text-gray-300">
@@ -48,3 +49,5 @@ export default function Banner() {
         </>
     );
 }
+
+export default Banner;
