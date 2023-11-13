@@ -1,11 +1,13 @@
+import React from 'react'
+import styles from './ContactMe.module.scss'
 import Image from 'next/image'
 import Contact from '@/assets/image/Contact.png'
-import Social from '@/components/Contact/Social'
-import SeeMyResume from '@/components/Contact/SeeMyResume'
+import Social from '@/components/Contact/Social/Social'
+import SeeMyResume from '@/components/Contact/SeeMyResume/SeeMyResume'
 
 const Fade = require('react-reveal/Fade')
 
-export default function ContactMe() {
+function ContactMe() {
     return (
         <>
             <Fade bottom>
@@ -33,3 +35,5 @@ export default function ContactMe() {
         </>
     )
 }
+
+export default ContactMe

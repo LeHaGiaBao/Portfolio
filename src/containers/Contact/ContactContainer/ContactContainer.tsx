@@ -1,10 +1,12 @@
+import React from 'react'
+import styles from './ContactContainer.module.scss'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FiPhone } from 'react-icons/fi'
 import { MdOutlinePlace } from 'react-icons/md'
 import { email, phone, address } from '@/data/contact'
 import ContactBlock from '@/components/Contact/ContactBlock'
 
-export default function ContactContainer() {
+function ContactContainer() {
     const contact = [
         {
             id: 1,
@@ -47,3 +49,5 @@ export default function ContactContainer() {
         </>
     )
 }
+
+export default ContactContainer

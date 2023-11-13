@@ -1,8 +1,10 @@
+import React from "react"
+import styles from './SeeMyResume.module.scss'
 import Link from "next/link"
 import { FcDocument } from 'react-icons/fc'
 import { PATH_NAME } from "@/routes/pathName"
 
-export default function SeeMyResume() {
+function SeeMyResume() {
     return (
         <>
             <Link href={PATH_NAME.ROOT}>
@@ -14,3 +16,5 @@ export default function SeeMyResume() {
         </>
     )
 }
+
+export default SeeMyResume

@@ -1,3 +1,5 @@
+import React from 'react'
+import styles from './Social.module.scss'
 import {
     FaFacebook,
     FaLinkedin,
@@ -13,7 +15,7 @@ import { SiBuymeacoffee } from 'react-icons/si'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 import { SOCIAL } from '@/data/contact'
 
-export default function Social() {
+function Social() {
     const social = [
         {
             id: 1,
@@ -96,3 +98,5 @@ const SocialItem = ({ link, icon }: any) => {
         </>
     )
 }
+
+export default Social

@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
+import styles from './ContactBlock.module.scss'
 import VanillaTilt from 'vanilla-tilt';
 
 const Tilt = (props: any) => {
@@ -12,7 +13,13 @@ const Tilt = (props: any) => {
     return <div ref={tilt} {...rest} />;
 }
 
-export default function ContactBlock({ icon, info, href }: any) {
+interface ContactBlock {
+    icon: any,
+    info: any,
+    href: any,
+}
+
+function ContactBlock({ icon, info, href }: ContactBlock) {
     const options = {
         scale: 1.0,
         speed: 1000,
@@ -37,3 +44,5 @@ export default function ContactBlock({ icon, info, href }: any) {
         </>
     )
 }
+
+export default ContactBlock
