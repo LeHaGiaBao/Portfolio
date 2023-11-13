@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './FullCertifications.module.scss'
 import { certification } from "@/data/certification"
-import CertificationBlock from "@/components/Certification/CertificationBlock/CertificationBlock"
+import CertificationBlock from "../CertificationBlock"
 
-export default function FullCertifications() {
+function FullCertifications() {
     return (
         <>
             <section className="mb-20">
@@ -9,7 +11,9 @@ export default function FullCertifications() {
                     <div className="grid grid-cols-1 gap-6 xl:gap-10 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             certification.map(({ id, image, certification, organization, time, link }) => {
-                                return <CertificationBlock key={id} image={image} certification={certification} organization={organization} time={time} link={link} />
+                                return (
+                                    <CertificationBlock key={id} image={image} certification={certification} organization={organization} time={time} link={link} />
+                                )
                             }).reverse()
                         }
                     </div>
@@ -18,3 +22,5 @@ export default function FullCertifications() {
         </>
     )
 }
+
+export default FullCertifications
