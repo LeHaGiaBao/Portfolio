@@ -1,17 +1,17 @@
 import Navbar from '@/layouts/Navbar'
-import Footer from '@/layouts/Footer/Footer'
 import Title from '@/components/Title/Title'
 import AboutMe from '@/containers/About/AboutMe'
 import HeadingTitle from '@/components/Title/HeadingTitle'
-import ALittleBit from '@/containers/About/ALittelBit'
+import ALittleBit from '@/containers/About/ALittleBit'
 import SoftSkills from '@/containers/About/SoftSkills'
 import Education from '@/containers/About/Education'
-import Timeline from '@/containers/About/Timeline'
+import TimeLine from '@/containers/About/TimeLine'
 import Volunteering from '@/containers/About/Volunteering'
 import Contest from '@/containers/About/Contest'
 import Achievement from '@/containers/About/Achievement'
 import Certification from '@/containers/About/Certification'
-import EndContainer from '@/components/EndContainer/EndContainer'
+import EndContainer from '@/components/EndContainer'
+import Footer from '@/layouts/Footer'
 
 
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
 			<HeadingTitle title="Education" />
 			<Education />
 			<HeadingTitle title="Experience" />
-			<Timeline />
+			<TimeLine />
 			<HeadingTitle title="Volunteering" />
 			<Volunteering />
 			<HeadingTitle title="Contest" />

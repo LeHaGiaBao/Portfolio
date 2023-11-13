@@ -1,8 +1,17 @@
+import React from "react"
+import styles from './ContestBlock.module.scss'
 import Image from "next/image"
 
 const Fade = require('react-reveal/Fade')
 
-export default function ContestBlock({ image, title, time, organization }: any) {
+interface ContestBlock {
+    image: any,
+    title: any,
+    time: any,
+    organization: any
+}
+
+function ContestBlock({ image, title, time, organization }: ContestBlock) {
     return (
         <>
             <Fade bottom>
@@ -22,3 +31,5 @@ export default function ContestBlock({ image, title, time, organization }: any) 
         </>
     )
 }
+
+export default ContestBlock

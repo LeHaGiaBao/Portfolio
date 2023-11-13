@@ -1,3 +1,5 @@
+import React from 'react'
+import styles from './AboutMe.module.scss'
 import Image from 'next/image'
 import Frame1 from '@/assets/LeHaGiaBao/Frame1.png'
 import Avatar from '@/assets/LeHaGiaBao/Avatar.jpg'
@@ -6,7 +8,7 @@ import { introduce, goal, roadmap } from '@/data/aboutme'
 
 const Fade = require('react-reveal/Fade')
 
-export default function AboutMe() {
+function AboutMe() {
     return (
         <>
             <section className="pb-10 sm:pb-16 lg:pb-24">
@@ -53,3 +55,5 @@ export default function AboutMe() {
         </>
     )
 }
+
+export default AboutMe

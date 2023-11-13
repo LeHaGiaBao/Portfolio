@@ -1,4 +1,11 @@
-export default function HeadingTitle({ title }: any) {
+import React from "react"
+import styles from './HeadingTitle.module.scss'
+
+interface HeadingTitle {
+    title: any
+}
+
+function HeadingTitle({ title }: HeadingTitle) {
     return (
         <>
             <div className="text-center my-10">
@@ -9,3 +16,5 @@ export default function HeadingTitle({ title }: any) {
         </>
     )
 }
+
+export default HeadingTitle

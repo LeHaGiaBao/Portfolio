@@ -1,5 +1,5 @@
 import Navbar from '@/layouts/Navbar'
-import Title from '@/components/Title/Title'
+import Title from '@/components/Title/Title/Title'
 import Footer from '@/layouts/Footer/Footer'
 import About from '@/containers/Portfolio/About'
 import Project from '@/containers/Portfolio/Project'

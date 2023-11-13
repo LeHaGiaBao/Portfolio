@@ -1,10 +1,12 @@
+import React from "react"
+import styles from './Certification.module.scss'
 import Link from "next/link"
 import { certification } from "@/data/certification"
 import CertificationBlock from "@/components/Certification/CertificationBlock"
 import { MdLaunch } from 'react-icons/md'
 import { PATH_NAME } from "@/routes/pathName"
 
-export default function Certification() {
+function Certification() {
     return (
         <>
             <div>
@@ -33,3 +35,5 @@ export default function Certification() {
         </>
     )
 }
+
+export default Certification

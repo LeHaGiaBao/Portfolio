@@ -1,8 +1,17 @@
+import React from 'react'
+import styles from './EducationBlock.module.scss'
 import Image from "next/image"
 
 const Slide = require('react-reveal/Slide')
 
-export default function EducationBlock({ image, school, degree, time }: any) {
+interface EducationBlock {
+    image: any,
+    school: any,
+    degree: any,
+    time: any,
+}
+
+function EducationBlock({ image, school, degree, time }: EducationBlock) {
     return (
         <>
             <Slide left>
@@ -20,3 +29,5 @@ export default function EducationBlock({ image, school, degree, time }: any) {
         </>
     )
 }
+
+export default EducationBlock

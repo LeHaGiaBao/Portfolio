@@ -5,7 +5,6 @@ import AboutMe from '@/containers/Home/AboutMe'
 import Doing from '@/containers/Home/Doing'
 import Stats from '@/containers/Home/Stats'
 import Portfolio from '@/containers/Home/Portfolio'
-
 import EndContainer from '@/components/EndContainer'
 import Footer from '@/layouts/Footer'
 

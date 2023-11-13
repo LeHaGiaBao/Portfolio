@@ -1,8 +1,17 @@
+import React from "react"
+import styles from './AchievementBlock.module.scss'
 import Image from "next/image"
 
 const Fade = require('react-reveal/Fade')
 
-export default function AchievementBlock({ image, title, time, organization }: any) {
+interface AchievementBlock {
+    image: any,
+    title: any,
+    time: any,
+    organization: any
+}
+
+function AchievementBlock({ image, title, time, organization }: AchievementBlock) {
     return (
         <>
             <Fade bottom>
@@ -22,3 +31,5 @@ export default function AchievementBlock({ image, title, time, organization }: a
         </>
     )
 }
+
+export default AchievementBlock

@@ -1,0 +1,24 @@
+.sectionHeading {
+	font-size: clamp(2rem, 10vw, 8rem);
+	text-transform: capitalize;
+	font-family: 'Montserrat';
+	letter-spacing: 0.2rem;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+.sectionHeading::before {
+	content: attr(data-outline);
+	position: absolute;
+	left: 2%;
+	top: -20%;
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Montserrat';
+	letter-spacing: 0.2rem;
+	color: transparent;
+	/* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.103); */
+	-webkit-text-stroke: 1.5px #4ade80;
+	z-index: -1;
+}

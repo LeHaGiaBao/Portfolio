@@ -1,3 +1,5 @@
+import React from 'react'
+import styles from './SoftSkills.module.scss'
 import { GiSandsOfTime } from 'react-icons/gi'
 import { RiTeamFill } from 'react-icons/ri'
 import { RiLightbulbFlashFill } from 'react-icons/ri'
@@ -7,7 +9,7 @@ import { FaAssistiveListeningSystems } from 'react-icons/fa'
 
 const Rotate = require('react-reveal/Rotate')
 
-export default function SoftSkills() {
+function SoftSkills() {
     const softskills = [
         {
             id: 1,
@@ -115,3 +117,5 @@ const SoftSkillsItem = ({ icon, title }: any) => {
         </>
     )
 }
+
+export default SoftSkills

@@ -1,8 +1,18 @@
+import React from "react";
+import styles from './CertificationBlock.module.scss'
 import Image from "next/image"
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { motion } from "framer-motion";
 
-export default function CertificationBlock({ image, certification, organization, time, link }: any) {
+interface CertificationBlock {
+    image: any,
+    certification: any,
+    organization: any,
+    time: any,
+    link: any,
+}
+
+function CertificationBlock({ image, certification, organization, time, link }: CertificationBlock) {
     return (
         <>
             <motion.div whileHover={{ scale: 1.1 }}>
@@ -30,3 +40,5 @@ export default function CertificationBlock({ image, certification, organization,
         </>
     )
 }
+
+export default CertificationBlock

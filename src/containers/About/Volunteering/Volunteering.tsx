@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './Volunteering.module.scss'
 import { volunteering } from "@/data/volunteering"
-import VolunteeringBlock from "@/components/Volunteering/VolunteeringBlock"
+import VolunteeringBlock from "@/components/Volunteering"
 
-export default function Volunteering() {
+function Volunteering() {
     return (
         <>
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl my-20">
@@ -14,3 +16,5 @@ export default function Volunteering() {
         </>
     )
 }
+
+export default Volunteering

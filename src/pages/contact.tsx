@@ -1,5 +1,5 @@
 import Navbar from '@/layouts/Navbar'
-import Title from '@/components/Title/Title'
+import Title from '@/components/Title/Title/Title'
 import Footer from '@/layouts/Footer/Footer'
 import ContactMe from '@/containers/Contact/ContactMe'
 import ContactContainer from '@/containers/Contact/ContactContainer'

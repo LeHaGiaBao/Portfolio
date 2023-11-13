@@ -1,5 +1,5 @@
 import { certification } from "@/data/certification"
-import CertificationBlock from "@/components/Certification/CertificationBlock"
+import CertificationBlock from "@/components/Certification/CertificationBlock/CertificationBlock"
 
 export default function FullCertifications() {
     return (

@@ -1,6 +1,13 @@
+import React from 'react';
+import styles from './ALittleBitBlock.module.scss'
 import CountUp from 'react-countup';
 
-export default function ALittleBitBlock({ number, title }: any) {
+interface ALittleBitBlock {
+    number: any,
+    title: any
+}
+
+function ALittleBitBlock({ number, title }: ALittleBitBlock) {
     return (
         <>
             <div>
@@ -15,3 +22,5 @@ export default function ALittleBitBlock({ number, title }: any) {
         </>
     )
 }
+
+export default ALittleBitBlock

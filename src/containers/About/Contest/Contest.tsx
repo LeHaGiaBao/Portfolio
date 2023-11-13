@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './Contest.module.scss'
 import { contest } from "@/data/contest"
-import ContestBlock from "@/components/Contest/ContestBlock"
+import ContestBlock from "@/components/Contest"
 
-export default function Contest() {
+function Contest() {
     return (
         <>
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl my-20">
@@ -14,3 +16,5 @@ export default function Contest() {
         </>
     )
 }
+
+export default Contest

@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './TimeLine.module.scss'
 import { experience } from "@/data/experience"
-import TimelineBlock from "@/components/Timeline/TimelineBlock"
+import TimelineBlock from "@/components/Timeline"
 
-export default function Timeline() {
+function Timeline() {
     return (
         <>
             <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
@@ -20,3 +22,5 @@ export default function Timeline() {
         </>
     )
 }
+
+export default Timeline

@@ -1,4 +1,11 @@
-export default function Title({ title }: any) {
+import React from "react"
+import styles from './Title.module.scss'
+
+interface Title {
+    title: any
+}
+
+function Title({ title }: Title) {
     return (
         <>
             <section className="">
@@ -9,3 +16,5 @@ export default function Title({ title }: any) {
         </>
     )
 }
+
+export default Title

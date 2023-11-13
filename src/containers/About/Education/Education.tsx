@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './Education.module.scss'
 import { school } from "@/data/school"
-import EducationBlock from "@/components/Education/EducationBlock"
+import EducationBlock from "@/components/Education"
 
-export default function Education() {
+function Education() {
     return (
         <>
             <section className="text-gray-800">
@@ -20,3 +22,5 @@ export default function Education() {
         </>
     )
 }
+
+export default Education
