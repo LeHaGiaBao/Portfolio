@@ -1,7 +1,9 @@
+import React from 'react'
+import styles from './EndContainer.module.scss'
 import { HiOutlineMail } from 'react-icons/hi'
 import { email } from '@/data/contact'
 
-export default function EndContainer() {
+function EndContainer() {
     return (
         <>
             <section className="py-20 sm:py-32 mx-5 md:mx-20 my-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl">
@@ -19,3 +21,5 @@ export default function EndContainer() {
         </>
     )
 }
+
+export default EndContainer

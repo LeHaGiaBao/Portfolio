@@ -1,0 +1,16 @@
+.services {
+	padding: 5rem 0;
+}
+
+.allItems {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.allItems {
+		flex-direction: column;
+		text-align: center;
+	}
+}

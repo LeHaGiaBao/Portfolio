@@ -1,3 +1,5 @@
+import React from 'react';
+import styles from './Footer.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
 import Social from '@/components/Footer/Social';
@@ -9,7 +11,7 @@ import { MdOutlinePlace } from 'react-icons/md';
 import { MenuItem } from '@/config/menu';
 import { email, phone, address } from '@/data/contact';
 
-export default function Footer() {
+function Footer() {
     return (
         <>
             <footer className="py-12 text-gray-900 bg-white dark:text-white dark:bg-gray-800">
@@ -66,3 +68,5 @@ const RenderMenu = ({ link, content }: any) => {
         </Link>
     )
 }
+
+export default Footer

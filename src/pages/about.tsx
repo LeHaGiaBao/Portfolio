@@ -1,5 +1,5 @@
 import Navbar from '@/layouts/Navbar'
-import Footer from '@/layouts/Footer'
+import Footer from '@/layouts/Footer/Footer'
 import Title from '@/components/Title/Title'
 import AboutMe from '@/containers/About/AboutMe'
 import HeadingTitle from '@/components/Title/HeadingTitle'

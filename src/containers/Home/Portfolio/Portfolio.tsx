@@ -1,12 +1,14 @@
+import React from "react"
+import styles from './Portfolio.module.scss'
 import Link from "next/link"
-import PortfolioBlock from "@/components/Portfolio/PortfolioBlock"
+import PortfolioBlock from "@/components/Portfolio/PortfolioBlock/PortfolioBlock"
 import { project } from '@/data/project'
 import { MdLaunch } from 'react-icons/md'
 import { PATH_NAME } from "@/routes/pathName"
 
 const Fade = require('react-reveal/Fade')
 
-export default function Portfolio() {
+function Portfolio() {
     return (
         <>
             <div>
@@ -37,3 +39,5 @@ export default function Portfolio() {
         </>
     )
 }
+
+export default Portfolio

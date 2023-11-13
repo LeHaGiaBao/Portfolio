@@ -1,5 +1,5 @@
 import { project, school, learning } from '@/data/project'
-import PortfolioBlock from '@/components/Portfolio/PortfolioBlock'
+import PortfolioBlock from '@/components/Portfolio/PortfolioBlock/PortfolioBlock'
 import HeadingTitle from '@/components/Title/HeadingTitle'
 
 export default function Project() {

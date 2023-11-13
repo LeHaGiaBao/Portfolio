@@ -1,13 +1,15 @@
+import React from "react";
+import styles from './Works.module.scss'
 import WorksBlock from "@/components/Works/WorksBlock";
 import { services } from '@/data/services'
 
-export default function Works() {
+function Works() {
     return (
         <>
             <div className="container mx-auto px-6">
-                <section className="services">
+                <section className={`${styles.services}`}>
                     <div className="container text-black dark:text-white">
-                        <div className="all-items">
+                        <div className={`${styles.allItems}`}>
                             {
                                 services.map(({ id, image, title, content }) => {
                                     return (
@@ -22,3 +24,5 @@ export default function Works() {
         </>
     );
 }
+
+export default Works

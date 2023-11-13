@@ -1,6 +1,6 @@
 import Navbar from '@/layouts/Navbar'
 import Title from '@/components/Title/Title'
-import Footer from '@/layouts/Footer'
+import Footer from '@/layouts/Footer/Footer'
 import About from '@/containers/Work/About'
 import HeadingTitle from '@/components/Title/HeadingTitle'
 import Doing from '@/containers/Work/Doing'

@@ -1,4 +1,7 @@
-export default function SubFooter() {
+import React from "react"
+import styles from './SubFooter.module.scss'
+
+function SubFooter() {
     let year: number = new Date().getFullYear()
 
     return (
@@ -12,3 +15,5 @@ export default function SubFooter() {
         </>
     )
 }
+
+export default SubFooter

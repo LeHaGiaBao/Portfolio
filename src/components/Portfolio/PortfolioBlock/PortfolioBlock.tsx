@@ -1,3 +1,5 @@
+import React from 'react'
+import styles from './PortfolioBlock.module.scss'
 import Image from "next/image"
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
@@ -6,7 +8,18 @@ import { PATH_NAME } from "@/routes/pathName"
 
 const Fade = require('react-reveal/Fade')
 
-export default function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }: any) {
+interface PortfolioBlock {
+    githublink: any
+    demo: any,
+    image: any,
+    time: any,
+    name: any,
+    des: any,
+    tech: any,
+    view: any
+}
+
+function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }: PortfolioBlock) {
     return (
         <>
             <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg shadow">
@@ -82,3 +95,5 @@ export default function PortfolioBlock({ githublink, demo, image, time, name, de
         </>
     )
 }
+
+export default PortfolioBlock
