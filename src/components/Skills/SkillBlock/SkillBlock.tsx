@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
+import styles from './SkillBlock.module.scss'
 import VanillaTilt from 'vanilla-tilt';
 import Image from "next/image"
 
@@ -13,7 +14,12 @@ const Tilt = (props: any) => {
     return <div ref={tilt} {...rest} />;
 }
 
-export default function SkillBlock({ image, name }: any) {
+interface SkillBlock {
+    image: any,
+    name: any,
+}
+
+function SkillBlock({ image, name }: SkillBlock) {
     const options = {
         scale: 1.0,
         speed: 1000,
@@ -40,3 +46,5 @@ export default function SkillBlock({ image, name }: any) {
         </>
     )
 }
+
+export default SkillBlock

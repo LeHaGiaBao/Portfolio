@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
+import styles from './Skills.module.scss'
 import Title from '@/components/Skills/Title'
 import SkillBlock from '@/components/Skills/SkillBlock'
 import { skills } from "@/data/skills"
 
-export default function Skills() {
+function Skills() {
 	return (
 		<>
 			<section className='py-10'>
@@ -44,3 +45,5 @@ export default function Skills() {
 		</>
 	)
 }
+
+export default Skills

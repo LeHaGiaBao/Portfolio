@@ -1,7 +1,9 @@
+import React from "react"
+import styles from './Doing.module.scss'
 import { services } from "@/data/services"
-import DoingBlock from "@/components/Doing/DoingBlock"
+import DoingBlock from "@/components/Doing"
 
-export default function Doing() {
+function Doing() {
     return (
         <>
             <section className="py-10">
@@ -21,3 +23,5 @@ export default function Doing() {
         </>
     )
 }
+
+export default Doing

@@ -1,12 +1,13 @@
+import React from "react";
+import styles from './Stats.module.scss'
 import useGithubStats from "react-github-user-stats";
 import GitHubStats from "@/components/Stats/GitHubStats";
-
 import { BiGitCompare } from 'react-icons/bi'
 import { RiUserFollowLine } from 'react-icons/ri'
 import { RiStarSFill } from 'react-icons/ri'
 import { BiGitRepoForked } from 'react-icons/bi'
 
-export default function Stats() {
+function Stats() {
     const { error, loading, userData } = useGithubStats("LeHaGiaBao");
 
     if (loading) return <h1>Loading data..</h1>;
@@ -58,3 +59,5 @@ export default function Stats() {
         </>
     )
 }
+
+export default Stats

@@ -1,8 +1,10 @@
+import React from "react"
+import styles from './GitHub.module.scss'
 import GitHubCalendar from "react-github-calendar"
 
 const Fade = require('react-reveal/Fade')
 
-export default function GitHub() {
+function GitHub() {
     return (
         <>
             <Fade bottom>
@@ -26,3 +28,5 @@ export default function GitHub() {
         </>
     )
 }
+
+export default GitHub

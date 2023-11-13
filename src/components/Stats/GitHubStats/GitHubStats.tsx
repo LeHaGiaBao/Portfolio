@@ -1,3 +1,5 @@
+import React from 'react';
+import styles from './GitHubStats.module.scss'
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import CountUp, { useCountUp } from 'react-countup';
@@ -13,7 +15,13 @@ const Tilt = (props: any) => {
     return <div ref={tilt} {...rest} />;
 }
 
-export default function GitHubStats({ icon, stats, name }: any) {
+interface GitHubStats {
+    icon: any,
+    stats: any,
+    name: any
+}
+
+function GitHubStats({ icon, stats, name }: GitHubStats) {
     const options = {
         scale: 1.0,
         speed: 1000,
@@ -43,3 +51,5 @@ export default function GitHubStats({ icon, stats, name }: any) {
         </>
     )
 }
+
+export default GitHubStats
