@@ -1,17 +1,27 @@
+import React from "react"
+import styles from './WorksBlock.module.scss'
 import Image from "next/image"
 
-export default function WorksBlock({ image, title, content }: any) {
+interface WorksBlock {
+    image: any,
+    title: any,
+    content: any
+}
+
+function WorksBlock({ image, title, content }: any) {
     return (
         <>
-            <div className="item">
-                <div className="icon">
+            <div className={`${styles.item}`}>
+                <div className={`${styles.icon}`}>
                     <Image src={image} alt="illustration" className="mx-auto" />
                 </div>
-                <h3 className="item-heading">{title}</h3>
-                <p className="item-desc">
+                <h3 className={`${styles.itemHeading}`}>{title}</h3>
+                <p className={`${styles.itemDesc}`}>
                     {content}
                 </p>
             </div>
         </>
     )
 }
+
+export default WorksBlock

@@ -1,8 +1,17 @@
+import React from "react"
+import styles from './VolunteeringBlock.module.scss'
 import Image from "next/image"
 
 const Fade = require('react-reveal/Fade')
 
-export default function VolunteeringBlock({ image, title, time, organization }: any) {
+interface VolunteeringBlock {
+    image: any,
+    title: any,
+    time: any,
+    organization: any
+}
+
+function VolunteeringBlock({ image, title, time, organization }: VolunteeringBlock) {
     return (
         <>
             <Fade bottom>
@@ -22,3 +31,5 @@ export default function VolunteeringBlock({ image, title, time, organization }: 
         </>
     )
 }
+
+export default VolunteeringBlock

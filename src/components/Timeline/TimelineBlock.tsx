@@ -1,8 +1,18 @@
+import React from "react"
+import styles from './TimelineBlock.module.scss'
 import Image from "next/image"
 
 const Fade = require('react-reveal/Fade')
 
-export default function TimelineBlock({ ExID, image, title, organization, time }: any) {
+interface TimelineBlock {
+    ExID: any,
+    image: any,
+    title: any,
+    organization: any,
+    time: any
+}
+
+function TimelineBlock({ ExID, image, title, organization, time }: TimelineBlock) {
     return (
         <>
             {
@@ -65,3 +75,5 @@ export default function TimelineBlock({ ExID, image, title, organization, time }
         </>
     )
 }
+
+export default TimelineBlock

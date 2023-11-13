@@ -1,8 +1,10 @@
+import React from "react"
+import styles from './ComingSoon.module.scss'
 import Link from "next/link"
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { PATH_NAME } from "@/routes/pathName"
 
-export default function ComingSoon() {
+function ComingSoon() {
     return (
         <>
             <div className="min-h-screen text-gray-900 dark:text-gray-300 flex flex-col items-center justify-center">
@@ -24,3 +26,5 @@ export default function ComingSoon() {
         </>
     )
 }
+
+export default ComingSoon
