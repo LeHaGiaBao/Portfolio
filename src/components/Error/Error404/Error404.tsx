@@ -1,10 +1,12 @@
+import React from "react"
+import styles from './Error404.module.scss'
 import Image from "next/image"
 import Image404 from "@/assets/Error/Image404.png"
 import Link from "next/link"
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { PATH_NAME } from "@/routes/pathName"
 
-export default function Error404() {
+function Error404() {
     return (
         <>
             <section className="flex items-center h-full p-16 text-gray-900 dark:text-gray-300">
@@ -26,3 +28,5 @@ export default function Error404() {
         </>
     )
 }
+
+export default Error404

@@ -1,6 +1,6 @@
 import Navbar from '@/layouts/Navbar'
-import Footer from '@/layouts/Footer/Footer'
 import Error500 from "@/components/Error/Error500"
+import Footer from '@/layouts/Footer'
 
 export default function Custom500() {
     return (

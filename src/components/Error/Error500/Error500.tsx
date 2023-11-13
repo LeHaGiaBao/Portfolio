@@ -1,10 +1,12 @@
+import React from "react"
+import styles from './Error500.module.scss'
 import Image from "next/image"
 import Image500 from "@/assets/Error/Image500.png"
 import Link from "next/link"
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { PATH_NAME } from '@/routes/pathName'
 
-export default function Error500() {
+function Error500() {
     return (
         <>
             <section className="flex items-center h-full sm:p-16 text-gray-900 dark:text-gray-300">
@@ -24,3 +26,5 @@ export default function Error500() {
         </>
     )
 }
+
+export default Error500
