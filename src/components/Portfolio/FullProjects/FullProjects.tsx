@@ -1,9 +1,11 @@
+import React from 'react'
+import styles from './FullProjects.module.scss'
 import { project } from '@/data/project'
-import PortfolioBlock from './PortfolioBlock'
+import PortfolioBlock from '../PortfolioBlock'
 
 const Fade = require('react-reveal/Fade')
 
-export default function FullProjects() {
+function FullProjects() {
     return (
         <>
             <Fade bottom>
@@ -24,3 +26,5 @@ export default function FullProjects() {
         </>
     )
 }
+
+export default FullProjects

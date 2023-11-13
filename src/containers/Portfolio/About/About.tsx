@@ -1,10 +1,12 @@
+import React from 'react'
+import styles from './About.module.scss'
 import Image from 'next/image'
 import Develop from '@/assets/image/Develop.gif'
 import { introportfolio } from '@/data/aboutme'
 
 const Fade = require('react-reveal/Fade')
 
-export default function About() {
+function About() {
     return (
         <>
             <section className="pb-10 sm:pb-16 lg:pb-24">
@@ -28,3 +30,5 @@ export default function About() {
         </>
     )
 }
+
+export default About

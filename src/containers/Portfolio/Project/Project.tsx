@@ -1,8 +1,10 @@
+import React from 'react'
+import styles from './Project.module.scss'
 import { project, school, learning } from '@/data/project'
-import PortfolioBlock from '@/components/Portfolio/PortfolioBlock/PortfolioBlock'
-import HeadingTitle from '@/components/Title/HeadingTitle/HeadingTitle'
+import HeadingTitle from '@/components/Title/HeadingTitle'
+import PortfolioBlock from '@/components/Portfolio/PortfolioBlock'
 
-export default function Project() {
+function Project() {
     return (
         <>
             <section className="pt-10 pb-20">
@@ -52,3 +54,5 @@ export default function Project() {
         </>
     )
 }
+
+export default Project
