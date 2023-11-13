@@ -1,6 +1,6 @@
 import Navbar from '@/layouts/Navbar'
-import Footer from '@/layouts/Footer/Footer'
-import ComingSoon from '@/components/ComingSoon/ComingSoon'
+import ComingSoon from '@/components/ComingSoon'
+import Footer from '@/layouts/Footer'
 
 export default function PortfolioId() {
     return (

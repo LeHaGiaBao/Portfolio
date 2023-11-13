@@ -1,6 +1,8 @@
+import React from "react"
+import styles from './AndroidMockup.module.scss'
 import Image from "next/image"
 
-export default function AndroidMockup() {
+function AndroidMockup() {
     return (
         <>
             <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-xl h-[600px] w-[300px] shadow-xl">
@@ -17,3 +19,5 @@ export default function AndroidMockup() {
         </>
     )
 }
+
+export default AndroidMockup

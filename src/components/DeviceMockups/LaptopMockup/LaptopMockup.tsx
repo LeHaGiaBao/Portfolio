@@ -1,6 +1,8 @@
+import React from "react"
+import styles from './LaptopMockup.module.scss'
 import Image from "next/image"
 
-export default function LaptopMockup() {
+function LaptopMockup() {
     return (
         <>
             <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -15,3 +17,5 @@ export default function LaptopMockup() {
         </>
     )
 }
+
+export default LaptopMockup

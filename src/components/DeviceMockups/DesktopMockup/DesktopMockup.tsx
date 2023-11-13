@@ -1,6 +1,8 @@
+import React from "react"
+import styles from './DesktopMockup.module.scss'
 import Image from "next/image"
 
-export default function DesktopMockup() {
+function DesktopMockup() {
     return (
         <>
             <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[16px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -14,3 +16,5 @@ export default function DesktopMockup() {
         </>
     )
 }
+
+export default DesktopMockup

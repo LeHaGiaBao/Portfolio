@@ -1,6 +1,8 @@
+import React from "react"
+import styles from './TabletMockup.module.scss'
 import Image from "next/image"
 
-export default function TabletMockup() {
+function TabletMockup() {
     return (
         <>
             <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[454px] max-w-[341px] md:h-[682px] md:max-w-[512px]">
@@ -16,3 +18,5 @@ export default function TabletMockup() {
         </>
     )
 }
+
+export default TabletMockup

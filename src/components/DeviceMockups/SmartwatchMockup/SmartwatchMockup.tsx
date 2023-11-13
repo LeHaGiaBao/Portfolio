@@ -1,6 +1,8 @@
+import React from "react"
+import styles from './SmartwatchMockup.module.scss'
 import Image from "next/image"
 
-export default function SmartwatchMockup() {
+function SmartwatchMockup() {
     return (
         <>
             <div className="relative mx-auto bg-gray-800 dark:bg-gray-700 rounded-t-[2.5rem] h-[63px] max-w-[133px]"></div>
@@ -16,3 +18,5 @@ export default function SmartwatchMockup() {
         </>
     )
 }
+
+export default SmartwatchMockup
