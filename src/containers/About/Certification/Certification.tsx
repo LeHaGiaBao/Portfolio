@@ -3,6 +3,7 @@ import styles from './Certification.module.scss'
 import Link from "next/link"
 import { certification } from "@/data/certification"
 import CertificationBlock from "@/components/Certification/CertificationBlock"
+import { ExportSquare } from 'iconsax-react'
 import { MdLaunch } from 'react-icons/md'
 import { PATH_NAME } from "@/routes/pathName"
 

@@ -13,7 +13,6 @@ import Certification from '@/containers/About/Certification'
 import EndContainer from '@/components/EndContainer'
 import Footer from '@/layouts/Footer'
 
-
 export default function About() {
 	return (
 		<>

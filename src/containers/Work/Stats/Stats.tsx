@@ -2,6 +2,12 @@ import React from "react";
 import styles from './Stats.module.scss'
 import useGithubStats from "react-github-user-stats";
 import GitHubStats from "@/components/Stats/GitHubStats";
+import {
+    ProgrammingArrows,
+    UserTick,
+    Star1,
+    Hierarchy2,
+} from 'iconsax-react'
 import { BiGitCompare } from 'react-icons/bi'
 import { RiUserFollowLine } from 'react-icons/ri'
 import { RiStarSFill } from 'react-icons/ri'
@@ -17,25 +23,25 @@ function Stats() {
     const data = [
         {
             id: 1,
-            icon: <BiGitCompare className="flex-shrink-0 w-12 h-12 text-pink-500" />,
+            icon: <ProgrammingArrows className="flex-shrink-0 w-12 h-12 text-pink-500" />,
             stats: userData.public_repos,
             name: 'Public Repository',
         },
         {
             id: 2,
-            icon: <RiUserFollowLine className="flex-shrink-0 w-12 h-12 text-yellow-500" />,
+            icon: <UserTick className="flex-shrink-0 w-12 h-12 text-yellow-500" />,
             stats: userData.followers,
             name: 'Followers',
         },
         {
             id: 3,
-            icon: <RiStarSFill className="flex-shrink-0 w-12 h-12 text-cyan-500" />,
+            icon: <Star1 className="flex-shrink-0 w-12 h-12 text-cyan-500" />,
             stats: userData.total_stars,
             name: 'Total stars',
         },
         {
             id: 4,
-            icon: <BiGitRepoForked className="flex-shrink-0 w-12 h-12 text-blue-500" />,
+            icon: <Hierarchy2 className="flex-shrink-0 w-12 h-12 text-blue-500" />,
             stats: userData.total_forks,
             name: 'Total forks',
         },

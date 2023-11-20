@@ -3,6 +3,7 @@ import styles from './Portfolio.module.scss'
 import Link from "next/link"
 import PortfolioBlock from "@/components/Portfolio/PortfolioBlock/PortfolioBlock"
 import { project } from '@/data/project'
+import { ExportSquare } from 'iconsax-react'
 import { MdLaunch } from 'react-icons/md'
 import { PATH_NAME } from "@/routes/pathName"
 

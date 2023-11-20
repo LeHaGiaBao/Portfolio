@@ -3,6 +3,7 @@ import styles from './AboutMe.module.scss'
 import Image from "next/image"
 import Frame2 from '@/assets/LeHaGiaBao/Frame2.png'
 import { summary } from "@/data/aboutme"
+import { ArrowRight } from 'iconsax-react';
 
 const Fade = require('react-reveal/Fade')
 
@@ -25,10 +26,12 @@ function AboutMe() {
                                 <p className="max-w-2xl mt-3 text-xl leading-relaxed">
                                     {summary}
                                 </p>
-                                <p className="mt-4 text-xl md:mt-8">
-                                    Read more
-                                    <a href="about" title="" className="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"> about me</a>
-                                </p>
+                                <a href="about">
+                                    <p className="flex row items-center mt-4 text-xl md:mt-8 hover:underline">
+                                        Learn more
+                                        <ArrowRight className='ml-2 mt-1' />
+                                    </p>
+                                </a>
                             </div>
                         </Fade>
                         <Fade left>
