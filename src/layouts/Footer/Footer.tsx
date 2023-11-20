@@ -5,6 +5,11 @@ import Link from 'next/link';
 import Social from '@/components/Footer/Social';
 import SubFooter from '@/components/Footer/SubFooter';
 import logo from '@/assets/Logo/logo.png';
+import {
+    Sms,
+    Call,
+    Location,
+} from 'iconsax-react';
 import { IoMailOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
 import { MdOutlinePlace } from 'react-icons/md';
@@ -36,15 +41,15 @@ function Footer() {
                             <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-20 bg-black dark:bg-gray-50/20"></div>
                             <div>
                                 <a href={`mailto:${email}`} className="mb-4 flex items-center justify-center lg:justify-start hover:underline">
-                                    <IoMailOutline className="mr-3 h-5 w-5" />
+                                    <Sms className="mr-3 h-5 w-5" />
                                     {email}
                                 </a>
                                 <a href={`tel:${phone}`} className="mb-4 flex items-center justify-center lg:justify-start hover:underline">
-                                    <BsTelephone className='mr-3 h-5 w-5' />
+                                    <Call className='mr-3 h-5 w-5' />
                                     {phone}
                                 </a>
                                 <a href="https://www.google.com/maps/place/H%E1%BB%93+Ch%C3%AD+Minh,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.754792,106.6952276,10z/data=!3m1!4b1!4m6!3m5!1s0x317529292e8d3dd1:0xf15f5aad773c112b!8m2!3d10.8230989!4d106.6296638!16zL20vMGhuNGg" className="flex items-center justify-center lg:justify-start hover:underline">
-                                    <MdOutlinePlace className='mr-3 h-5 w-5' />
+                                    <Location className='mr-3 h-5 w-5' />
                                     {address}
                                 </a>
                             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './PortfolioBlock.module.scss'
 import Image from "next/image"
+import { ArrowRight } from 'iconsax-react';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { MdOutlineLaunch } from 'react-icons/md'
@@ -23,7 +24,7 @@ function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }
     return (
         <>
             <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg shadow">
-                <div className="p-5 h-full">
+                <div className="p-5 h-5/6">
                     <div className="relative">
                         {
                             demo === "" ?
@@ -44,14 +45,14 @@ function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }
                             </p>
                         </div>
                         {/* <a href={`${PATH_NAME.PORTFOLIO}/${view}`}>
-                            <AiOutlineArrowRight className="block w-6 h-6 text-blue-600" />
+                            <ArrowRight className="block w-6 h-6 text-blue-600" />
                         </a> */}
                     </div>
                     <p className="my-4 text-base font-bold">Description: <span className="text-gray-600 dark:text-gray-500 font-light">{des}</span> </p>
                     <p className="my-4 text-base font-bold">Technology: <span className="text-gray-600 dark:text-gray-500 font-light">{tech}</span></p>
                 </div>
                 {
-                    githublink === "" && demo !== ""
+                    githublink !== "" && demo !== ""
                         ?
                         <div className="border-t border-gray-200">
                             <div className="flex">

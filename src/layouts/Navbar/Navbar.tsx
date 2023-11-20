@@ -8,6 +8,7 @@ import logo from '@/assets/Logo/logo.png';
 import { MenuItem } from "@/config/menu";
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { useTheme } from "next-themes";
+import { Sun1, Moon } from 'iconsax-react';
 import { FiSun } from 'react-icons/fi'
 import { BsMoonStarsFill } from 'react-icons/bs'
 import { PATH_NAME } from "@/routes/pathName";
@@ -40,11 +41,11 @@ function Navbar() {
 
         if (currentTheme === "dark") {
             return (
-                <FiSun className="w-7 h-7 text-yellow-500 hidden md:block" role="button" onClick={() => setTheme('light')} />
+                <Sun1 className="w-7 h-7 text-yellow-500 hidden md:block" role="button" onClick={() => setTheme('light')} />
             )
         } else {
             return (
-                <BsMoonStarsFill className="w-7 h-7 text-gray-900 hidden md:block" role="button" onClick={() => setTheme('dark')} />
+                <Moon className="w-7 h-7 text-gray-900 hidden md:block" role="button" onClick={() => setTheme('dark')} />
             )
         }
     };
@@ -84,7 +85,7 @@ function Navbar() {
                                                         setTheme('light')
                                                         closeMenu()
                                                     }}>
-                                                    <FiSun className="w-7 h-7 text-yellow-500 mr-3 ml-5" role="button" />
+                                                    <Sun1 className="w-7 h-7 text-yellow-500 mr-3 ml-5" role="button" />
                                                     Switch to light mode
                                                 </button>
                                                 :
@@ -93,7 +94,7 @@ function Navbar() {
                                                         setTheme('dark')
                                                         closeMenu()
                                                     }}>
-                                                    <BsMoonStarsFill className="w-7 h-7 text-white mr-3 ml-5" role="button" />
+                                                    <Moon className="w-7 h-7 text-white mr-3 ml-5" role="button" />
                                                     Switch to dark mode
                                                 </button>
                                         }
