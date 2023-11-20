@@ -1,5 +1,4 @@
 import type {NextApiRequest, NextApiResponse} from 'next'
-import {serialize} from 'cookie'
 import {getAuth} from 'firebase-admin/auth'
 
 type Data = {
@@ -20,11 +19,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data>)
 					httpOnly: true,
 					secure: true,
 				}
-
-				res.setHeader(
-					'Set-Cookie',
-					serialize('session', sessionCookie, options)
-				)
 
 				res.status(200).json({error: false})
 			},
