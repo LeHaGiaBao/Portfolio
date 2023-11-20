@@ -25,10 +25,11 @@ function AboutMe() {
                                 <p className="max-w-2xl mt-3 text-xl leading-relaxed">
                                     {summary}
                                 </p>
-                                <p className="mt-4 text-xl md:mt-8">
-                                    Read more
-                                    <a href="about" title="" className="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"> about me</a>
-                                </p>
+                                <a href="about">
+                                    <p className="mt-4 text-xl md:mt-8 hover:underline">
+                                        Learn more
+                                    </p>
+                                </a>
                             </div>
                         </Fade>
                         <Fade left>

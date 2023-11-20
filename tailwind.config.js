@@ -20,6 +20,10 @@ module.exports = {
 				dark: '#171C28',
 				footerwhite: '#F8FAFC',
 				footerdark: '#1A1A1A',
+				darkSurfacePimary: '#1D2127',
+				darkSufaceSecondary: '#252930',
+				darkTextPrimary: '#D1D7EO',
+				darkTextSecondary: '#AAAEB6',
 			},
 
 			fontFamily: {
