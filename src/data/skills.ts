@@ -31,6 +31,7 @@ import angular from 'public/Skills/Fontend/angular.png'
 import rsjx from 'public/Skills/Fontend/rsjx.png'
 import primeng from 'public/Skills/Fontend/primeng.jpg'
 import primereact from 'public/Skills/Fontend/primereact.jpg'
+import zustand from 'public/Skills/Fontend/Zustand.png'
 
 // Backend
 import node from 'public/Skills/Backend/node.png'
@@ -307,11 +308,16 @@ export const skills = [
 					},
 					{
 						id: 2,
+						image: zustand,
+						name: 'Zustand',
+					},
+					{
+						id: 3,
 						image: reactrouter,
 						name: 'React Router',
 					},
 					{
-						id: 3,
+						id: 4,
 						image: axios,
 						name: 'Axios',
 					},
