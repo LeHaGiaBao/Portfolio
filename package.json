@@ -56,6 +56,7 @@
 		"semantic-ui-css": "^2.5.0",
 		"semantic-ui-react": "^2.1.4",
 		"styled-components": "^5.3.11",
+		"styled-icons": "^10.47.0",
 		"sweetalert2": "^11.9.0",
 		"swiper": "^9.4.1",
 		"tw-elements": "^1.0.0",
