@@ -27,9 +27,9 @@ module.exports = {
 			},
 
 			fontFamily: {
-				sacramento: ['Sacramento', 'sans-serif'],
+				SFProDisplay: ['SF Pro Display', 'sans-serif'],
+				Sacramento: ['Sacramento', 'sans-serif'],
 				Montserrat: ['Montserrat', 'san-serif'],
-				SF: ['SF Pro Display', 'sans-serif'],
 				Inter: ['Inter', 'sans-serif'],
 				Roboto: ['Roboto', 'sans-serif'],
 				LibreFranklin: ['Libre Franklin', 'sans-serif'],
@@ -40,6 +40,7 @@ module.exports = {
 				Playfair: ['Playfair Display', 'sans-serif'],
 				Rubik: ['Rubik', 'sans-serif'],
 				Lora: ['Lora', 'sans-serif'],
+				Archivo: ['Archivo', 'sans-serif'],
 			},
 		},
 	},

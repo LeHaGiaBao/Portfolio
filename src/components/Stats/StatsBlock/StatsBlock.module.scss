@@ -15,8 +15,8 @@
 }
 
 .number {
-	font-family: 'Poppins';
 	font-size: 6rem;
+	font-weight: 600;
 }
 
 .statsSubHeading {
@@ -32,7 +32,6 @@
 
 @media only screen and (max-width: 768px) {
 	.number {
-		font-family: 'Poppins';
 		font-size: 5rem;
 	}
 }
