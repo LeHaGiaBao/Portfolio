@@ -12,7 +12,7 @@ interface DoingBlock {
 function DoingBlock({ image, title, content }: DoingBlock) {
     return (
         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-            <div className="overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md shadow">
+            <div className="h-full overflow-hidden text-black border border-gray-200 dark:border-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md shadow">
                 <div className="px-8 py-12">
                     <div className="relative w-24 h-24 mx-auto">
                         <Image src={image} alt="" className="relative object-cover w-24 h-24 mx-auto" />
