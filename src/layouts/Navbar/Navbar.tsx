@@ -41,11 +41,11 @@ function Navbar() {
 
         if (currentTheme === "dark") {
             return (
-                <Sun1 className="w-7 h-7 text-yellow-500 hidden md:block" role="button" onClick={() => setTheme('light')} />
+                <FiSun className="w-7 h-7 text-yellow-500 hidden md:block" role="button" onClick={() => setTheme('light')} />
             )
         } else {
             return (
-                <Moon className="w-7 h-7 text-gray-900 hidden md:block" role="button" onClick={() => setTheme('dark')} />
+                <BsMoonStarsFill className="w-7 h-7 text-gray-900 hidden md:block" role="button" onClick={() => setTheme('dark')} />
             )
         }
     };
@@ -85,7 +85,7 @@ function Navbar() {
                                                         setTheme('light')
                                                         closeMenu()
                                                     }}>
-                                                    <Sun1 className="w-7 h-7 text-yellow-500 mr-3 ml-5" role="button" />
+                                                    <FiSun className="w-7 h-7 text-yellow-500 mr-3 ml-5" role="button" />
                                                     Switch to light mode
                                                 </button>
                                                 :
@@ -94,7 +94,7 @@ function Navbar() {
                                                         setTheme('dark')
                                                         closeMenu()
                                                     }}>
-                                                    <Moon className="w-7 h-7 text-white mr-3 ml-5" role="button" />
+                                                    <BsMoonStarsFill className="w-7 h-7 text-white mr-3 ml-5" role="button" />
                                                     Switch to dark mode
                                                 </button>
                                         }
