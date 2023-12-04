@@ -161,37 +161,37 @@ export const skills = [
 					},
 				],
 			},
-			{
-				subId: 3,
-				sub: 'Novice',
-				children2: [
-					{
-						id: 1,
-						image: C,
-						name: 'C',
-					},
-					{
-						id: 2,
-						image: CPP,
-						name: 'C++',
-					},
-					{
-						id: 3,
-						image: Python,
-						name: 'Python',
-					},
-					{
-						id: 4,
-						image: Java,
-						name: 'Java',
-					},
-					{
-						id: 4,
-						image: Golang,
-						name: 'Golang',
-					},
-				],
-			},
+			// {
+			// 	subId: 3,
+			// 	sub: 'Novice',
+			// 	children2: [
+			// 		{
+			// 			id: 1,
+			// 			image: C,
+			// 			name: 'C',
+			// 		},
+			// 		{
+			// 			id: 2,
+			// 			image: CPP,
+			// 			name: 'C++',
+			// 		},
+			// 		{
+			// 			id: 3,
+			// 			image: Python,
+			// 			name: 'Python',
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			image: Java,
+			// 			name: 'Java',
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			image: Golang,
+			// 			name: 'Golang',
+			// 		},
+			// 	],
+			// },
 		],
 	},
 	{
@@ -285,16 +285,16 @@ export const skills = [
 						image: styledcomponents,
 						name: 'Styled Components',
 					},
-					{
-						id: 6,
-						image: primeng,
-						name: 'PrimeNG',
-					},
-					{
-						id: 7,
-						image: primereact,
-						name: 'PrimeReact',
-					},
+					// {
+					// 	id: 6,
+					// 	image: primeng,
+					// 	name: 'PrimeNG',
+					// },
+					// {
+					// 	id: 7,
+					// 	image: primereact,
+					// 	name: 'PrimeReact',
+					// },
 				],
 			},
 			{
@@ -323,22 +323,22 @@ export const skills = [
 					},
 				],
 			},
-			{
-				subId: 6,
-				sub: 'Novice',
-				children2: [
-					{
-						id: 1,
-						image: angular,
-						name: 'Angular',
-					},
-					{
-						id: 2,
-						image: rsjx,
-						name: 'RsJS',
-					},
-				],
-			},
+			// {
+			// 	subId: 6,
+			// 	sub: 'Novice',
+			// 	children2: [
+			// 		{
+			// 			id: 1,
+			// 			image: angular,
+			// 			name: 'Angular',
+			// 		},
+			// 		{
+			// 			id: 2,
+			// 			image: rsjx,
+			// 			name: 'RsJS',
+			// 		},
+			// 	],
+			// },
 		],
 	},
 	{
@@ -671,32 +671,32 @@ export const skills = [
 					},
 				],
 			},
-			{
-				subId: 3,
-				sub: 'Management',
-				children2: [
-					{
-						id: 1,
-						image: notion,
-						name: 'Notion',
-					},
-					{
-						id: 2,
-						image: trello,
-						name: 'Trello',
-					},
-					{
-						id: 3,
-						image: obsidian,
-						name: 'Obsidian',
-					},
-					{
-						id: 4,
-						image: Todoist,
-						name: 'Todoist',
-					},
-				],
-			},
+			// {
+			// 	subId: 3,
+			// 	sub: 'Management',
+			// 	children2: [
+			// 		{
+			// 			id: 1,
+			// 			image: notion,
+			// 			name: 'Notion',
+			// 		},
+			// 		{
+			// 			id: 2,
+			// 			image: trello,
+			// 			name: 'Trello',
+			// 		},
+			// 		{
+			// 			id: 3,
+			// 			image: obsidian,
+			// 			name: 'Obsidian',
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			image: Todoist,
+			// 			name: 'Todoist',
+			// 		},
+			// 	],
+			// },
 			{
 				subId: 4,
 				sub: 'Planning',
@@ -764,16 +764,16 @@ export const skills = [
 						image: canva,
 						name: 'Canva',
 					},
-					{
-						id: 3,
-						image: imovie,
-						name: 'iMovie',
-					},
-					{
-						id: 4,
-						image: capcut,
-						name: 'Capcut',
-					},
+					// {
+					// 	id: 3,
+					// 	image: imovie,
+					// 	name: 'iMovie',
+					// },
+					// {
+					// 	id: 4,
+					// 	image: capcut,
+					// 	name: 'Capcut',
+					// },
 				],
 			},
 			{
@@ -820,57 +820,57 @@ export const skills = [
 			},
 		],
 	},
-	{
-		id: 12,
-		title: 'Office',
-		children1: [
-			{
-				subId: 1,
-				sub: 'Google',
-				children2: [
-					{
-						id: 1,
-						image: docs,
-						name: 'Google Docs',
-					},
-					{
-						id: 2,
-						image: sheets,
-						name: 'Google Sheets',
-					},
-					{
-						id: 3,
-						image: slides,
-						name: 'Google Slides',
-					},
-					{
-						id: 4,
-						image: forms,
-						name: 'Google Forms',
-					},
-				],
-			},
-			{
-				subId: 2,
-				sub: 'Microsoft',
-				children2: [
-					{
-						id: 1,
-						image: word,
-						name: 'Word',
-					},
-					{
-						id: 2,
-						image: excel,
-						name: 'Excel',
-					},
-					{
-						id: 3,
-						image: powerpoint,
-						name: 'Powerpoint',
-					},
-				],
-			},
-		],
-	},
+	// {
+	// 	id: 12,
+	// 	title: 'Office',
+	// 	children1: [
+	// 		{
+	// 			subId: 1,
+	// 			sub: 'Google',
+	// 			children2: [
+	// 				{
+	// 					id: 1,
+	// 					image: docs,
+	// 					name: 'Google Docs',
+	// 				},
+	// 				{
+	// 					id: 2,
+	// 					image: sheets,
+	// 					name: 'Google Sheets',
+	// 				},
+	// 				{
+	// 					id: 3,
+	// 					image: slides,
+	// 					name: 'Google Slides',
+	// 				},
+	// 				{
+	// 					id: 4,
+	// 					image: forms,
+	// 					name: 'Google Forms',
+	// 				},
+	// 			],
+	// 		},
+	// 		{
+	// 			subId: 2,
+	// 			sub: 'Microsoft',
+	// 			children2: [
+	// 				{
+	// 					id: 1,
+	// 					image: word,
+	// 					name: 'Word',
+	// 				},
+	// 				{
+	// 					id: 2,
+	// 					image: excel,
+	// 					name: 'Excel',
+	// 				},
+	// 				{
+	// 					id: 3,
+	// 					image: powerpoint,
+	// 					name: 'Powerpoint',
+	// 				},
+	// 			],
+	// 		},
+	// 	],
+	// },
 ]
