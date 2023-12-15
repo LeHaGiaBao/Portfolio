@@ -272,6 +272,17 @@ export const school = [
 		tech: 'Golang, TypeScript, React',
 		view: 'API server for cs chat app',
 	},
+	{
+		id: 10,
+		githublink: 'https://github.com/LeHaGiaBao/Wanderlust',
+		demo: '',
+		image: uit,
+		time: 'November 2023 - December 2023',
+		name: 'Wanderlust',
+		des: 'Wanderlust Travel App',
+		tech: 'TypeScript, Ionic Framework, React, CSS',
+		view: 'Wanderlust travel app',
+	},
 ]
 
 export const learning = [
