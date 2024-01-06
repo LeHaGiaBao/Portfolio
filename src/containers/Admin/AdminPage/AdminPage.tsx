@@ -22,6 +22,21 @@ function AdminPage() {
                             <GitHub />
                         </div>
                     </div>
+                    <div className="flex-1 text-left">
+                        <h2 className="text-3xl font-bold leading-tight text-black">Information Management</h2>
+                    </div>
+                    <div className="flex-1 text-left">
+                        <h2 className="text-3xl font-bold leading-tight text-black">Content Management</h2>
+                    </div>
+                    <div className="flex-1 text-left">
+                        <h2 className="text-3xl font-bold leading-tight text-black">Certificate Management</h2>
+                    </div>
+                    <div className="flex-1 text-left">
+                        <h2 className="text-3xl font-bold leading-tight text-black">Skills Management</h2>
+                    </div>
+                    <div className="flex-1 text-left">
+                        <h2 className="text-3xl font-bold leading-tight text-black">Projects Management</h2>
+                    </div>
                 </div>
             </div>
         </>
