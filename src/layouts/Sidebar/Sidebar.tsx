@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './Sidebar.module.scss'
-import { AiFillDashboard, AiOutlineFundProjectionScreen } from 'react-icons/ai'
-import { BiBookContent } from 'react-icons/bi'
-import { PiCompassToolDuotone, PiCertificateLight, PiFolderSimpleUserDuotone } from 'react-icons/pi'
+import { Element2 } from 'iconsax-react';
 import { CiLogout } from 'react-icons/ci'
 import { signOut } from 'firebase/auth';
 import { auth } from '@/config/firebaseConfig';
@@ -31,50 +29,20 @@ function Sidebar() {
                 <div className="h-screen p-3 space-y-2 w-60 bg-gray-50 text-gray-900">
                     <div className="items-center p-5">
                         <h2 className="text-3xl font-semibold capitalize relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">
-                            {capitalizedPath === "" ? "Home" : capitalizedPath} Page
+                            Admin Page
                         </h2>
                     </div>
                     <div className="divide-y divide-gray-300">
                         <ul className="pt-2 pb-4 space-y-1 text-sm">
                             <li className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
                                 <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <AiFillDashboard className="w-5 h-5 fill-current" />
+                                    <Element2 className="w-5 h-5 fill-current" />
                                     <span>Admin Dashboard</span>
-                                </a>
-                            </li>
-                            <li className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
-                                <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <BiBookContent className="w-5 h-5 fill-current" />
-                                    <span>Content Management</span>
-                                </a>
-                            </li>
-                            <li className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
-                                <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <PiCertificateLight className="w-5 h-5 fill-current" />
-                                    <span>Certificate Management</span>
-                                </a>
-                            </li>
-                            <li className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
-                                <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <PiCompassToolDuotone className="w-5 h-5 fill-current" />
-                                    <span>Skills Management</span>
-                                </a>
-                            </li>
-                            <li className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
-                                <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <AiOutlineFundProjectionScreen className="w-5 h-5 fill-current" />
-                                    <span>Projects Management</span>
-                                </a>
-                            </li>
-                            <li className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
-                                <a href="#" className="flex items-center p-2 space-x-3 rounded-md">
-                                    <PiFolderSimpleUserDuotone className="w-5 h-5 fill-current" />
-                                    <span>Information Management</span>
                                 </a>
                             </li>
                         </ul>
                         <ul className="pt-4 pb-2 space-y-1 text-sm">
-                            <li onClick={handleLogout} className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center">
+                            <li onClick={handleLogout} className="bg-gray-50 hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg py-2 text-center cursor-pointer">
                                 <a className="flex items-center p-2 space-x-3 rounded-md">
                                     <CiLogout className="w-5 h-5 fill-current" />
                                     <span>Logout</span>
