@@ -27,7 +27,7 @@ function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }
                 <div className="p-5 h-5/6">
                     <div className="relative">
                         {
-                            demo === "" ?
+                            demo === "null" ?
                                 <div title="" className="block aspect-w-4 aspect-h-3">
                                     <Image src={image} alt="" className="object-cover w-full h-52" />
                                 </div>
@@ -52,26 +52,31 @@ function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }
                     <p className="my-4 text-base font-bold">Technology: <span className="text-gray-600 dark:text-gray-500 font-light">{tech}</span></p>
                 </div>
                 {
-                    githublink !== "" && demo !== ""
+                    githublink !== 'null' && demo !== 'null'
                         ?
                         <div className="border-t border-gray-200">
                             <div className="flex">
                                 <div className="flex items-center py-6 mx-auto">
-                                    <a href={demo} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-36 h-10">
+                                    <a href={githublink} target=" _blank " className="mr-2 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-40 h-10">
+                                        <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
+                                        <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
+                                    </a>
+                                    <a href={demo} target=" _blank " className="ml-2 flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-40 h-10">
                                         <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> Demo </span>
                                         <MdOutlineLaunch className="object-cover w-6 h-6 rounded-full" />
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        : demo === ""
+                        :
+                        githublink === 'null'
                             ?
                             <div className="border-t border-gray-200">
                                 <div className="flex">
                                     <div className="flex items-center py-6 mx-auto">
-                                        <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-36 h-10">
-                                            <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
-                                            <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
+                                        <a href={demo} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-36 h-10">
+                                            <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> Demo </span>
+                                            <MdOutlineLaunch className="object-cover w-6 h-6 rounded-full" />
                                         </a>
                                     </div>
                                 </div>
@@ -80,13 +85,9 @@ function PortfolioBlock({ githublink, demo, image, time, name, des, tech, view }
                             <div className="border-t border-gray-200">
                                 <div className="flex">
                                     <div className="flex items-center py-6 mx-auto">
-                                        <a href={githublink} target=" _blank " className="mr-2 flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-40 h-10">
+                                        <a href={githublink} target=" _blank " className="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 text-black dark:text-white hover:bg-black hover:text-white rounded w-36 h-10">
                                             <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> GitHub </span>
                                             <AiFillGithub className="object-cover w-6 h-6 rounded-full" />
-                                        </a>
-                                        <a href={demo} target=" _blank " className="ml-2 flex items-center justify-center transition-all duration-200 bg-transparent border text-green-500 hover:bg-green-500 hover:text-white border-gray-300 rounded w-40 h-10">
-                                            <span className="block min-w-0 text-base font-semibold truncate text-center mr-1"> Demo </span>
-                                            <MdOutlineLaunch className="object-cover w-6 h-6 rounded-full" />
                                         </a>
                                     </div>
                                 </div>

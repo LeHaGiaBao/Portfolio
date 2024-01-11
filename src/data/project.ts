@@ -118,7 +118,7 @@ export const project = [
 	{
 		id: 10,
 		githublink: 'https://github.com/LeHaGiaBao/Salt-Phone',
-		demo: '',
+		demo: 'null',
 		image: saltphone,
 		time: 'October 2022 - December 2022',
 		name: 'Salt Phone',
@@ -139,7 +139,7 @@ export const project = [
 	},
 	{
 		id: 12,
-		githublink: '',
+		githublink: 'null',
 		demo: 'https://adventure.webdevstudios.org/',
 		image: adventure,
 		time: 'March 2023 - April 2023',
@@ -176,7 +176,7 @@ export const school = [
 	{
 		id: 1,
 		githublink: 'https://github.com/LeHaGiaBao/OOP-UIT',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'October 2021',
 		name: 'OOP - UIT',
@@ -187,7 +187,7 @@ export const school = [
 	{
 		id: 2,
 		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Ban-Hang',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'November 2021',
 		name: 'Quan Ly Ban Hang',
@@ -198,7 +198,7 @@ export const school = [
 	{
 		id: 3,
 		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Hang-Hoa',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'November 2021',
 		name: 'Quan Ly Hang Hoa',
@@ -209,7 +209,7 @@ export const school = [
 	{
 		id: 4,
 		githublink: 'https://github.com/LeHaGiaBao/Quan-Ly-Nha-Hang',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'November 2021',
 		name: 'Quan Ly Nha Hang',
@@ -220,7 +220,7 @@ export const school = [
 	{
 		id: 5,
 		githublink: 'https://github.com/LeHaGiaBao/EC335.git',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'May 2023',
 		name: 'EC335',
@@ -231,7 +231,7 @@ export const school = [
 	{
 		id: 6,
 		githublink: 'https://github.com/LeHaGiaBao/IS207-Lab',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'June 2023',
 		name: 'IS207 Lab',
@@ -242,7 +242,7 @@ export const school = [
 	{
 		id: 7,
 		githublink: 'https://github.com/LeHaGiaBao/NT118-Lab',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'June 2023',
 		name: 'NT118 Lab',
@@ -253,7 +253,7 @@ export const school = [
 	{
 		id: 8,
 		githublink: 'https://github.com/quangnhat22/cs_chat_app',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'March 2023 - July 2023',
 		name: 'CS Chat App',
@@ -264,7 +264,7 @@ export const school = [
 	{
 		id: 9,
 		githublink: 'https://github.com/dinhlockt02/cs_chat_app_server',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'April 2023 - July 2023',
 		name: 'CS Chat App Server',
@@ -275,7 +275,7 @@ export const school = [
 	{
 		id: 10,
 		githublink: 'https://github.com/LeHaGiaBao/Wanderlust',
-		demo: '',
+		demo: 'null',
 		image: uit,
 		time: 'November 2023 - December 2023',
 		name: 'Wanderlust',
@@ -289,7 +289,7 @@ export const learning = [
 	{
 		id: 1,
 		githublink: 'https://github.com/LeHaGiaBao/Arithmetic-Formatter',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'April 2022',
 		name: 'Arithmetic Formatter',
@@ -300,7 +300,7 @@ export const learning = [
 	{
 		id: 2,
 		githublink: 'https://github.com/LeHaGiaBao/Time-Calculator',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'April 2022',
 		name: 'Time Calculator',
@@ -311,7 +311,7 @@ export const learning = [
 	{
 		id: 3,
 		githublink: 'https://github.com/LeHaGiaBao/Budget-App',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'April 2022',
 		name: 'Budget App',
@@ -322,7 +322,7 @@ export const learning = [
 	{
 		id: 4,
 		githublink: 'https://github.com/LeHaGiaBao/Polygon-Area-Calculator',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'April 2022',
 		name: 'Polygon Area Calculator',
@@ -333,7 +333,7 @@ export const learning = [
 	{
 		id: 5,
 		githublink: 'https://github.com/LeHaGiaBao/Probability-Calculator',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'April 2022',
 		name: 'Probability Calculator',
@@ -344,7 +344,7 @@ export const learning = [
 	{
 		id: 6,
 		githublink: 'https://github.com/LeHaGiaBao/Timestamp-Microservice',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'May 2022',
 		name: 'Timestamp Microservice',
@@ -355,7 +355,7 @@ export const learning = [
 	{
 		id: 7,
 		githublink: 'https://github.com/LeHaGiaBao/Request-Header-Parser-Microservice',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'May 2022',
 		name: 'Request Header Parser Microservice',
@@ -366,7 +366,7 @@ export const learning = [
 	{
 		id: 8,
 		githublink: 'https://github.com/LeHaGiaBao/URL-Shortener-Microservice',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'May 2022',
 		name: 'URL Shortener Microservice',
@@ -377,7 +377,7 @@ export const learning = [
 	{
 		id: 9,
 		githublink: 'https://github.com/LeHaGiaBao/Exercise-Tracker',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'May 2022',
 		name: 'Exercise Tracker',
@@ -388,7 +388,7 @@ export const learning = [
 	{
 		id: 10,
 		githublink: 'https://github.com/LeHaGiaBao/File-Metadata-Microservice',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'May 2022',
 		name: 'File Metadata Microservice',
@@ -399,7 +399,7 @@ export const learning = [
 	{
 		id: 11,
 		githublink: 'https://github.com/LeHaGiaBao/Eleven-Golang-Projects',
-		demo: '',
+		demo: 'null',
 		image: freecodecamp,
 		time: 'January 2023 - February 2023',
 		name: 'Eleven Golang Projects',
