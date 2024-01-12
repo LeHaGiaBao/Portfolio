@@ -8,7 +8,6 @@ import logo from '@/assets/Logo/logo.png';
 import { MenuItem } from "@/config/menu";
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { useTheme } from "next-themes";
-import { Sun1, Moon } from 'iconsax-react';
 import { FiSun } from 'react-icons/fi'
 import { BsMoonStarsFill } from 'react-icons/bs'
 import { PATH_NAME } from "@/routes/pathName";
@@ -45,7 +44,7 @@ function Navbar() {
             )
         } else {
             return (
-                <BsMoonStarsFill className="w-7 h-7 text-gray-900 hidden md:block" role="button" onClick={() => setTheme('dark')} />
+                <BsMoonStarsFill className="w-7 h-7 text-slate-700 hidden md:block" role="button" onClick={() => setTheme('dark')} />
             )
         }
     };
@@ -60,7 +59,7 @@ function Navbar() {
                             <h1 className="mt-2 self-center lg:text-3xl text-2xl font-semibold whitespace-nowra relative text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">Le Ha Gia Bao</h1>
                         </div>
                     </Link>
-                    <button onClick={() => isOpened === false ? openMenu() : closeMenu()} type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary" aria-controls="navbar-default" aria-expanded="false">
+                    <button onClick={() => isOpened === false ? openMenu() : closeMenu()} type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary">
                         <span className="sr-only">Open main menu</span>
                         <HiBars3BottomRight className="w-10 h-10" />
                     </button>
@@ -80,7 +79,7 @@ function Navbar() {
                                         {
                                             theme === "dark"
                                                 ?
-                                                <button className='flex block py-2 w-full text-black bg-white rounded md:bg-transparent md:text-blue-500 md:p-0'
+                                                <button className='flex py-2 w-full text-slate-700 bg-white rounded md:bg-transparent md:text-blue-500 md:p-0'
                                                     onClick={() => {
                                                         setTheme('light')
                                                         closeMenu()
@@ -89,7 +88,7 @@ function Navbar() {
                                                     Switch to light mode
                                                 </button>
                                                 :
-                                                <button className='flex block py-2 w-full text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0'
+                                                <button className='flex py-2 w-full text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0'
                                                     onClick={() => {
                                                         setTheme('dark')
                                                         closeMenu()
@@ -128,7 +127,7 @@ const NavBarItem = ({ link, content }: any) => {
         <>
             <li className="text-lg capitalize px-4 font-semibold">
                 <Link href={`${link}`}>
-                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-gray-900 dark:text-gray-300 rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
+                    <div className={`${router.asPath === link ? 'block py-2 pl-3 pr-4 text-white bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0' : 'block py-2 pl-3 pr-4 text-slate-800 dark:text-gray-300 rounded hover:bg-primary md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0'}`}>
                         {content}
                     </div>
                 </Link>

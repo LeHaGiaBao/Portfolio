@@ -6,7 +6,7 @@ import EducationBlock from "@/components/Education"
 function Education() {
     return (
         <>
-            <section className="text-gray-800">
+            <section className="text-slate-800">
                 <div className="container mx-auto flex flex-col p-6">
                     <div className="divide-y divide-gray-300">
                         {

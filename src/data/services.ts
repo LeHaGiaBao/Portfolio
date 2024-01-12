@@ -13,7 +13,7 @@ export const services = [
 		id: 2,
 		image: Backend,
 		title: 'backend',
-		content: 'I have basic knowledge in Backend Web Development like MVC, and Restful API. I can use Node JS, Express JS, and Laravel in my Backend projects.',
+		content: 'I have basic knowledge in Backend Web Development like MVC, and Restful API. I can use Node JS, Express JS, and Spring in my Backend projects.',
 	},
 	{
 		id: 3,
