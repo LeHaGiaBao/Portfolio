@@ -41,11 +41,11 @@ function BannerView() {
                                 <div className='self-center'>
                                     <img className="rounded-full w-52 h-52" src={banner.avatar} alt="image description" />
                                 </div>
-                                <p className="text-xl mt-5 flex flex-row">
+                                <p className="text-xl mt-5 flex flex-row text-black">
                                     <ArrowRight className='mr-2' />
                                     {banner.title}
                                 </p>
-                                <p className="text-xl mt-5 flex flex-row">
+                                <p className="text-xl mt-5 flex flex-row text-black">
                                     <ArrowRight className='mr-2' />
                                     {banner.subtitle}
                                 </p>
