@@ -8,7 +8,7 @@ function Stats() {
         <>
             <div className="container mx-auto px-6">
                 <section className={`${styles.stats}`}>
-                    <div className="container text-black dark:text-white">
+                    <div className="container text-slate-900 dark:text-white">
                         <div className={`${styles.allItems}`}>
                             {
                                 stats.map(({ id, number, title, content }) => {

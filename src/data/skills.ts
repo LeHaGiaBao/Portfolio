@@ -38,6 +38,7 @@ import node from 'public/Skills/Backend/node.png'
 import express from 'public/Skills/Backend/express.png'
 import laravel from 'public/Skills/Backend/laravel.png'
 import jwt from 'public/Skills/Backend/JWT.png'
+import spring from 'public/Skills/Backend/Spring.png'
 
 // Database
 import sqlserver from 'public/Skills/Database/sqlserver.png'
@@ -45,6 +46,7 @@ import mysql from 'public/Skills/Database/mysql.png'
 import mongodb from 'public/Skills/Database/mongo.jpeg'
 import firebase from 'public/Skills/Database/firebase.png'
 import supabase from 'public/Skills/Database/supabase.png'
+import postgre from 'public/Skills/Database/PostgreSQL.png'
 
 // Mobile
 import reactnative from 'public/Skills/Mobile/reactnative.png'
@@ -97,6 +99,8 @@ import obsidian from 'public/Skills/Tool/Obsidian.jpg'
 import Todoist from 'public/Skills/Tool/todoist.png'
 import camunda from 'public/Skills/Tool/camunda.png'
 import miro from 'public/Skills/Tool/miro.jpg'
+import intellij from 'public/Skills/IDE/IntelliJ_IDEA_icon.png'
+import datagrid from 'public/Skills/IDE/DataGrip_icon.png'
 
 // Design
 import photoshop from 'public/Skills/Design/photoshop.png'
@@ -158,6 +162,11 @@ export const skills = [
 						id: 2,
 						image: Dart,
 						name: 'Dart',
+					},
+					{
+						id: 3,
+						image: Java,
+						name: 'Java',
 					},
 				],
 			},
@@ -375,6 +384,11 @@ export const skills = [
 						image: laravel,
 						name: 'Laravel',
 					},
+					{
+						id: 1,
+						image: spring,
+						name: 'Spring Boot',
+					},
 				],
 			},
 		],
@@ -418,6 +432,11 @@ export const skills = [
 						id: 2,
 						image: mongodb,
 						name: 'MongoDB',
+					},
+					{
+						id: 3,
+						image: postgre,
+						name: 'PostgreSQL',
 					},
 				],
 			},
@@ -573,6 +592,16 @@ export const skills = [
 						id: 1,
 						image: vscode,
 						name: 'Visual Studio Code',
+					},
+					{
+						id: 2,
+						image: intellij,
+						name: 'IntelliJ IDEA',
+					},
+					{
+						id: 3,
+						image: datagrid,
+						name: 'Datagrip',
 					},
 				],
 			},
