@@ -2,6 +2,7 @@ import wds from '@/assets/Experience/wds.png'
 import uit from '@/assets/Experience/uit.png'
 import nbk from '@/assets/Experience/nbk.jpg'
 import spiraledge from '@/assets/Experience/spiraledge.png'
+import droppii from '@/assets/Experience/droppii.jpg'
 
 export const experience = [
 	{
@@ -41,9 +42,9 @@ export const experience = [
 		id: 5,
 		ExID: 5,
 		image: wds,
-		title: 'Frontend Web Developer',
+		title: 'Frontend Developer',
 		organization: 'WebDev Studios',
-		time: 'January 2022 - Present',
+		time: 'January 2022 - Present (Freelance)',
 	},
 	{
 		id: 6,
@@ -60,5 +61,13 @@ export const experience = [
 		title: 'Frontend Developer',
 		organization: 'Spiraledge Vietnam',
 		time: 'July 2023 - October 2023 (Internship)',
+	},
+	{
+		id: 8,
+		ExID: 8,
+		image: droppii,
+		title: 'Backend Developer',
+		organization: 'Droppii',
+		time: 'January 2024 - Present (Internship)',
 	},
 ]

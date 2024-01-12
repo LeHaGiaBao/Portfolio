@@ -17,7 +17,7 @@ function ALittleBitBlock({ number, title }: ALittleBitBlock) {
                         +
                     </span>
                 </h3>
-                <p className="mt-4 text-xl font-medium text-gray-900 dark:text-gray-300">{title}</p>
+                <p className="mt-4 text-xl font-medium text-slate-800 dark:text-gray-300">{title}</p>
             </div>
         </>
     )
