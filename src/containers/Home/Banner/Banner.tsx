@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Banner.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
-import image from '@/assets/LeHaGiaBao/image.png'
+import frontend from '@/assets/Logo/frontend.png'
 import { welcome, homeintro } from '@/data/aboutme';
 import { motion } from "framer-motion";
 import { PATH_NAME } from '@/routes/pathName';
@@ -43,7 +43,7 @@ function Banner() {
                             </div>
                         </motion.div>
                     </div>
-                    <Image src={image} alt="image" className="object-cover lg:w-auto w-80 mx-auto rounded-full xl:col-span-2" />
+                    <Image src={frontend} alt="image" className="object-cover lg:w-auto w-80 mx-auto xl:col-span-2" />
                 </div>
             </section>
         </>
