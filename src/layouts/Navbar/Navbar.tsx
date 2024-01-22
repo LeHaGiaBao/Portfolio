@@ -75,7 +75,7 @@ function Navbar() {
                                             )
                                         })
                                     }
-                                    <li className="text-lg capitalize px-4 font-semibold mt-10 block md:hidden">
+                                    {/* <li className="text-lg capitalize px-4 font-semibold mt-10 block md:hidden">
                                         {
                                             theme === "dark"
                                                 ?
@@ -97,7 +97,7 @@ function Navbar() {
                                                     Switch to dark mode
                                                 </button>
                                         }
-                                    </li>
+                                    </li> */}
                                 </ul >
                             </div >
                             :
@@ -113,7 +113,7 @@ function Navbar() {
                                 </ul >
                             </div >
                     }
-                    {renderThemeChanger()}
+                    {/* {renderThemeChanger()} */}
                 </div >
             </nav >
         </>

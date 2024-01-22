@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import store from "@/redux/store"
 import { ThemeProvider } from "next-themes";
 import { Analytics } from '@vercel/analytics/react'
+import ChangeTheme from '@/components/ChangeTheme'
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </Head>
         <ThemeProvider enableSystem={true} attribute="class">
           <Component {...pageProps} />
+          <ChangeTheme />
           <Analytics />
         </ThemeProvider>
       </Provider>
