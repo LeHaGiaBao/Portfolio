@@ -62,12 +62,12 @@ export const experience = [
 		organization: 'Spiraledge Vietnam',
 		time: 'July 2023 - October 2023 (Internship)',
 	},
-	// {
-	// 	id: 8,
-	// 	ExID: 8,
-	// 	image: droppii,
-	// 	title: 'Backend Developer',
-	// 	organization: 'Droppii',
-	// 	time: 'January 2024 - Present (Internship)',
-	// },
+	{
+		id: 8,
+		ExID: 8,
+		image: droppii,
+		title: 'Mobile Developer',
+		organization: 'Droppii',
+		time: 'January 2024 - Present',
+	},
 ]
