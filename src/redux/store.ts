@@ -1,14 +1,22 @@
 import {configureStore} from '@reduxjs/toolkit'
-import userReducer from './features/userSlice'
+import {setupListeners} from '@reduxjs/toolkit/query'
+import {useDispatch} from 'react-redux'
+import {pokemonApi} from './services/pokemon'
 
-const reducer = {
-	user: userReducer,
-}
+import rootReducer from './reducers'
 
-const store = configureStore({
-	reducer,
+export const store = configureStore({
+	reducer: {
+		rootReducer,
+		[pokemonApi.reducerPath]: pokemonApi.reducer,
+	},
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware().concat(pokemonApi.middleware),
 })
 
-export default store
-export type RootState = ReturnType<typeof store.getState>
+setupListeners(store.dispatch)
+
 export type AppDispatch = typeof store.dispatch
+export const useAppDispatch = () => useDispatch<AppDispatch>()
+
+export default store
