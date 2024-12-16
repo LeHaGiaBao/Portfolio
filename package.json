@@ -6,22 +6,88 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "prepare": "husky",
+    "format": "prettier --write \"./**/*.js\" --ignore-path .gitignore",
+    "lint": "eslint \"./**/*.js\" --ignore-path .gitignore --fix",
+    "test": "vitest"
   },
   "dependencies": {
+    "@dwarvesf/react-hooks": "^0.8.2",
+    "@dwarvesf/react-utils": "^0.4.2",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-query": "^5.62.7",
+    "@tanstack/react-query-devtools": "^5.62.7",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^11.15.0",
+    "i18next": "^24.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "next": "15.1.0",
+    "next-i18next": "^15.4.0",
+    "patch-package": "^8.0.0",
+    "query-string": "^9.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "react-error-boundary": "^4.1.2",
+    "react-i18next": "^15.2.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
+    "styled-components": "^6.1.13",
+    "styled-jsx": "^5.1.6",
+    "yup": "^1.5.0",
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@chromatic-com/storybook": "^3.2.2",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.17.0",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-onboarding": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/nextjs": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.1.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^9",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
     "eslint-config-next": "15.1.0",
-    "@eslint/eslintrc": "^3"
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-storybook": "^0.11.1",
+    "globals": "^15.13.0",
+    "husky": "^9.1.7",
+    "jsdom": "^25.0.1",
+    "lint-staged": "^15.2.11",
+    "postcss": "^8",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
+    "storybook": "^8.4.7",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "typescript-eslint": "^8.18.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --max-warnings=0",
+      "prettier --write"
+    ],
+    "**/*.{html,json,css,scss,md,mdx}": [
+      "prettier -w"
+    ]
   }
 }
