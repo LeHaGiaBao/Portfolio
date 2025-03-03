@@ -18,8 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={`${SFProDisplay.className} antialiased`}>
+    <html
+      lang='en'
+      suppressHydrationWarning>
+      <body
+        className={`${SFProDisplay.className} antialiased`}
+        suppressHydrationWarning>
         <StyledComponentsRegistry>
           <StyledJsxRegistry>
             <QueryProvider>
